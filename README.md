@@ -51,21 +51,21 @@
   <tr>
     <td align="center" width="33%">
       <a href="./prompts/luxury-jewelry-ecommerce-website.md">
-        <img src="./assets/demos/luxury-jewelry.gif" alt="Maison Perle 珠宝电商" width="100%" />
+        <img src="./assets/demos/luxury-jewelry.png" alt="Maison Perle 珠宝电商" width="100%" />
         <br/><b>Maison Perle</b>
       </a>
       <br/><sub>奢侈品珠宝电商单页站</sub>
     </td>
     <td align="center" width="33%">
       <a href="./prompts/pawsome.md">
-        <img src="./assets/demos/pawsome.gif" alt="Pawsome 宠物社区" width="100%" />
+        <img src="./assets/demos/pawsome.png" alt="Pawsome 宠物社区" width="100%" />
         <br/><b>Pawsome</b>
       </a>
       <br/><sub>宠物社区落地页</sub>
     </td>
     <td align="center" width="33%">
       <a href="./prompts/luxury-perfume.md">
-        <img src="./assets/demos/luxury-perfume.gif" alt="Luxury Perfume 高奢香水电商" width="100%" />
+        <img src="./assets/demos/luxury-perfume.png" alt="Luxury Perfume 高奢香水电商" width="100%" />
         <br/><b>Luxury Perfume</b>
       </a>
       <br/><sub>高奢香水电商落地页</sub>
@@ -74,21 +74,21 @@
   <tr>
     <td align="center" width="33%">
       <a href="./prompts/lumina-walls.md">
-        <img src="./assets/demos/lumina-walls.gif" alt="Lumina Walls AI 壁纸" width="100%" />
+        <img src="./assets/demos/lumina-walls.png" alt="Lumina Walls AI 壁纸" width="100%" />
         <br/><b>Lumina Walls</b>
       </a>
       <br/><sub>AI 壁纸生成器落地页</sub>
     </td>
     <td align="center" width="33%">
       <a href="./prompts/start-somewhere.md">
-        <img src="./assets/demos/start-somewhere.gif" alt="Start Somewhere 旅行目录" width="100%" />
+        <img src="./assets/demos/start-somewhere.png" alt="Start Somewhere 旅行目录" width="100%" />
         <br/><b>Start Somewhere</b>
       </a>
       <br/><sub>电影感旅行目录站</sub>
     </td>
     <td align="center" width="33%">
       <a href="./prompts/drama-ai.md">
-        <img src="./assets/demos/drama-ai.gif" alt="DramaAI 短剧剧本生成器" width="100%" />
+        <img src="./assets/demos/drama-ai.png" alt="DramaAI 短剧剧本生成器" width="100%" />
         <br/><b>DramaAI</b>
       </a>
       <br/><sub>AI 短剧剧本生成器落地页</sub>
@@ -96,7 +96,7 @@
   </tr>
 </table>
 
-> 💡 上方画廊为 GIF 动图，可直接在 GitHub 仓库首页预览作品效果；点击封面或下方表格中的名称，即可跳转到对应作品详情页。
+> 💡 上方画廊为静态封面预览；点击封面或下方表格中的名称，即可跳转到对应作品详情页查看完整 Prompt 与 demo 动图。
 
 #### 📋 作品列表
 
