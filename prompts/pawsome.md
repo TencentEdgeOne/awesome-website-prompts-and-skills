@@ -1,15 +1,12 @@
 # Pawsome — 宠物社区单页站
 
-> 由 **Tobias** 创作 · WorkBuddy × Tencent EdgeOne AI Prompts × Skills 挑战赛 参赛作品
+> 由 **EdgeOne 团队** 出品 · WorkBuddy × Tencent EdgeOne AI Prompts × Skills 挑战赛 官方示例
 
 ## 🎬 Demo
 
-<video src="../assets/demos/pawsome.mp4" controls poster="../assets/demos/pawsome.png" width="100%"></video>
+![Pawsome demo](../assets/demos/pawsome.gif)
 
-如果你的 Markdown 阅读器无法直接播放视频，可点击下方链接：
-
-- ▶️ [在线播放 / 下载 demo 视频](../assets/demos/pawsome.mp4)
-- 🖼️ [查看封面截图](../assets/demos/pawsome.png)
+> 🖼️ 静态封面：[查看原图](../assets/demos/pawsome.png)
 
 ## 📌 作品信息
 
@@ -18,7 +15,7 @@
 | 作品名称 | Pawsome |
 | 类型 | 宠物社区落地页 |
 | 技术栈 | React + Vite + TypeScript + Tailwind CSS + shadcn/ui + Edge Functions + KV Storage |
-| 作者 | Tobias |
+| 出品方 | EdgeOne 团队 |
 
 ## 📝 作品介绍
 

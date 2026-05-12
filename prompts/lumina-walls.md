@@ -1,15 +1,12 @@
 # Lumina Walls — AI 壁纸生成器落地页
 
-> 由 **Jaynay** 创作 · WorkBuddy × Tencent EdgeOne AI Prompts × Skills 挑战赛 参赛作品
+> 由 **EdgeOne 团队** 出品 · WorkBuddy × Tencent EdgeOne AI Prompts × Skills 挑战赛 官方示例
 
 ## 🎬 Demo
 
-<video src="../assets/demos/lumina-walls.mp4" controls poster="../assets/demos/lumina-walls.png" width="100%"></video>
+![Lumina Walls demo](../assets/demos/lumina-walls.gif)
 
-如果你的 Markdown 阅读器无法直接播放视频，可点击下方链接：
-
-- ▶️ [在线播放 / 下载 demo 视频](../assets/demos/lumina-walls.mp4)
-- 🖼️ [查看封面截图](../assets/demos/lumina-walls.png)
+> 🖼️ 静态封面：[查看原图](../assets/demos/lumina-walls.png)
 
 ## 📌 作品信息
 
@@ -18,7 +15,7 @@
 | 作品名称 | Lumina Walls |
 | 类型 | AI 工具落地页 |
 | 技术栈 | React + Vite + TypeScript + Tailwind CSS + shadcn/ui + Edge Functions |
-| 作者 | Jaynay |
+| 出品方 | EdgeOne 团队 |
 
 ## 📝 作品介绍
 

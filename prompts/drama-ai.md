@@ -1,15 +1,12 @@
 # DramaAI — AI 短剧剧本生成器落地页
 
-> 由 **evelyn** 创作 · WorkBuddy × Tencent EdgeOne AI Prompts × Skills 挑战赛 参赛作品
+> 由 **EdgeOne 团队** 出品 · WorkBuddy × Tencent EdgeOne AI Prompts × Skills 挑战赛 官方示例
 
 ## 🎬 Demo
 
-<video src="../assets/demos/drama-ai.mp4" controls poster="../assets/demos/drama-ai.png" width="100%"></video>
+![DramaAI demo](../assets/demos/drama-ai.gif)
 
-如果你的 Markdown 阅读器无法直接播放视频，可点击下方链接：
-
-- ▶️ [在线播放 / 下载 demo 视频](../assets/demos/drama-ai.mp4)
-- 🖼️ [查看封面截图](../assets/demos/drama-ai.png)
+> 🖼️ 静态封面：[查看原图](../assets/demos/drama-ai.png)
 
 ## 📌 作品信息
 
@@ -18,7 +15,7 @@
 | 作品名称 | DramaAI |
 | 类型 | AI 工具落地页 |
 | 技术栈 | React + Vite + TypeScript + Tailwind CSS + Edge Functions |
-| 作者 | evelyn |
+| 出品方 | EdgeOne 团队 |
 
 ## 📝 作品介绍
 

@@ -1,15 +1,12 @@
 # Start Somewhere — 电影感旅行目录站
 
-> 由 **Tracy** 创作 · WorkBuddy × Tencent EdgeOne AI Prompts × Skills 挑战赛 参赛作品
+> 由 **EdgeOne 团队** 出品 · WorkBuddy × Tencent EdgeOne AI Prompts × Skills 挑战赛 官方示例
 
 ## 🎬 Demo
 
-<video src="../assets/demos/start-somewhere.mp4" controls poster="../assets/demos/start-somewhere.png" width="100%"></video>
+![Start Somewhere demo](../assets/demos/start-somewhere.gif)
 
-如果你的 Markdown 阅读器无法直接播放视频，可点击下方链接：
-
-- ▶️ [在线播放 / 下载 demo 视频](../assets/demos/start-somewhere.mp4)
-- 🖼️ [查看封面截图](../assets/demos/start-somewhere.png)
+> 🖼️ 静态封面：[查看原图](../assets/demos/start-somewhere.png)
 
 ## 📌 作品信息
 
@@ -18,7 +15,7 @@
 | 作品名称 | Start Somewhere |
 | 类型 | 电影感旅行目录站 |
 | 技术栈 | React + Vite + Tailwind CSS + Framer Motion + Edge Functions |
-| 作者 | Tracy |
+| 出品方 | EdgeOne 团队 |
 
 ## 📝 作品介绍
 

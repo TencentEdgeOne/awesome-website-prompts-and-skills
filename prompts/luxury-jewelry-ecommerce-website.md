@@ -1,3 +1,31 @@
+# Maison Perle — 奢侈品珠宝电商单页站
+
+> 由 **EdgeOne 团队** 出品 · WorkBuddy × Tencent EdgeOne AI Prompts × Skills 挑战赛 官方示例
+
+## 🎬 Demo
+
+![Maison Perle demo](../assets/demos/luxury-jewelry.gif)
+
+> 🖼️ 静态封面：[查看原图](../assets/demos/luxury-jewelry.png)
+
+## 📌 作品信息
+
+| 字段 | 内容 |
+|---|---|
+| 作品名称 | Maison Perle |
+| 类型 | 奢侈品珠宝电商单页站 |
+| 技术栈 | React + Vite + TypeScript + Tailwind CSS + shadcn/ui + Edge Functions |
+| 出品方 | EdgeOne 团队 |
+
+## 📝 作品介绍
+
+Maison Perle 是一个英语版奢侈品珠宝品牌电商单页站，灵感来自《戴珍珠耳环的少女》的情绪氛围——暗黑、博物馆级别、静谧、优雅、电影感、值得收藏。采用 React + Vite + TypeScript + Tailwind CSS + shadcn/ui 技术栈，配合 EdgeOne Pages Edge Functions 提供轻量后端能力。
+
+---
+
+## 🚀 完整 Prompt（直接复制以下内容喂给 AI 编程工具）
+
+```
 Build a single-page luxury jewelry ecommerce website in English using React + Vite + TypeScript + Tailwind CSS + shadcn/ui.
 
 GOAL
@@ -544,3 +572,5 @@ After building:
 3. verify media loading and fallback behavior
 4. verify API wiring
 5. deploy according to the implementation notes above
+
+```
