@@ -45,9 +45,68 @@
 
 ### [Prompts](./prompts)
 
-| 名称 | 类型 | 技术栈 |
-|---|---|---|
-| [Luxury Jewelry Ecommerce Website](./prompts/luxury-jewelry-ecommerce-website.md) | 奢侈品珠宝电商单页站 | React + Vite + TS + Tailwind + shadcn/ui + Edge Functions |
+#### 🎬 Demo 画廊（点击封面 → 跳转作品详情页）
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <a href="./prompts/pawsome.md">
+        <img src="./assets/demos/pawsome.png" alt="Pawsome 宠物社区" width="100%" />
+        <br/><b>Pawsome</b>
+      </a>
+      <br/><sub>宠物社区落地页 · by Tobias</sub>
+    </td>
+    <td align="center" width="33%">
+      <a href="./prompts/solara.md">
+        <img src="./assets/demos/solara.png" alt="SOLARA 高奢香水电商" width="100%" />
+        <br/><b>SOLARA</b>
+      </a>
+      <br/><sub>高奢香水电商落地页 · by Solara</sub>
+    </td>
+    <td align="center" width="33%">
+      <a href="./prompts/lumina-walls.md">
+        <img src="./assets/demos/lumina-walls.png" alt="Lumina Walls AI 壁纸" width="100%" />
+        <br/><b>Lumina Walls</b>
+      </a>
+      <br/><sub>AI 壁纸生成器 · by Jaynay</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <a href="./prompts/start-somewhere.md">
+        <img src="./assets/demos/start-somewhere.png" alt="Start Somewhere 旅行目录" width="100%" />
+        <br/><b>Start Somewhere</b>
+      </a>
+      <br/><sub>电影感旅行目录站 · by Tracy</sub>
+    </td>
+    <td align="center" width="33%">
+      <a href="./prompts/drama-ai.md">
+        <img src="./assets/demos/drama-ai.png" alt="DramaAI 短剧剧本生成器" width="100%" />
+        <br/><b>DramaAI</b>
+      </a>
+      <br/><sub>AI 短剧剧本生成器 · by evelyn</sub>
+    </td>
+    <td align="center" width="33%">
+      <a href="./prompts/luxury-jewelry-ecommerce-website.md">
+        <br/><b>Maison Perle</b>
+      </a>
+      <br/><sub>奢侈品珠宝电商单页站</sub>
+    </td>
+  </tr>
+</table>
+
+> 💡 想直接看 demo 视频？打开作品详情页即可在线播放，或点击「▶️ 在线播放 / 下载 demo 视频」链接。
+
+#### 📋 作品列表
+
+| 名称 | 类型 | 技术栈 | Demo |
+|---|---|---|---|
+| [Luxury Jewelry Ecommerce Website](./prompts/luxury-jewelry-ecommerce-website.md) | 奢侈品珠宝电商单页站 | React + Vite + TS + Tailwind + shadcn/ui + Edge Functions | — |
+| [Pawsome](./prompts/pawsome.md) | 宠物社区落地页 | React + Vite + TS + Tailwind + shadcn/ui + Edge Functions + KV | [▶️ 视频](./assets/demos/pawsome.mp4) |
+| [SOLARA](./prompts/solara.md) | 高奢香水电商落地页 | React + Vite + TS + Tailwind + shadcn/ui | [▶️ 视频](./assets/demos/solara.mp4) |
+| [Lumina Walls](./prompts/lumina-walls.md) | AI 壁纸生成器落地页 | React + Vite + TS + Tailwind + shadcn/ui + Edge Functions | [▶️ 视频](./assets/demos/lumina-walls.mp4) |
+| [Start Somewhere](./prompts/start-somewhere.md) | 电影感旅行目录站 | React + Vite + Tailwind + Framer Motion + Edge Functions | [▶️ 视频](./assets/demos/start-somewhere.mp4) |
+| [DramaAI](./prompts/drama-ai.md) | AI 短剧剧本生成器落地页 | React + Vite + TS + Tailwind + Edge Functions | [▶️ 视频](./assets/demos/drama-ai.mp4) |
 
 ### [Skills](./skills)
 
