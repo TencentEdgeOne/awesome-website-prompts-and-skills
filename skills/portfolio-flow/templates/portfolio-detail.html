@@ -1,0 +1,558 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="{{THEME}}">
+<!--
+  ============================================================================
+  PortfolioFlow · portfolio-detail.html (作品详情页模板)
+  
+  URL 参数：?slug={工作 slug}
+  通过 /api/portfolios?slug=xxx 加载具体作品数据
+  
+  模板占位符：
+    {{DESIGNER_NAME}}    设计师姓名
+    {{THEME}}            主题名
+    {{CONTACT_EMAIL}}    联系邮箱
+  ============================================================================
+-->
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>作品详情 · {{DESIGNER_NAME}}</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/styles.css" />
+<style>
+  /* 详情页专属样式 */
+  .detail-hero {
+    padding-top: 130px;
+    padding-bottom: 48px;
+    background: var(--bg);
+  }
+  .detail-back {
+    font-size: 13px;
+    color: var(--text-muted);
+    margin-bottom: 24px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: color 0.2s;
+  }
+  .detail-back:hover { color: var(--primary); }
+  
+  .detail-meta {
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+    font-size: 12px;
+    color: var(--text-faint);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+  }
+  .detail-meta span:not(:last-child)::after {
+    content: '·';
+    margin-left: 14px;
+    color: var(--text-faint);
+  }
+  
+  .detail-title {
+    font-family: var(--font-serif);
+    font-size: clamp(36px, 4.5vw, 64px);
+    font-weight: 700;
+    line-height: 1.08;
+    color: var(--text);
+    margin-bottom: 24px;
+  }
+  
+  .detail-summary {
+    font-size: clamp(16px, 1.5vw, 19px);
+    color: var(--text-muted);
+    line-height: 1.7;
+    max-width: 720px;
+    margin-bottom: 36px;
+  }
+  
+  .detail-info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 24px;
+    padding: 24px 0;
+    border-top: 1px solid var(--divider);
+    border-bottom: 1px solid var(--divider);
+    margin-bottom: 48px;
+  }
+  .detail-info-item .label {
+    font-size: 11px;
+    color: var(--text-faint);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+  .detail-info-item .value {
+    font-size: 15px;
+    color: var(--text);
+    font-weight: 500;
+  }
+  
+  .detail-cover {
+    aspect-ratio: 16/10;
+    border-radius: var(--radius-md);
+    background-size: cover;
+    background-position: center;
+    background-color: var(--primary-dim);
+    margin-bottom: 64px;
+  }
+  
+  .detail-description {
+    max-width: 760px;
+    margin: 0 auto 64px;
+    font-size: 16px;
+    line-height: 1.85;
+    color: var(--text-muted);
+  }
+  .detail-description h1,
+  .detail-description h2,
+  .detail-description h3 {
+    font-family: var(--font-serif);
+    color: var(--text);
+    margin-top: 36px;
+    margin-bottom: 16px;
+    line-height: 1.3;
+  }
+  .detail-description h2 { font-size: 28px; }
+  .detail-description h3 { font-size: 22px; }
+  .detail-description p { margin-bottom: 18px; }
+  .detail-description strong { color: var(--text); font-weight: 600; }
+  .detail-description em { color: var(--primary); font-style: italic; }
+  .detail-description ul, .detail-description ol { padding-left: 28px; margin-bottom: 18px; }
+  .detail-description li { margin-bottom: 8px; }
+  .detail-description blockquote {
+    border-left: 3px solid var(--primary);
+    padding: 4px 0 4px 24px;
+    color: var(--text);
+    font-family: var(--font-serif);
+    font-style: italic;
+    margin: 24px 0;
+  }
+  
+  .detail-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+    margin-bottom: 64px;
+  }
+  .detail-gallery img {
+    width: 100%;
+    border-radius: var(--radius-md);
+    cursor: zoom-in;
+    transition: transform 0.3s;
+  }
+  .detail-gallery img:hover { transform: scale(1.02); }
+  .detail-gallery .full-width {
+    grid-column: 1 / -1;
+  }
+  
+  /* 图片放大查看 */
+  .lightbox {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.92);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 200;
+    cursor: zoom-out;
+  }
+  .lightbox.open { display: flex; }
+  .lightbox img {
+    max-width: 95vw;
+    max-height: 92vh;
+    border-radius: var(--radius-sm);
+  }
+  .lightbox-close {
+    position: absolute;
+    top: 24px;
+    right: 28px;
+    color: #fff;
+    font-size: 32px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .detail-tags {
+    margin-bottom: 48px;
+  }
+  
+  .related-works {
+    background: var(--bg-elevated);
+    padding: 64px 0;
+    margin-top: 48px;
+  }
+  .related-works .works-grid { grid-template-columns: repeat(3, 1fr); }
+  
+  @media (max-width: 768px) {
+    .detail-hero { padding-top: 100px; }
+    .detail-gallery { grid-template-columns: 1fr; }
+    .related-works .works-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ===== 顶部导航 ===== -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a class="nav-logo" href="/"><span class="leaf">🌿</span>{{DESIGNER_NAME}}</a>
+    <div class="nav-links">
+      <a href="/#works">作品</a>
+      <a href="/#about">关于</a>
+      <a href="/#contact">联系</a>
+    </div>
+    <div class="nav-actions">
+      <a class="btn-ghost" href="/login">登录</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ===== 详情主体（数据动态加载）===== -->
+<main id="detail-main">
+  
+  <!-- Loading 占位 -->
+  <div id="detail-loading" style="text-align:center;padding:200px 20px;color:var(--text-faint);">
+    加载作品中…
+  </div>
+  
+  <!-- 实际内容（JS 渲染后插入）-->
+  <div id="detail-content" class="hidden">
+    
+    <!-- 标题区 -->
+    <section class="detail-hero">
+      <div class="container">
+        <a class="detail-back" href="/#works">← 返回作品列表</a>
+        
+        <div class="detail-meta" id="d-meta"></div>
+        <h1 class="detail-title" id="d-title"></h1>
+        <p class="detail-summary" id="d-summary"></p>
+        
+        <div class="detail-info-grid" id="d-info-grid"></div>
+        
+        <div class="detail-cover" id="d-cover"></div>
+        
+        <article class="detail-description" id="d-description"></article>
+        
+        <div class="detail-gallery" id="d-gallery"></div>
+        
+        <div class="detail-tags" id="d-tags"></div>
+      </div>
+    </section>
+    
+    <!-- 相关作品 -->
+    <section class="related-works">
+      <div class="container">
+        <div class="section-header" style="margin-bottom:36px;">
+          <div class="eyebrow">MORE WORKS</div>
+          <h2 class="section-title" style="font-size:32px;">看看其他<em>作品</em></h2>
+        </div>
+        <div class="works-grid" id="related-grid"></div>
+        <div class="text-center mt-48">
+          <a class="btn-ghost" href="/#works">查看全部作品 →</a>
+        </div>
+      </div>
+    </section>
+    
+    <!-- CTA -->
+    <section class="section">
+      <div class="container text-center">
+        <div class="eyebrow">GET IN TOUCH</div>
+        <h2 class="section-title" style="font-size:36px;">想聊聊<em>合作</em>？</h2>
+        <a class="btn-cta" href="mailto:{{CONTACT_EMAIL}}" data-event="contact-click">{{CONTACT_EMAIL}} →</a>
+      </div>
+    </section>
+    
+  </div>
+  
+  <!-- 404 占位 -->
+  <div id="detail-404" class="hidden" style="text-align:center;padding:200px 20px;">
+    <h2 class="section-title" style="font-size:32px;">这件作品<em>无法找到</em></h2>
+    <p class="text-muted mt-24" style="margin-bottom:36px;">可能链接已失效，或作品已下线。</p>
+    <a class="btn-cta" href="/#works">返回作品列表 →</a>
+  </div>
+  
+</main>
+
+<!-- ===== Footer ===== -->
+<footer style="padding:48px 0;border-top:1px solid var(--divider);text-align:center;color:var(--text-faint);font-size:13px;">
+  <div class="container">
+    <p>© {{YEAR}} {{DESIGNER_NAME}}. Built with PortfolioFlow.</p>
+  </div>
+</footer>
+
+<!-- ===== 图片放大查看 ===== -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightbox-close" aria-label="关闭">×</button>
+  <img id="lightbox-img" alt="" />
+</div>
+
+
+<!-- ===== JavaScript ===== -->
+<script>
+(function() {
+  'use strict';
+  
+  // === 1. 拿 URL 参数 ===
+  const slug = new URLSearchParams(location.search).get('slug');
+  if (!slug) {
+    show404();
+    return;
+  }
+  
+  // === 2. 加载作品详情 ===
+  async function loadDetail() {
+    try {
+      const res = await fetch(`/api/portfolios?slug=${encodeURIComponent(slug)}`);
+      const data = await res.json();
+      
+      if (!res.ok || !data.ok || !data.work) {
+        show404();
+        return;
+      }
+      
+      renderDetail(data.work);
+      loadRelated(data.work);
+      trackPageView(slug);
+      
+    } catch (err) {
+      console.error('[loadDetail] failed:', err);
+      show404();
+    }
+  }
+  
+  function renderDetail(w) {
+    document.getElementById('detail-loading').classList.add('hidden');
+    document.getElementById('detail-content').classList.remove('hidden');
+    
+    // 标题
+    document.title = `${w.title} · {{DESIGNER_NAME}}`;
+    document.getElementById('d-title').textContent = w.title;
+    
+    // Meta（类型 / 年份 / 角色）
+    const meta = [];
+    if (w.type) meta.push(w.type);
+    if (w.year) meta.push(String(w.year));
+    if (w.role) meta.push(w.role);
+    document.getElementById('d-meta').innerHTML = meta.map(m => `<span>${escapeHtml(m)}</span>`).join('');
+    
+    // 摘要
+    document.getElementById('d-summary').textContent = w.summary || '';
+    
+    // 详细信息（grid 形式）
+    const infoItems = [];
+    if (w.type)     infoItems.push({ label: '项目类型', value: w.type });
+    if (w.year)     infoItems.push({ label: '完成年份', value: String(w.year) });
+    if (w.area)     infoItems.push({ label: '项目规模', value: w.area });
+    if (w.role)     infoItems.push({ label: '我的角色', value: w.role });
+    if (w.duration) infoItems.push({ label: '项目时长', value: w.duration });
+    
+    document.getElementById('d-info-grid').innerHTML = infoItems.map(it => `
+      <div class="detail-info-item">
+        <div class="label">${escapeHtml(it.label)}</div>
+        <div class="value">${escapeHtml(it.value)}</div>
+      </div>
+    `).join('');
+    
+    // 封面
+    if (w.cover) {
+      const cover = document.getElementById('d-cover');
+      cover.style.backgroundImage = `url('${w.cover}')`;
+    } else {
+      document.getElementById('d-cover').remove();
+    }
+    
+    // 描述（支持简单的 Markdown 转 HTML）
+    document.getElementById('d-description').innerHTML = renderMarkdown(w.description || '');
+    
+    // 画廊
+    const galleryEl = document.getElementById('d-gallery');
+    if (Array.isArray(w.gallery) && w.gallery.length > 0) {
+      galleryEl.innerHTML = w.gallery.map((img, i) => `
+        <img src="${img}" alt="${escapeHtml(w.title)} - 图 ${i + 1}" loading="lazy" data-lightbox />
+      `).join('');
+      // 单数张时最后一张占满宽
+      if (w.gallery.length % 2 === 1) {
+        galleryEl.lastElementChild.classList.add('full-width');
+      }
+    } else {
+      galleryEl.remove();
+    }
+    
+    // 标签
+    if (Array.isArray(w.tags) && w.tags.length > 0) {
+      document.getElementById('d-tags').innerHTML = w.tags.map(t => 
+        `<span class="tag">${escapeHtml(t)}</span>`
+      ).join('');
+    } else {
+      document.getElementById('d-tags').remove();
+    }
+    
+    bindLightbox();
+  }
+  
+  // === 3. 加载相关作品（同类型，最多 3 个）===
+  async function loadRelated(currentWork) {
+    try {
+      const params = new URLSearchParams({
+        type: currentWork.type || '',
+        pageSize: '4',
+      });
+      const res = await fetch(`/api/portfolios?${params}`);
+      const data = await res.json();
+      
+      const grid = document.getElementById('related-grid');
+      if (!data.ok || !data.works || data.works.length === 0) {
+        grid.parentElement.parentElement.parentElement.style.display = 'none';
+        return;
+      }
+      
+      // 过滤掉当前作品
+      const related = data.works.filter(w => w.slug !== currentWork.slug).slice(0, 3);
+      if (related.length === 0) {
+        grid.parentElement.parentElement.parentElement.style.display = 'none';
+        return;
+      }
+      
+      grid.innerHTML = related.map(w => `
+        <a class="work-card" href="/portfolio-detail.html?slug=${encodeURIComponent(w.slug)}">
+          ${w.cover 
+            ? `<div class="work-cover" style="background-image:url('${w.cover}')"></div>`
+            : `<div class="work-cover-empty"></div>`}
+          <div class="work-body">
+            <div class="work-meta">${escapeHtml(w.type || '')} · ${w.year || ''}</div>
+            <h3 class="work-title">${escapeHtml(w.title)}</h3>
+            <p class="work-summary">${escapeHtml(w.summary || '')}</p>
+          </div>
+        </a>
+      `).join('');
+    } catch (err) {
+      console.error('[loadRelated] failed:', err);
+    }
+  }
+  
+  // === 4. 404 ===
+  function show404() {
+    document.getElementById('detail-loading').classList.add('hidden');
+    document.getElementById('detail-content').classList.add('hidden');
+    document.getElementById('detail-404').classList.remove('hidden');
+  }
+  
+  // === 5. 简单 Markdown 渲染（够用就行，不引外部库）===
+  function renderMarkdown(md) {
+    if (!md) return '';
+    let html = escapeHtml(md);
+    
+    // 引用 > xxx
+    html = html.replace(/^&gt; (.+)$/gm, '<blockquote>$1</blockquote>');
+    
+    // 三级标题 ### xxx
+    html = html.replace(/^### (.+)$/gm, '<h3>$1</h3>');
+    // 二级标题 ## xxx
+    html = html.replace(/^## (.+)$/gm, '<h2>$1</h2>');
+    // 一级标题 # xxx
+    html = html.replace(/^# (.+)$/gm, '<h1>$1</h1>');
+    
+    // 加粗 **xxx**
+    html = html.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+    // 斜体 *xxx*
+    html = html.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+    
+    // 无序列表
+    html = html.replace(/^- (.+)$/gm, '<li>$1</li>');
+    html = html.replace(/(<li>.+<\/li>\n?)+/g, m => '<ul>' + m + '</ul>');
+    
+    // 段落
+    html = html.split(/\n\n+/).map(p => {
+      p = p.trim();
+      if (!p) return '';
+      if (p.startsWith('<')) return p;
+      return '<p>' + p.replace(/\n/g, '<br>') + '</p>';
+    }).join('\n');
+    
+    return html;
+  }
+  
+  // === 6. Lightbox（点图放大）===
+  function bindLightbox() {
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const close = document.getElementById('lightbox-close');
+    
+    document.querySelectorAll('[data-lightbox]').forEach(img => {
+      img.addEventListener('click', () => {
+        lightboxImg.src = img.src;
+        lightboxImg.alt = img.alt;
+        lightbox.classList.add('open');
+        document.body.style.overflow = 'hidden';
+      });
+    });
+    
+    function closeLightbox() {
+      lightbox.classList.remove('open');
+      document.body.style.overflow = '';
+    }
+    
+    close.addEventListener('click', closeLightbox);
+    lightbox.addEventListener('click', (e) => {
+      if (e.target === lightbox) closeLightbox();
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && lightbox.classList.contains('open')) closeLightbox();
+    });
+  }
+  
+  // === 7. 访问埋点 ===
+  function trackPageView(slug) {
+    fetch('/api/stats', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        event: 'page_view',
+        slug,
+        referrer: document.referrer || null,
+      }),
+      keepalive: true,
+    }).catch(() => {});
+  }
+  
+  // 联系点击埋点
+  document.querySelectorAll('[data-event="contact-click"]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      fetch('/api/stats', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ event: 'contact_click' }),
+        keepalive: true,
+      }).catch(() => {});
+    });
+  });
+  
+  // === 8. 导航滚动加深 ===
+  const nav = document.getElementById('nav');
+  window.addEventListener('scroll', () => {
+    nav.classList.toggle('scrolled', window.scrollY > 40);
+  }, { passive: true });
+  
+  // === 9. 工具 ===
+  function escapeHtml(s) {
+    if (typeof s !== 'string') return '';
+    return s.replace(/[&<>"']/g, c => ({
+      '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+    }[c]));
+  }
+  
+  // === 10. 启动 ===
+  loadDetail();
+})();
+</script>
+
+</body>
+</html>
