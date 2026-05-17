@@ -1,6 +1,8 @@
-# DramaAI — AI 短剧剧本生成器落地页
+# DramaAI
 
-> 由 **EdgeOne 团队** 出品 · WorkBuddy × Tencent EdgeOne AI Prompts × Skills 挑战赛 官方示例
+> **赛道**：Prompt　**作者**：EdgeOne · [GitHub @TencentEdgeOne](https://github.com/TencentEdgeOne)
+>
+> WorkBuddy × Tencent EdgeOne AI Prompts × Skills 挑战赛 参赛作品
 
 ## 🎬 Demo
 
@@ -13,13 +15,13 @@
 | 字段 | 内容 |
 |---|---|
 | 作品名称 | DramaAI |
-| 类型 | AI 工具落地页 |
-| 技术栈 | React + Vite + TypeScript + Tailwind CSS + Edge Functions |
-| 出品方 | EdgeOne 团队 |
+| 赛道 | Prompt |
+| 作者 | EdgeOne |
+| GitHub | [@TencentEdgeOne](https://github.com/TencentEdgeOne) |
 
 ## 📝 作品介绍
 
-DramaAI 是一款 AI 驱动的短剧剧本生成器落地页，采用 React + Vite + TypeScript + Tailwind CSS 技术栈构建。视觉风格借鉴 Apple TV+ 与短剧 App，深黑（#080808）底色搭配暖金色点缀。平台聚焦短视频剧本创作，覆盖都市、古装、言情、悬疑等多种题材，输出可直接用于拍摄的场景描述与镜头指导，支持中英双语，适配 TikTok、YouTube Shorts 等平台。
+DramaAI是一款AI驱动的短剧剧本生成器，采用React + Vite + TypeScript + Tailwind CSS技术栈构建。平台专注于短视频剧本创作，支持一键生成完整剧本框架、智能编剧、小说转剧本等功能。覆盖都市、古装、言情、悬疑等多种题材，输出可直接用于拍摄的场景描述和镜头指导，支持中英双语，适配TikTok、YouTube Shorts等平台创作需求。
 
 ---
 
@@ -178,10 +180,10 @@ Monthly/Yearly toggle: Glass pill with two buttons, active state has white bg + 
 
 3-column pricing cards:
 
-Plan	Price	Featured
-Free (Zap icon)	$0	No
-Pro (Sparkles icon)	$14/mo	Yes — glass-gold border, gold gradient CTA, "Most Popular" badge
-Team (Crown icon)	$49/mo	No
+PlanPriceFeatured
+Free (Zap icon)$0No
+Pro (Sparkles icon)$14/moYes — glass-gold border, gold gradient CTA, "Most Popular" badge
+Team (Crown icon)$49/moNo
 Each card: glass (or glass-gold for Pro), rounded-2xl, padding 28px. Plan name + price (Barlow 700, 36px) + description + CTA button + feature checklist with gold Check icons.
 
 SECTION 7 — TESTIMONIALS

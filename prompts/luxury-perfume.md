@@ -1,10 +1,12 @@
-# Luxury Perfume — 高奢香水电商单页站
+# luxury perfume
 
-> 由 **EdgeOne 团队** 出品 · WorkBuddy × Tencent EdgeOne AI Prompts × Skills 挑战赛 官方示例
+> **赛道**：Prompt　**作者**：EdgeOne · [GitHub @TencentEdgeOne](https://github.com/TencentEdgeOne)
+>
+> WorkBuddy × Tencent EdgeOne AI Prompts × Skills 挑战赛 参赛作品
 
 ## 🎬 Demo
 
-![Luxury Perfume demo](../assets/demos/luxury-perfume.gif)
+![luxury perfume demo](../assets/demos/luxury-perfume.gif)
 
 > 🖼️ 静态封面：[查看原图](../assets/demos/luxury-perfume.png)
 
@@ -12,14 +14,14 @@
 
 | 字段 | 内容 |
 |---|---|
-| 作品名称 | Luxury Perfume |
-| 类型 | 高端电商落地页 |
-| 技术栈 | React + Vite + TypeScript + Tailwind CSS + shadcn/ui |
-| 出品方 | EdgeOne 团队 |
+| 作品名称 | luxury perfume |
+| 赛道 | Prompt |
+| 作者 | EdgeOne |
+| GitHub | [@TencentEdgeOne](https://github.com/TencentEdgeOne) |
 
 ## 📝 作品介绍
 
-一个高端奢侈香水品牌电商落地页（虚构品牌名 SOLARA），采用 React + Vite + TypeScript + Tailwind CSS + shadcn/ui 技术栈构建。设计风格以暗黑奢华为主调，搭配温暖金色调，呈现精致高端的视觉体验。页面展示品牌故事、香水产品系列、用户评价等模块，通过流畅的动效和精美的排版，为用户带来沉浸式的奢侈品购物体验。
+SOLARA是一个高端奢侈香水品牌电商落地页，采用React + Vite + TypeScript + Tailwind CSS + shadcn/ui技术栈构建。设计风格以暗黑奢华为主调，搭配温暖金色调，呈现精致高端的视觉体验。页面展示品牌故事、香水产品系列、用户评价等模块，通过流畅的动效和精美的排版，为用户带来沉浸式的奢侈品购物体验。
 
 ---
 

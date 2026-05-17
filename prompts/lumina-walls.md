@@ -1,10 +1,12 @@
-# Lumina Walls — AI 壁纸生成器落地页
+# AI wallpaper generator
 
-> 由 **EdgeOne 团队** 出品 · WorkBuddy × Tencent EdgeOne AI Prompts × Skills 挑战赛 官方示例
+> **赛道**：Prompt　**作者**：EdgeOne · [GitHub @TencentEdgeOne](https://github.com/TencentEdgeOne)
+>
+> WorkBuddy × Tencent EdgeOne AI Prompts × Skills 挑战赛 参赛作品
 
 ## 🎬 Demo
 
-![Lumina Walls demo](../assets/demos/lumina-walls.gif)
+![AI wallpaper generator demo](../assets/demos/lumina-walls.gif)
 
 > 🖼️ 静态封面：[查看原图](../assets/demos/lumina-walls.png)
 
@@ -12,14 +14,14 @@
 
 | 字段 | 内容 |
 |---|---|
-| 作品名称 | Lumina Walls |
-| 类型 | AI 工具落地页 |
-| 技术栈 | React + Vite + TypeScript + Tailwind CSS + shadcn/ui + Edge Functions |
-| 出品方 | EdgeOne 团队 |
+| 作品名称 | AI wallpaper generator |
+| 赛道 | Prompt |
+| 作者 | EdgeOne |
+| GitHub | [@TencentEdgeOne](https://github.com/TencentEdgeOne) |
 
 ## 📝 作品介绍
 
-Lumina Walls 是一款 AI 壁纸生成器落地页，基于 React 技术栈开发，部署于 EdgeOne Pages。深邃靛蓝黑底色配合自定义「极光玻璃」拟态效果，营造电影级、自然系的沉浸式画廊体验。用户可浏览翠鸟、锦鲤等 AI 生成的自然系动态壁纸，并通过边缘函数支持轻量后端能力。
+AI壁纸生成器是一款智能壁纸创作工具网站，基于React技术栈开发，部署于EdgeOne CDN。用户只需输入创意描述，即可通过AI技术自动生成独特的个性化壁纸。网站界面简洁现代，支持多种壁纸尺寸和风格选择，生成速度快、质量高，让每个人都能轻松拥有专属的艺术壁纸。
 
 ---
 
@@ -52,15 +54,15 @@ All media is loaded directly from the EdgeOne CDN. Reference these absolute URLs
 
 CDN base: https://cdnstatic.tencentcs.com/edgeone/pages/product-activities/ai-wallpaper
 
-URL	Usage
-https://cdnstatic.tencentcs.com/edgeone/pages/product-activities/ai-wallpaper/ai-wallpaper-1.png	Kingfisher — gallery card image + hero poster fallback
-https://cdnstatic.tencentcs.com/edgeone/pages/product-activities/ai-wallpaper/ai-wallpaper-1.mp4	Kingfisher — hero background video
-https://cdnstatic.tencentcs.com/edgeone/pages/product-activities/ai-wallpaper/ai-wallpaper-2.png	Koi Fish — gallery card image + Showcase section poster
-https://cdnstatic.tencentcs.com/edgeone/pages/product-activities/ai-wallpaper/ai-wallpaper-2.mp4	Koi Fish — Showcase section background video
-https://cdnstatic.tencentcs.com/edgeone/pages/product-activities/ai-wallpaper/ai-wallpaper-3.png	Kitten — gallery card image + How It Works section poster
-https://cdnstatic.tencentcs.com/edgeone/pages/product-activities/ai-wallpaper/ai-wallpaper-3.mp4	Kitten — How It Works section background video
-https://cdnstatic.tencentcs.com/edgeone/pages/product-activities/ai-wallpaper/ai-wallpaper-4.png	Puppy — gallery card image + CTA section poster
-https://cdnstatic.tencentcs.com/edgeone/pages/product-activities/ai-wallpaper/ai-wallpaper-4.mp4	Puppy — CTA section background video
+URLUsage
+https://cdnstatic.tencentcs.com/edgeone/pages/product-activities/ai-wallpaper/ai-wallpaper-1.pngKingfisher — gallery card image + hero poster fallback
+https://cdnstatic.tencentcs.com/edgeone/pages/product-activities/ai-wallpaper/ai-wallpaper-1.mp4Kingfisher — hero background video
+https://cdnstatic.tencentcs.com/edgeone/pages/product-activities/ai-wallpaper/ai-wallpaper-2.pngKoi Fish — gallery card image + Showcase section poster
+https://cdnstatic.tencentcs.com/edgeone/pages/product-activities/ai-wallpaper/ai-wallpaper-2.mp4Koi Fish — Showcase section background video
+https://cdnstatic.tencentcs.com/edgeone/pages/product-activities/ai-wallpaper/ai-wallpaper-3.pngKitten — gallery card image + How It Works section poster
+https://cdnstatic.tencentcs.com/edgeone/pages/product-activities/ai-wallpaper/ai-wallpaper-3.mp4Kitten — How It Works section background video
+https://cdnstatic.tencentcs.com/edgeone/pages/product-activities/ai-wallpaper/ai-wallpaper-4.pngPuppy — gallery card image + CTA section poster
+https://cdnstatic.tencentcs.com/edgeone/pages/product-activities/ai-wallpaper/ai-wallpaper-4.mp4Puppy — CTA section background video
 BRAND RULES
 Brand name: Lumina Walls
 
@@ -144,11 +146,11 @@ BlurText: split by words, IntersectionObserver, filter: blur(10px)→0, opacity:
 3. FEATURED GALLERY
 Static. Badge "Featured Wallpapers", heading "Every pixel, dreamed into existence." 4 cards, grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4:
 
-Image	Title	Tag
-https://cdnstatic.tencentcs.com/edgeone/pages/product-activities/ai-wallpaper/ai-wallpaper-1.png	Kingfisher Rising	Wildlife
-https://cdnstatic.tencentcs.com/edgeone/pages/product-activities/ai-wallpaper/ai-wallpaper-2.png	Golden Koi	Underwater
-https://cdnstatic.tencentcs.com/edgeone/pages/product-activities/ai-wallpaper/ai-wallpaper-3.png	Midnight Chase	Whimsical
-https://cdnstatic.tencentcs.com/edgeone/pages/product-activities/ai-wallpaper/ai-wallpaper-4.png	Golden Hour Run	Dreamy
+ImageTitleTag
+https://cdnstatic.tencentcs.com/edgeone/pages/product-activities/ai-wallpaper/ai-wallpaper-1.pngKingfisher RisingWildlife
+https://cdnstatic.tencentcs.com/edgeone/pages/product-activities/ai-wallpaper/ai-wallpaper-2.pngGolden KoiUnderwater
+https://cdnstatic.tencentcs.com/edgeone/pages/product-activities/ai-wallpaper/ai-wallpaper-3.pngMidnight ChaseWhimsical
+https://cdnstatic.tencentcs.com/edgeone/pages/product-activities/ai-wallpaper/ai-wallpaper-4.pngGolden Hour RunDreamy
 Card: aurora-glass rounded-2xl overflow-hidden, aspect-[16/10] object-cover, hover scale 1.03 + overlay fade-in with title/tag/Preview button. Below grid: centered "View All Wallpapers →" aurora-glass-strong rounded-full.
 
 4. AI GENERATION SHOWCASE

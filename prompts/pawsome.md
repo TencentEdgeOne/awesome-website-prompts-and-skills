@@ -1,6 +1,8 @@
-# Pawsome — 宠物社区单页站
+# Pawsome
 
-> 由 **EdgeOne 团队** 出品 · WorkBuddy × Tencent EdgeOne AI Prompts × Skills 挑战赛 官方示例
+> **赛道**：Prompt　**作者**：EdgeOne · [GitHub @TencentEdgeOne](https://github.com/TencentEdgeOne)
+>
+> WorkBuddy × Tencent EdgeOne AI Prompts × Skills 挑战赛 参赛作品
 
 ## 🎬 Demo
 
@@ -13,13 +15,13 @@
 | 字段 | 内容 |
 |---|---|
 | 作品名称 | Pawsome |
-| 类型 | 宠物社区落地页 |
-| 技术栈 | React + Vite + TypeScript + Tailwind CSS + shadcn/ui + Edge Functions + KV Storage |
-| 出品方 | EdgeOne 团队 |
+| 赛道 | Prompt |
+| 作者 | EdgeOne |
+| GitHub | [@TencentEdgeOne](https://github.com/TencentEdgeOne) |
 
 ## 📝 作品介绍
 
-Pawsome 是一个专为宠物爱好者打造的温馨社区平台，采用 React + Vite + TypeScript + Tailwind CSS 技术栈开发。设计风格暗黑奢华，融入 Apple 风格的「液态玻璃」视觉特效，以纯黑背景配合温暖的奶油色调，营造舒适惬意的氛围。核心功能包括实时「Paw Check-in」访客计数器、宠物日常分享社区、精选宠物用品商城等，为猫狗宠物主人提供分享日常、购物和社交的一站式体验。
+Pawsome是一个专为宠物爱好者打造的温馨社区平台，采用React + Vite + TypeScript + Tailwind CSS技术栈开发。平台设计风格暗黑奢华，融入Apple风格的"液态玻璃"视觉特效，以纯黑背景配合温暖的奶油色调，营造舒适惬意的氛围。核心功能包括实时"Paw Check-in"访客计数器、宠物日常分享社区、精选宠物用品商城等，为猫狗宠物主人提供分享日常、购物和社交的一站式体验。
 
 ---
 

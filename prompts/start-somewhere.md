@@ -1,6 +1,8 @@
-# Start Somewhere — 电影感旅行目录站
+# Start Somewhere
 
-> 由 **EdgeOne 团队** 出品 · WorkBuddy × Tencent EdgeOne AI Prompts × Skills 挑战赛 官方示例
+> **赛道**：Prompt　**作者**：EdgeOne · [GitHub @TencentEdgeOne](https://github.com/TencentEdgeOne)
+>
+> WorkBuddy × Tencent EdgeOne AI Prompts × Skills 挑战赛 参赛作品
 
 ## 🎬 Demo
 
@@ -13,13 +15,13 @@
 | 字段 | 内容 |
 |---|---|
 | 作品名称 | Start Somewhere |
-| 类型 | 电影感旅行目录站 |
-| 技术栈 | React + Vite + Tailwind CSS + Framer Motion + Edge Functions |
-| 出品方 | EdgeOne 团队 |
+| 赛道 | Prompt |
+| 作者 | EdgeOne |
+| GitHub | [@TencentEdgeOne](https://github.com/TencentEdgeOne) |
 
 ## 📝 作品介绍
 
-Start Somewhere 是一个电影感的高端旅行目录网站，采用 React + Tailwind CSS + Framer Motion 构建，通过 EdgeOne Pages 部署，并使用 Edge Function 提供个性化问候。整站采用 100vh 全屏垂直 scroll-snap 布局，纯黑底色配合 5 段沉浸式视频（蓝海开场、印尼 Raja Ampat、法国普罗旺斯、冰岛极光、埃及金字塔），让访客通过视觉与文字的力量，迈出第一步。
+Start Somewhere是一个激励性网站项目，采用React技术栈开发，通过EdgeOne Pages部署。网站设计灵感来自"万事开头难"的理念，鼓励用户迈出第一步。页面融合了精美的视频背景和现代化的UI设计，配合EdgeOne边缘函数实现动态交互功能，旨在通过视觉和文字的力量，激励访客克服犹豫、勇敢行动。
 
 ---
 
