@@ -8,7 +8,12 @@
 
 ![Maison Perle cover](../assets/demos/maison-perle.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/maison-perle.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/maison-perle.gif" alt="Maison Perle demo" />
+
+</details>
 
 ## 📌 作品信息
 

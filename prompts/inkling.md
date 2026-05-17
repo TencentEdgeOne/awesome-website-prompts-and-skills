@@ -8,7 +8,12 @@
 
 ![Inkling cover](../assets/demos/inkling.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/inkling.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/inkling.gif" alt="Inkling demo" />
+
+</details>
 
 ## 📌 作品信息
 

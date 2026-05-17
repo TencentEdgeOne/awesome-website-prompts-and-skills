@@ -8,7 +8,12 @@
 
 ![璆琳 cover](../assets/demos/qiu-lin.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/qiu-lin.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/qiu-lin.gif" alt="璆琳 demo" />
+
+</details>
 
 ## 📌 作品信息
 

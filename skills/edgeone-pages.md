@@ -8,7 +8,12 @@
 
 ![EdgeOne Pages 全栈站点能力 cover](../assets/demos/edgeone-pages.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/edgeone-pages.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/edgeone-pages.gif" alt="EdgeOne Pages 全栈站点能力 demo" />
+
+</details>
 
 ## 📌 作品信息
 

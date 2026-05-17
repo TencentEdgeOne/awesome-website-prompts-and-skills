@@ -8,7 +8,12 @@
 
 ![广州市增城庆益真空泵经营部官网首页 cover](../assets/demos/guang-zhou-shi-zeng-cheng-qing-yi-zhen-kong-beng-j.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/guang-zhou-shi-zeng-cheng-qing-yi-zhen-kong-beng-j.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/guang-zhou-shi-zeng-cheng-qing-yi-zhen-kong-beng-j.gif" alt="广州市增城庆益真空泵经营部官网首页 demo" />
+
+</details>
 
 ## 📌 作品信息
 

@@ -8,7 +8,12 @@
 
 ![Soul 测试台 cover](../assets/demos/soul-trace.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/soul-trace.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/soul-trace.gif" alt="Soul 测试台 demo" />
+
+</details>
 
 ## 📌 作品信息
 

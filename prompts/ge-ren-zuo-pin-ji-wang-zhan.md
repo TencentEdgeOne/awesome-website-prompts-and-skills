@@ -8,7 +8,12 @@
 
 ![个人作品集网站 cover](../assets/demos/ge-ren-zuo-pin-ji-wang-zhan.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/ge-ren-zuo-pin-ji-wang-zhan.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/ge-ren-zuo-pin-ji-wang-zhan.gif" alt="个人作品集网站 demo" />
+
+</details>
 
 ## 📌 作品信息
 

@@ -8,7 +8,12 @@
 
 ![一山的日记 · Diary World cover](../assets/demos/diary-world.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/diary-world.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/diary-world.gif" alt="一山的日记 · Diary World demo" />
+
+</details>
 
 ## 📌 作品信息
 

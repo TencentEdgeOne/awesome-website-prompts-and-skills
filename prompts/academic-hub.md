@@ -8,7 +8,12 @@
 
 ![Academic Hub cover](../assets/demos/academic-hub.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/academic-hub.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/academic-hub.gif" alt="Academic Hub demo" />
+
+</details>
 
 ## 📌 作品信息
 

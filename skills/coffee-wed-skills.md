@@ -8,7 +8,12 @@
 
 ![Coffee-Wed-Skills cover](../assets/demos/coffee-wed-skills.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/coffee-wed-skills.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/coffee-wed-skills.gif" alt="Coffee-Wed-Skills demo" />
+
+</details>
 
 ## 📌 作品信息
 

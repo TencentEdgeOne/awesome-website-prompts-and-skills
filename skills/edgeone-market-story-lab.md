@@ -8,7 +8,12 @@
 
 ![EdgeOne Market Story Lab cover](../assets/demos/edgeone-market-story-lab.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/edgeone-market-story-lab.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/edgeone-market-story-lab.gif" alt="EdgeOne Market Story Lab demo" />
+
+</details>
 
 ## 📌 作品信息
 

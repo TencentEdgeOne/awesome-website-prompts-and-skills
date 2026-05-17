@@ -8,7 +8,12 @@
 
 ![AI SaaS Builder cover](../assets/demos/ai-saas-builder.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/ai-saas-builder.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/ai-saas-builder.gif" alt="AI SaaS Builder demo" />
+
+</details>
 
 ## 📌 作品信息
 

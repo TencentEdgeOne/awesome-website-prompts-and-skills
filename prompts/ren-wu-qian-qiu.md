@@ -8,7 +8,12 @@
 
 ![人物千秋 cover](../assets/demos/ren-wu-qian-qiu.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/ren-wu-qian-qiu.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/ren-wu-qian-qiu.gif" alt="人物千秋 demo" />
+
+</details>
 
 ## 📌 作品信息
 

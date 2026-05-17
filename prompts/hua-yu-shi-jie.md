@@ -8,7 +8,12 @@
 
 ![花语世界 cover](../assets/demos/hua-yu-shi-jie.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/hua-yu-shi-jie.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/hua-yu-shi-jie.gif" alt="花语世界 demo" />
+
+</details>
 
 ## 📌 作品信息
 

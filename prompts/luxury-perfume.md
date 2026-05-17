@@ -8,7 +8,12 @@
 
 ![luxury perfume cover](../assets/demos/luxury-perfume.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/luxury-perfume.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/luxury-perfume.gif" alt="luxury perfume demo" />
+
+</details>
 
 ## 📌 作品信息
 

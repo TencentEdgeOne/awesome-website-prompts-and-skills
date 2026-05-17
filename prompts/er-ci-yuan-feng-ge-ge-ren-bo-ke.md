@@ -8,7 +8,12 @@
 
 ![二次元风格个人博客 cover](../assets/demos/er-ci-yuan-feng-ge-ge-ren-bo-ke.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/er-ci-yuan-feng-ge-ge-ren-bo-ke.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/er-ci-yuan-feng-ge-ge-ren-bo-ke.gif" alt="二次元风格个人博客 demo" />
+
+</details>
 
 ## 📌 作品信息
 

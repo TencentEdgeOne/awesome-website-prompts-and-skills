@@ -8,7 +8,12 @@
 
 ![Thesis Master cover](../assets/demos/thesis-master.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/thesis-master.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/thesis-master.gif" alt="Thesis Master demo" />
+
+</details>
 
 ## 📌 作品信息
 

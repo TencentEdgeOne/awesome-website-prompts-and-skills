@@ -8,7 +8,12 @@
 
 ![云轴 CloudScroll cover](../assets/demos/cloudscroll.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/cloudscroll.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/cloudscroll.gif" alt="云轴 CloudScroll demo" />
+
+</details>
 
 ## 📌 作品信息
 

@@ -8,7 +8,12 @@
 
 ![Tech Stack Analyzer Skill cover](../assets/demos/tech-stack-analyzer-skill.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/tech-stack-analyzer-skill.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/tech-stack-analyzer-skill.gif" alt="Tech Stack Analyzer Skill demo" />
+
+</details>
 
 ## 📌 作品信息
 

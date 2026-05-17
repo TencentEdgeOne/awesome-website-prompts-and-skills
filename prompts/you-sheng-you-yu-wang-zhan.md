@@ -8,7 +8,12 @@
 
 ![优生优育网站 cover](../assets/demos/you-sheng-you-yu-wang-zhan.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/you-sheng-you-yu-wang-zhan.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/you-sheng-you-yu-wang-zhan.gif" alt="优生优育网站 demo" />
+
+</details>
 
 ## 📌 作品信息
 

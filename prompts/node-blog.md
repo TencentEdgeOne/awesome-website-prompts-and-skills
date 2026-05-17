@@ -8,7 +8,12 @@
 
 ![Node | 原点 cover](../assets/demos/node-blog.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/node-blog.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/node-blog.gif" alt="Node | 原点 demo" />
+
+</details>
 
 ## 📌 作品信息
 

@@ -8,7 +8,12 @@
 
 ![LaunchKit AI cover](../assets/demos/launchkit-ai.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/launchkit-ai.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/launchkit-ai.gif" alt="LaunchKit AI demo" />
+
+</details>
 
 ## 📌 作品信息
 

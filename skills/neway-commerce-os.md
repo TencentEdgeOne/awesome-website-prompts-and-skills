@@ -8,7 +8,12 @@
 
 ![Neway Commerce OS cover](../assets/demos/neway-commerce-os.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/neway-commerce-os.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/neway-commerce-os.gif" alt="Neway Commerce OS demo" />
+
+</details>
 
 ## 📌 作品信息
 

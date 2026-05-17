@@ -8,7 +8,12 @@
 
 ![LifeClock cover](../assets/demos/lifeclock.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/lifeclock.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/lifeclock.gif" alt="LifeClock demo" />
+
+</details>
 
 ## 📌 作品信息
 

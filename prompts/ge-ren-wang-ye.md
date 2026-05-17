@@ -8,7 +8,12 @@
 
 ![个人网页 cover](../assets/demos/ge-ren-wang-ye.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/ge-ren-wang-ye.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/ge-ren-wang-ye.gif" alt="个人网页 demo" />
+
+</details>
 
 ## 📌 作品信息
 

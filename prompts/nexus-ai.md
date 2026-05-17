@@ -8,7 +8,12 @@
 
 ![NEXUS AI cover](../assets/demos/nexus-ai.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/nexus-ai.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/nexus-ai.gif" alt="NEXUS AI demo" />
+
+</details>
 
 ## 📌 作品信息
 

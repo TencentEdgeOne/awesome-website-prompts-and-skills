@@ -8,7 +8,12 @@
 
 ![展馆预约 cover](../assets/demos/zhan-guan-yu-yue.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/zhan-guan-yu-yue.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/zhan-guan-yu-yue.gif" alt="展馆预约 demo" />
+
+</details>
 
 ## 📌 作品信息
 

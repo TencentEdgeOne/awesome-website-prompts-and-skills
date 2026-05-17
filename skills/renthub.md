@@ -8,7 +8,12 @@
 
 ![RentHub 商城 cover](../assets/demos/renthub.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/renthub.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/renthub.gif" alt="RentHub 商城 demo" />
+
+</details>
 
 ## 📌 作品信息
 

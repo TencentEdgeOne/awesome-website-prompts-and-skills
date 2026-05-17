@@ -8,7 +8,12 @@
 
 ![消失的行当 cover](../assets/demos/xiao-shi-de-hang-dang.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/xiao-shi-de-hang-dang.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/xiao-shi-de-hang-dang.gif" alt="消失的行当 demo" />
+
+</details>
 
 ## 📌 作品信息
 

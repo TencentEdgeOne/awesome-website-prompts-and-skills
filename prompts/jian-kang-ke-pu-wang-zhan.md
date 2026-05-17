@@ -8,7 +8,12 @@
 
 ![健康科普网站 cover](../assets/demos/jian-kang-ke-pu-wang-zhan.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/jian-kang-ke-pu-wang-zhan.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/jian-kang-ke-pu-wang-zhan.gif" alt="健康科普网站 demo" />
+
+</details>
 
 ## 📌 作品信息
 

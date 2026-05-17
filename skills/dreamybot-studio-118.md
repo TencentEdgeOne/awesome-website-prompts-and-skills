@@ -8,7 +8,12 @@
 
 ![DreamyBot Studio cover](../assets/demos/dreamybot-studio-118.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/dreamybot-studio-118.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/dreamybot-studio-118.gif" alt="DreamyBot Studio demo" />
+
+</details>
 
 ## 📌 作品信息
 

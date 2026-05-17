@@ -8,7 +8,12 @@
 
 ![LUCID/01 cover](../assets/demos/lucid-01.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/lucid-01.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/lucid-01.gif" alt="LUCID/01 demo" />
+
+</details>
 
 ## 📌 作品信息
 

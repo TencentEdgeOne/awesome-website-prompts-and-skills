@@ -8,7 +8,12 @@
 
 ![PetVibe cover](../assets/demos/petvibe.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/petvibe.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/petvibe.gif" alt="PetVibe demo" />
+
+</details>
 
 ## 📌 作品信息
 

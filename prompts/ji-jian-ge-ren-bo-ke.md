@@ -8,7 +8,12 @@
 
 ![极简个人博客 cover](../assets/demos/ji-jian-ge-ren-bo-ke.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/ji-jian-ge-ren-bo-ke.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/ji-jian-ge-ren-bo-ke.gif" alt="极简个人博客 demo" />
+
+</details>
 
 ## 📌 作品信息
 

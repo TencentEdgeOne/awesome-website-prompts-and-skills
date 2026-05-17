@@ -8,7 +8,12 @@
 
 ![图书管理系统 cover](../assets/demos/tu-shu-guan-li-xi-tong.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/tu-shu-guan-li-xi-tong.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/tu-shu-guan-li-xi-tong.gif" alt="图书管理系统 demo" />
+
+</details>
 
 ## 📌 作品信息
 

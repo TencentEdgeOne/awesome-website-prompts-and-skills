@@ -8,7 +8,12 @@
 
 ![政策知识学习平台 cover](../assets/demos/zheng-ce-zhi-shi-xue-xi-ping-tai.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/zheng-ce-zhi-shi-xue-xi-ping-tai.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/zheng-ce-zhi-shi-xue-xi-ping-tai.gif" alt="政策知识学习平台 demo" />
+
+</details>
 
 ## 📌 作品信息
 

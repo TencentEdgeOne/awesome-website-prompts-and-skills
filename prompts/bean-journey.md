@@ -8,7 +8,12 @@
 
 ![BEAN JOURNEY cover](../assets/demos/bean-journey.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/bean-journey.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/bean-journey.gif" alt="BEAN JOURNEY demo" />
+
+</details>
 
 ## 📌 作品信息
 

@@ -8,7 +8,12 @@
 
 ![OpsVision cover](../assets/demos/opsvision.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/opsvision.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/opsvision.gif" alt="OpsVision demo" />
+
+</details>
 
 ## 📌 作品信息
 

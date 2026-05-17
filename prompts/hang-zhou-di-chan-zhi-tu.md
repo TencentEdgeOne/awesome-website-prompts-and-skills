@@ -8,7 +8,12 @@
 
 ![杭州地产智图 cover](../assets/demos/hang-zhou-di-chan-zhi-tu.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/hang-zhou-di-chan-zhi-tu.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/hang-zhou-di-chan-zhi-tu.gif" alt="杭州地产智图 demo" />
+
+</details>
 
 ## 📌 作品信息
 

@@ -8,7 +8,12 @@
 
 ![鲤上元 cover](../assets/demos/li-shang-yuan.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/li-shang-yuan.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/li-shang-yuan.gif" alt="鲤上元 demo" />
+
+</details>
 
 ## 📌 作品信息
 

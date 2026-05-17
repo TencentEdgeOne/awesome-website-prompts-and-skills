@@ -8,7 +8,12 @@
 
 ![Eve Tan: Edge of Architecture cover](../assets/demos/eve-tan-edge-of-architecture.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/eve-tan-edge-of-architecture.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/eve-tan-edge-of-architecture.gif" alt="Eve Tan: Edge of Architecture demo" />
+
+</details>
 
 ## 📌 作品信息
 

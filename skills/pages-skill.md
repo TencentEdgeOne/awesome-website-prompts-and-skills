@@ -8,7 +8,12 @@
 
 ![pages 全栈商城 skill cover](../assets/demos/pages-skill.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/pages-skill.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/pages-skill.gif" alt="pages 全栈商城 skill demo" />
+
+</details>
 
 ## 📌 作品信息
 

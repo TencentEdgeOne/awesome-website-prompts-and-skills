@@ -8,7 +8,12 @@
 
 ![会呼吸的"数字宣纸" cover](../assets/demos/hui-hu-xi-de-shu-zi-xuan-zhi.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/hui-hu-xi-de-shu-zi-xuan-zhi.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/hui-hu-xi-de-shu-zi-xuan-zhi.gif" alt="会呼吸的"数字宣纸" demo" />
+
+</details>
 
 ## 📌 作品信息
 

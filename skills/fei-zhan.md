@@ -8,7 +8,12 @@
 
 ![飞站 cover](../assets/demos/fei-zhan.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/fei-zhan.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/fei-zhan.gif" alt="飞站 demo" />
+
+</details>
 
 ## 📌 作品信息
 

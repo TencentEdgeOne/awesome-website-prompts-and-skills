@@ -8,7 +8,12 @@
 
 ![粒子宇宙 cover](../assets/demos/li-zi-yu-zhou.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/li-zi-yu-zhou.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/li-zi-yu-zhou.gif" alt="粒子宇宙 demo" />
+
+</details>
 
 ## 📌 作品信息
 

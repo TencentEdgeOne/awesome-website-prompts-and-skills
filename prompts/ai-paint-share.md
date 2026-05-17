@@ -8,7 +8,12 @@
 
 ![律师AI工具箱 cover](../assets/demos/ai-paint-share.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/ai-paint-share.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/ai-paint-share.gif" alt="律师AI工具箱 demo" />
+
+</details>
 
 ## 📌 作品信息
 

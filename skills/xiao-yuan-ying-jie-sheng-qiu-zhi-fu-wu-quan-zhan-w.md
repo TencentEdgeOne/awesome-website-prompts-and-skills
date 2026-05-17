@@ -8,7 +8,12 @@
 
 ![校园应届生求职服务全栈网站 cover](../assets/demos/xiao-yuan-ying-jie-sheng-qiu-zhi-fu-wu-quan-zhan-w.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/xiao-yuan-ying-jie-sheng-qiu-zhi-fu-wu-quan-zhan-w.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/xiao-yuan-ying-jie-sheng-qiu-zhi-fu-wu-quan-zhan-w.gif" alt="校园应届生求职服务全栈网站 demo" />
+
+</details>
 
 ## 📌 作品信息
 

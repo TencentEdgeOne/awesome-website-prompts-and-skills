@@ -8,7 +8,12 @@
 
 ![城迹 City Trace cover](../assets/demos/city-trace.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/city-trace.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/city-trace.gif" alt="城迹 City Trace demo" />
+
+</details>
 
 ## 📌 作品信息
 

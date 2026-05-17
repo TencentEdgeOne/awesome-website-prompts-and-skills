@@ -8,7 +8,12 @@
 
 ![One-Person Company Mission Control cover](../assets/demos/one-person-company-mission-control.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/one-person-company-mission-control.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/one-person-company-mission-control.gif" alt="One-Person Company Mission Control demo" />
+
+</details>
 
 ## 📌 作品信息
 

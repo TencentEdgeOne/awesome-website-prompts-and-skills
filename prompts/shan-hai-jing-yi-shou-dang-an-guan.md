@@ -8,7 +8,12 @@
 
 ![山海经异兽档案馆 cover](../assets/demos/shan-hai-jing-yi-shou-dang-an-guan.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/shan-hai-jing-yi-shou-dang-an-guan.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/shan-hai-jing-yi-shou-dang-an-guan.gif" alt="山海经异兽档案馆 demo" />
+
+</details>
 
 ## 📌 作品信息
 

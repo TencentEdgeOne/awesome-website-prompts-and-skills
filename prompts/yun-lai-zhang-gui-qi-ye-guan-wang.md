@@ -8,7 +8,12 @@
 
 ![云莱掌柜企业官网 cover](../assets/demos/yun-lai-zhang-gui-qi-ye-guan-wang.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/yun-lai-zhang-gui-qi-ye-guan-wang.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/yun-lai-zhang-gui-qi-ye-guan-wang.gif" alt="云莱掌柜企业官网 demo" />
+
+</details>
 
 ## 📌 作品信息
 

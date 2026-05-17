@@ -8,7 +8,12 @@
 
 ![专属驾驶舱 cover](../assets/demos/zhuan-shu-jia-shi-cang.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/zhuan-shu-jia-shi-cang.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/zhuan-shu-jia-shi-cang.gif" alt="专属驾驶舱 demo" />
+
+</details>
 
 ## 📌 作品信息
 

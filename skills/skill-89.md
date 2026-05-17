@@ -8,7 +8,12 @@
 
 ![元认知教练.skill cover](../assets/demos/skill-89.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/skill-89.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/skill-89.gif" alt="元认知教练.skill demo" />
+
+</details>
 
 ## 📌 作品信息
 

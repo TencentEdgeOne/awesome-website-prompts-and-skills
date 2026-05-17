@@ -8,7 +8,12 @@
 
 ![Union·由你 cover](../assets/demos/union-pan.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/union-pan.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/union-pan.gif" alt="Union·由你 demo" />
+
+</details>
 
 ## 📌 作品信息
 

@@ -8,7 +8,12 @@
 
 ![科技探险家 cover](../assets/demos/ke-ji-tan-xian-jia.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/ke-ji-tan-xian-jia.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/ke-ji-tan-xian-jia.gif" alt="科技探险家 demo" />
+
+</details>
 
 ## 📌 作品信息
 

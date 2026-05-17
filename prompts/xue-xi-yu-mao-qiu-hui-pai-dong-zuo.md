@@ -8,7 +8,12 @@
 
 ![学习羽毛球挥拍动作 cover](../assets/demos/xue-xi-yu-mao-qiu-hui-pai-dong-zuo.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/xue-xi-yu-mao-qiu-hui-pai-dong-zuo.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/xue-xi-yu-mao-qiu-hui-pai-dong-zuo.gif" alt="学习羽毛球挥拍动作 demo" />
+
+</details>
 
 ## 📌 作品信息
 

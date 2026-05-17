@@ -8,7 +8,12 @@
 
 ![高定女装官网 cover](../assets/demos/gao-ding-nv-zhuang-guan-wang.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/gao-ding-nv-zhuang-guan-wang.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/gao-ding-nv-zhuang-guan-wang.gif" alt="高定女装官网 demo" />
+
+</details>
 
 ## 📌 作品信息
 

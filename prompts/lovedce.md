@@ -8,7 +8,12 @@
 
 ![LoveDCE cover](../assets/demos/lovedce.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/lovedce.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/lovedce.gif" alt="LoveDCE demo" />
+
+</details>
 
 ## 📌 作品信息
 

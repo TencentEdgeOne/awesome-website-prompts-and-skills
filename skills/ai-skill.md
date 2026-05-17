@@ -8,7 +8,12 @@
 
 ![AI 聚合展示平台 Skill cover](../assets/demos/ai-skill.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/ai-skill.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/ai-skill.gif" alt="AI 聚合展示平台 Skill demo" />
+
+</details>
 
 ## 📌 作品信息
 

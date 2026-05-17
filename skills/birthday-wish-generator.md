@@ -8,7 +8,12 @@
 
 ![Birthday Wish Generator cover](../assets/demos/birthday-wish-generator.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/birthday-wish-generator.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/birthday-wish-generator.gif" alt="Birthday Wish Generator demo" />
+
+</details>
 
 ## 📌 作品信息
 

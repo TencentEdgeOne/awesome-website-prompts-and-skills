@@ -8,7 +8,12 @@
 
 ![旅迹 cover](../assets/demos/lv-ji-rou-mian.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/lv-ji-rou-mian.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/lv-ji-rou-mian.gif" alt="旅迹 demo" />
+
+</details>
 
 ## 📌 作品信息
 

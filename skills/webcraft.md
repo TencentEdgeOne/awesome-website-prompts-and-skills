@@ -8,7 +8,12 @@
 
 ![WebCraft cover](../assets/demos/webcraft.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/webcraft.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/webcraft.gif" alt="WebCraft demo" />
+
+</details>
 
 ## 📌 作品信息
 

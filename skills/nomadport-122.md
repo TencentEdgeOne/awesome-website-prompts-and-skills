@@ -8,7 +8,12 @@
 
 ![NomadPort cover](../assets/demos/nomadport-122.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/nomadport-122.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/nomadport-122.gif" alt="NomadPort demo" />
+
+</details>
 
 ## 📌 作品信息
 

@@ -8,7 +8,12 @@
 
 ![猫岛 Cloud Haven cover](../assets/demos/cloud-haven.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/cloud-haven.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/cloud-haven.gif" alt="猫岛 Cloud Haven demo" />
+
+</details>
 
 ## 📌 作品信息
 

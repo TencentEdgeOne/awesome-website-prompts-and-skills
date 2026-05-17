@@ -8,7 +8,12 @@
 
 ![生成审美在线的创意网页 cover](../assets/demos/sheng-cheng-shen-mei-zai-xian-de-chuang-yi-wang-ye.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/sheng-cheng-shen-mei-zai-xian-de-chuang-yi-wang-ye.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/sheng-cheng-shen-mei-zai-xian-de-chuang-yi-wang-ye.gif" alt="生成审美在线的创意网页 demo" />
+
+</details>
 
 ## 📌 作品信息
 

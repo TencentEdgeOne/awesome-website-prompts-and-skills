@@ -8,7 +8,12 @@
 
 ![中原纪 cover](../assets/demos/zhong-yuan-ji.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/zhong-yuan-ji.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/zhong-yuan-ji.gif" alt="中原纪 demo" />
+
+</details>
 
 ## 📌 作品信息
 

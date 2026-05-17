@@ -8,7 +8,12 @@
 
 ![Brochure Mobile cover](../assets/demos/brochure-mobile.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/brochure-mobile.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/brochure-mobile.gif" alt="Brochure Mobile demo" />
+
+</details>
 
 ## 📌 作品信息
 

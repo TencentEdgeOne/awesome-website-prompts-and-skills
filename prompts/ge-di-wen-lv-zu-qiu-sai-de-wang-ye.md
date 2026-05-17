@@ -8,7 +8,12 @@
 
 ![各地文旅足球赛的网页 cover](../assets/demos/ge-di-wen-lv-zu-qiu-sai-de-wang-ye.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/ge-di-wen-lv-zu-qiu-sai-de-wang-ye.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/ge-di-wen-lv-zu-qiu-sai-de-wang-ye.gif" alt="各地文旅足球赛的网页 demo" />
+
+</details>
 
 ## 📌 作品信息
 

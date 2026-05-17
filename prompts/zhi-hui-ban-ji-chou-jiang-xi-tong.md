@@ -8,7 +8,12 @@
 
 ![智慧班级抽奖系统 cover](../assets/demos/zhi-hui-ban-ji-chou-jiang-xi-tong.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/zhi-hui-ban-ji-chou-jiang-xi-tong.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/zhi-hui-ban-ji-chou-jiang-xi-tong.gif" alt="智慧班级抽奖系统 demo" />
+
+</details>
 
 ## 📌 作品信息
 

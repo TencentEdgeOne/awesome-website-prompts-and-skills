@@ -8,7 +8,12 @@
 
 ![ai-writing-assistant-saas-skill cover](../assets/demos/ai-writing-assistant-saas-skill.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/ai-writing-assistant-saas-skill.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/ai-writing-assistant-saas-skill.gif" alt="ai-writing-assistant-saas-skill demo" />
+
+</details>
 
 ## 📌 作品信息
 

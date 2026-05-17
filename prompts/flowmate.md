@@ -8,7 +8,12 @@
 
 ![FlowMate cover](../assets/demos/flowmate.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/flowmate.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/flowmate.gif" alt="FlowMate demo" />
+
+</details>
 
 ## 📌 作品信息
 

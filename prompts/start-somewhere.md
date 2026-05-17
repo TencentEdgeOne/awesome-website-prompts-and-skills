@@ -8,7 +8,12 @@
 
 ![Start Somewhere cover](../assets/demos/start-somewhere.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/start-somewhere.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/start-somewhere.gif" alt="Start Somewhere demo" />
+
+</details>
 
 ## 📌 作品信息
 

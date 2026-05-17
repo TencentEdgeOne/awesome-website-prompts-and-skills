@@ -8,7 +8,12 @@
 
 ![教案设计智能助手 cover](../assets/demos/jiao-an-she-ji-zhi-neng-zhu-shou.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/jiao-an-she-ji-zhi-neng-zhu-shou.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/jiao-an-she-ji-zhi-neng-zhu-shou.gif" alt="教案设计智能助手 demo" />
+
+</details>
 
 ## 📌 作品信息
 

@@ -8,7 +8,12 @@
 
 ![Nexus Galaxy cover](../assets/demos/nexus-galaxy.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/nexus-galaxy.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/nexus-galaxy.gif" alt="Nexus Galaxy demo" />
+
+</details>
 
 ## 📌 作品信息
 

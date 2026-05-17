@@ -8,7 +8,12 @@
 
 ![人情温度计 cover](../assets/demos/ren-qing-wen-du-ji.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/ren-qing-wen-du-ji.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/ren-qing-wen-du-ji.gif" alt="人情温度计 demo" />
+
+</details>
 
 ## 📌 作品信息
 

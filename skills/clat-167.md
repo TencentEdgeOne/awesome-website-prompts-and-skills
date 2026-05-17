@@ -8,7 +8,12 @@
 
 ![ÉCLAT cover](../assets/demos/clat-167.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/clat-167.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/clat-167.gif" alt="ÉCLAT demo" />
+
+</details>
 
 ## 📌 作品信息
 

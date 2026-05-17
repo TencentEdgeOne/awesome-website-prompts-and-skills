@@ -8,7 +8,12 @@
 
 ![AI灵感阁 cover](../assets/demos/ai-bao-mu.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/ai-bao-mu.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/ai-bao-mu.gif" alt="AI灵感阁 demo" />
+
+</details>
 
 ## 📌 作品信息
 

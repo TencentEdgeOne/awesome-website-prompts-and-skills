@@ -8,7 +8,12 @@
 
 ![电影感预约官网生成器 cover](../assets/demos/dian-ying-gan-yu-yue-guan-wang-sheng-cheng-qi.png)
 
-> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/dian-ying-gan-yu-yue-guan-wang-sheng-cheng-qi.gif)
+<details>
+<summary>🎞️ 点击展开查看 demo 动图</summary>
+
+<img src="../assets/demos/dian-ying-gan-yu-yue-guan-wang-sheng-cheng-qi.gif" alt="电影感预约官网生成器 demo" />
+
+</details>
 
 ## 📌 作品信息
 
