@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![专属驾驶舱 demo](../assets/demos/zhuan-shu-jia-shi-cang.gif)
+![专属驾驶舱 cover](../assets/demos/zhuan-shu-jia-shi-cang.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/zhuan-shu-jia-shi-cang.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/zhuan-shu-jia-shi-cang.gif)
 
 ## 📌 作品信息
 

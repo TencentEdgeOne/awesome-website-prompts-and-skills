@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![旅迹 demo](../assets/demos/lv-ji-rou-mian.gif)
+![旅迹 cover](../assets/demos/lv-ji-rou-mian.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/lv-ji-rou-mian.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/lv-ji-rou-mian.gif)
 
 ## 📌 作品信息
 

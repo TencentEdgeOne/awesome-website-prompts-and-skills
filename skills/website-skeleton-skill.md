@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![Website Skeleton Skill demo](../assets/demos/website-skeleton-skill.gif)
+![Website Skeleton Skill cover](../assets/demos/website-skeleton-skill.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/website-skeleton-skill.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/website-skeleton-skill.gif)
 
 ## 📌 作品信息
 

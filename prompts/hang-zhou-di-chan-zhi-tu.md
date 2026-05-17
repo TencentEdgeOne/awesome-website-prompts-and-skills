@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![杭州地产智图 demo](../assets/demos/hang-zhou-di-chan-zhi-tu.gif)
+![杭州地产智图 cover](../assets/demos/hang-zhou-di-chan-zhi-tu.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/hang-zhou-di-chan-zhi-tu.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/hang-zhou-di-chan-zhi-tu.gif)
 
 ## 📌 作品信息
 

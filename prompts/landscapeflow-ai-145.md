@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![LandscapeFlow AI demo](../assets/demos/landscapeflow-ai-145.gif)
+![LandscapeFlow AI cover](../assets/demos/landscapeflow-ai-145.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/landscapeflow-ai-145.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/landscapeflow-ai-145.gif)
 
 ## 📌 作品信息
 

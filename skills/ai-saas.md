@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![AI 微型 SaaS demo](../assets/demos/ai-saas.gif)
+![AI 微型 SaaS cover](../assets/demos/ai-saas.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/ai-saas.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/ai-saas.gif)
 
 ## 📌 作品信息
 

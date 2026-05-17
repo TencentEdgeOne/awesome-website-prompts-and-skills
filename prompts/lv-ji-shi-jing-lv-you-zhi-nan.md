@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![旅迹 · 实景旅游指南 demo](../assets/demos/lv-ji-shi-jing-lv-you-zhi-nan.gif)
+![旅迹 · 实景旅游指南 cover](../assets/demos/lv-ji-shi-jing-lv-you-zhi-nan.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/lv-ji-shi-jing-lv-you-zhi-nan.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/lv-ji-shi-jing-lv-you-zhi-nan.gif)
 
 ## 📌 作品信息
 

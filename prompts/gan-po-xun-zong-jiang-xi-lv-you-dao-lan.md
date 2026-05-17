@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![赣鄱寻踪·江西旅游导览 demo](../assets/demos/gan-po-xun-zong-jiang-xi-lv-you-dao-lan.gif)
+![赣鄱寻踪·江西旅游导览 cover](../assets/demos/gan-po-xun-zong-jiang-xi-lv-you-dao-lan.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/gan-po-xun-zong-jiang-xi-lv-you-dao-lan.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/gan-po-xun-zong-jiang-xi-lv-you-dao-lan.gif)
 
 ## 📌 作品信息
 

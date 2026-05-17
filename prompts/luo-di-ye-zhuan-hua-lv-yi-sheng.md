@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![落地页转化率医生 demo](../assets/demos/luo-di-ye-zhuan-hua-lv-yi-sheng.gif)
+![落地页转化率医生 cover](../assets/demos/luo-di-ye-zhuan-hua-lv-yi-sheng.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/luo-di-ye-zhuan-hua-lv-yi-sheng.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/luo-di-ye-zhuan-hua-lv-yi-sheng.gif)
 
 ## 📌 作品信息
 

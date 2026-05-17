@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![图书管理系统 demo](../assets/demos/tu-shu-guan-li-xi-tong.gif)
+![图书管理系统 cover](../assets/demos/tu-shu-guan-li-xi-tong.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/tu-shu-guan-li-xi-tong.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/tu-shu-guan-li-xi-tong.gif)
 
 ## 📌 作品信息
 

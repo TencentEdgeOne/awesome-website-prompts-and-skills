@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![一款通用互动人格测试网站生成器 demo](../assets/demos/yi-kuan-tong-yong-hu-dong-ren-ge-ce-shi-wang-zhan-.gif)
+![一款通用互动人格测试网站生成器 cover](../assets/demos/yi-kuan-tong-yong-hu-dong-ren-ge-ce-shi-wang-zhan-.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/yi-kuan-tong-yong-hu-dong-ren-ge-ce-shi-wang-zhan-.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/yi-kuan-tong-yong-hu-dong-ren-ge-ce-shi-wang-zhan-.gif)
 
 ## 📌 作品信息
 

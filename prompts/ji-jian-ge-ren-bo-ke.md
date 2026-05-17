@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![极简个人博客 demo](../assets/demos/ji-jian-ge-ren-bo-ke.gif)
+![极简个人博客 cover](../assets/demos/ji-jian-ge-ren-bo-ke.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/ji-jian-ge-ren-bo-ke.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/ji-jian-ge-ren-bo-ke.gif)
 
 ## 📌 作品信息
 

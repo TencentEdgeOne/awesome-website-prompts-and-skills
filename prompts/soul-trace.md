@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![Soul 测试台 demo](../assets/demos/soul-trace.gif)
+![Soul 测试台 cover](../assets/demos/soul-trace.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/soul-trace.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/soul-trace.gif)
 
 ## 📌 作品信息
 

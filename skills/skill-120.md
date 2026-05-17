@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![书杰学习系统生成 Skill 套装 demo](../assets/demos/skill-120.gif)
+![书杰学习系统生成 Skill 套装 cover](../assets/demos/skill-120.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/skill-120.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/skill-120.gif)
 
 ## 📌 作品信息
 

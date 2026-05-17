@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![省Token神器 demo](../assets/demos/mars-token.gif)
+![省Token神器 cover](../assets/demos/mars-token.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/mars-token.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/mars-token.gif)
 
 ## 📌 作品信息
 

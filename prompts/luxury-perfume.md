@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![luxury perfume demo](../assets/demos/luxury-perfume.gif)
+![luxury perfume cover](../assets/demos/luxury-perfume.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/luxury-perfume.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/luxury-perfume.gif)
 
 ## 📌 作品信息
 

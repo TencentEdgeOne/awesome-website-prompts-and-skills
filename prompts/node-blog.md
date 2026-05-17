@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![Node | 原点 demo](../assets/demos/node-blog.gif)
+![Node | 原点 cover](../assets/demos/node-blog.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/node-blog.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/node-blog.gif)
 
 ## 📌 作品信息
 

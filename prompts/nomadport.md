@@ -8,8 +8,6 @@
 
 ![NomadPort —— 数字游民作品集 demo](../assets/demos/nomadport.gif)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/nomadport.png)
-
 ## 📌 作品信息
 
 | 字段 | 内容 |

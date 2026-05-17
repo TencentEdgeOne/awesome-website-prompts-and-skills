@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![会呼吸的"数字宣纸" demo](../assets/demos/hui-hu-xi-de-shu-zi-xuan-zhi.gif)
+![会呼吸的"数字宣纸" cover](../assets/demos/hui-hu-xi-de-shu-zi-xuan-zhi.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/hui-hu-xi-de-shu-zi-xuan-zhi.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/hui-hu-xi-de-shu-zi-xuan-zhi.gif)
 
 ## 📌 作品信息
 

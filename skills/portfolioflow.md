@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![PortfolioFlow demo](../assets/demos/portfolioflow.gif)
+![PortfolioFlow cover](../assets/demos/portfolioflow.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/portfolioflow.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/portfolioflow.gif)
 
 ## 📌 作品信息
 

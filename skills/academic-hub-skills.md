@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![Academic Hub Skills demo](../assets/demos/academic-hub-skills.gif)
+![Academic Hub Skills cover](../assets/demos/academic-hub-skills.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/academic-hub-skills.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/academic-hub-skills.gif)
 
 ## 📌 作品信息
 

@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![个人网页 demo](../assets/demos/ge-ren-wang-ye.gif)
+![个人网页 cover](../assets/demos/ge-ren-wang-ye.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/ge-ren-wang-ye.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/ge-ren-wang-ye.gif)
 
 ## 📌 作品信息
 

@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![LifeClock demo](../assets/demos/lifeclock.gif)
+![LifeClock cover](../assets/demos/lifeclock.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/lifeclock.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/lifeclock.gif)
 
 ## 📌 作品信息
 

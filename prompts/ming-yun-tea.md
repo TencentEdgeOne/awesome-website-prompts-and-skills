@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![茗韵（Ming Yun Tea） demo](../assets/demos/ming-yun-tea.gif)
+![茗韵（Ming Yun Tea） cover](../assets/demos/ming-yun-tea.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/ming-yun-tea.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/ming-yun-tea.gif)
 
 ## 📌 作品信息
 

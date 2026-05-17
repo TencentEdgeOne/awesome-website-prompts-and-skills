@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![优生优育网站 demo](../assets/demos/you-sheng-you-yu-wang-zhan.gif)
+![优生优育网站 cover](../assets/demos/you-sheng-you-yu-wang-zhan.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/you-sheng-you-yu-wang-zhan.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/you-sheng-you-yu-wang-zhan.gif)
 
 ## 📌 作品信息
 

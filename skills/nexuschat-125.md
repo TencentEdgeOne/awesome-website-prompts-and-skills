@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![NexusChat demo](../assets/demos/nexuschat-125.gif)
+![NexusChat cover](../assets/demos/nexuschat-125.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/nexuschat-125.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/nexuschat-125.gif)
 
 ## 📌 作品信息
 

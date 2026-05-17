@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![知鱼答题小程序 demo](../assets/demos/zhi-yu-da-ti-xiao-cheng-xu.gif)
+![知鱼答题小程序 cover](../assets/demos/zhi-yu-da-ti-xiao-cheng-xu.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/zhi-yu-da-ti-xiao-cheng-xu.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/zhi-yu-da-ti-xiao-cheng-xu.gif)
 
 ## 📌 作品信息
 

@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![One-Person Company Mission Control demo](../assets/demos/one-person-company-mission-control-114.gif)
+![One-Person Company Mission Control cover](../assets/demos/one-person-company-mission-control-114.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/one-person-company-mission-control-114.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/one-person-company-mission-control-114.gif)
 
 ## 📌 作品信息
 

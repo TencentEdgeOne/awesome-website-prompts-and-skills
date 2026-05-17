@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![智慧班级抽奖系统 demo](../assets/demos/zhi-hui-ban-ji-chou-jiang-xi-tong.gif)
+![智慧班级抽奖系统 cover](../assets/demos/zhi-hui-ban-ji-chou-jiang-xi-tong.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/zhi-hui-ban-ji-chou-jiang-xi-tong.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/zhi-hui-ban-ji-chou-jiang-xi-tong.gif)
 
 ## 📌 作品信息
 

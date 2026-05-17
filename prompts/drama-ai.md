@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![DramaAI demo](../assets/demos/drama-ai.gif)
+![DramaAI cover](../assets/demos/drama-ai.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/drama-ai.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/drama-ai.gif)
 
 ## 📌 作品信息
 

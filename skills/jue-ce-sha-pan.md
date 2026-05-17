@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![决策沙盘 demo](../assets/demos/jue-ce-sha-pan.gif)
+![决策沙盘 cover](../assets/demos/jue-ce-sha-pan.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/jue-ce-sha-pan.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/jue-ce-sha-pan.gif)
 
 ## 📌 作品信息
 

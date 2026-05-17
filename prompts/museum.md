@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![Museum · 个人作品博物馆 demo](../assets/demos/museum.gif)
+![Museum · 个人作品博物馆 cover](../assets/demos/museum.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/museum.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/museum.gif)
 
 ## 📌 作品信息
 

@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![消失的行当 demo](../assets/demos/xiao-shi-de-hang-dang.gif)
+![消失的行当 cover](../assets/demos/xiao-shi-de-hang-dang.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/xiao-shi-de-hang-dang.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/xiao-shi-de-hang-dang.gif)
 
 ## 📌 作品信息
 

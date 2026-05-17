@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![网页设计向导技能 demo](../assets/demos/wang-ye-she-ji-xiang-dao-ji-neng.gif)
+![网页设计向导技能 cover](../assets/demos/wang-ye-she-ji-xiang-dao-ji-neng.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/wang-ye-she-ji-xiang-dao-ji-neng.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/wang-ye-she-ji-xiang-dao-ji-neng.gif)
 
 ## 📌 作品信息
 

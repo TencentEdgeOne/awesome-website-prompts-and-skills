@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![璆琳 demo](../assets/demos/qiu-lin.gif)
+![璆琳 cover](../assets/demos/qiu-lin.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/qiu-lin.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/qiu-lin.gif)
 
 ## 📌 作品信息
 

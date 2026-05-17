@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![ProductLens demo](../assets/demos/productlens.gif)
+![ProductLens cover](../assets/demos/productlens.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/productlens.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/productlens.gif)
 
 ## 📌 作品信息
 

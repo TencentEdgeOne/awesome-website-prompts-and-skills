@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![健康科普网站 demo](../assets/demos/jian-kang-ke-pu-wang-zhan.gif)
+![健康科普网站 cover](../assets/demos/jian-kang-ke-pu-wang-zhan.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/jian-kang-ke-pu-wang-zhan.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/jian-kang-ke-pu-wang-zhan.gif)
 
 ## 📌 作品信息
 

@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![宝可梦卡牌抽卡模拟器 demo](../assets/demos/bao-ke-meng-ka-pai-chou-ka-mo-ni-qi.gif)
+![宝可梦卡牌抽卡模拟器 cover](../assets/demos/bao-ke-meng-ka-pai-chou-ka-mo-ni-qi.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/bao-ke-meng-ka-pai-chou-ka-mo-ni-qi.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/bao-ke-meng-ka-pai-chou-ka-mo-ni-qi.gif)
 
 ## 📌 作品信息
 

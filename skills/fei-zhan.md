@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![飞站 demo](../assets/demos/fei-zhan.gif)
+![飞站 cover](../assets/demos/fei-zhan.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/fei-zhan.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/fei-zhan.gif)
 
 ## 📌 作品信息
 

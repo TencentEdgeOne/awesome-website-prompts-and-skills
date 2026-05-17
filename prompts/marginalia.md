@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![MARGINALIA（旁注） demo](../assets/demos/marginalia.gif)
+![MARGINALIA（旁注） cover](../assets/demos/marginalia.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/marginalia.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/marginalia.gif)
 
 ## 📌 作品信息
 

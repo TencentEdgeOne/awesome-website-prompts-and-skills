@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![Coffee-Wed-Skills demo](../assets/demos/coffee-wed-skills.gif)
+![Coffee-Wed-Skills cover](../assets/demos/coffee-wed-skills.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/coffee-wed-skills.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/coffee-wed-skills.gif)
 
 ## 📌 作品信息
 

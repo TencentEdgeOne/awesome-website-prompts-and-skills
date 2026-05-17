@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![人物千秋 demo](../assets/demos/ren-wu-qian-qiu-161.gif)
+![人物千秋 cover](../assets/demos/ren-wu-qian-qiu-161.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/ren-wu-qian-qiu-161.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/ren-wu-qian-qiu-161.gif)
 
 ## 📌 作品信息
 

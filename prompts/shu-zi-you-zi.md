@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![数字柚子 demo](../assets/demos/shu-zi-you-zi.gif)
+![数字柚子 cover](../assets/demos/shu-zi-you-zi.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/shu-zi-you-zi.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/shu-zi-you-zi.gif)
 
 ## 📌 作品信息
 

@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![NEXUS AI demo](../assets/demos/nexus-ai.gif)
+![NEXUS AI cover](../assets/demos/nexus-ai.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/nexus-ai.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/nexus-ai.gif)
 
 ## 📌 作品信息
 

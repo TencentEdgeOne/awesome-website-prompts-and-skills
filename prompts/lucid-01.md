@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![LUCID/01 demo](../assets/demos/lucid-01.gif)
+![LUCID/01 cover](../assets/demos/lucid-01.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/lucid-01.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/lucid-01.gif)
 
 ## 📌 作品信息
 

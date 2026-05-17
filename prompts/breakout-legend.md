@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![Breakout Legend — 打砖块小游戏 demo](../assets/demos/breakout-legend.gif)
+![Breakout Legend — 打砖块小游戏 cover](../assets/demos/breakout-legend.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/breakout-legend.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/breakout-legend.gif)
 
 ## 📌 作品信息
 

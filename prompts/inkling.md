@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![Inkling demo](../assets/demos/inkling.gif)
+![Inkling cover](../assets/demos/inkling.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/inkling.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/inkling.gif)
 
 ## 📌 作品信息
 

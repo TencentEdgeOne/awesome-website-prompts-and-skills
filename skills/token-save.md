@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![token-save demo](../assets/demos/token-save.gif)
+![token-save cover](../assets/demos/token-save.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/token-save.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/token-save.gif)
 
 ## 📌 作品信息
 

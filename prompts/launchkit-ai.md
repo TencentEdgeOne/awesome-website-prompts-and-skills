@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![LaunchKit AI demo](../assets/demos/launchkit-ai.gif)
+![LaunchKit AI cover](../assets/demos/launchkit-ai.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/launchkit-ai.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/launchkit-ai.gif)
 
 ## 📌 作品信息
 

@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![Pawsome demo](../assets/demos/pawsome.gif)
+![Pawsome cover](../assets/demos/pawsome.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/pawsome.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/pawsome.gif)
 
 ## 📌 作品信息
 

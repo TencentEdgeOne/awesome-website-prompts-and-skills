@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![EdgeOne Pages 全栈站点能力 demo](../assets/demos/edgeone-pages.gif)
+![EdgeOne Pages 全栈站点能力 cover](../assets/demos/edgeone-pages.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/edgeone-pages.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/edgeone-pages.gif)
 
 ## 📌 作品信息
 

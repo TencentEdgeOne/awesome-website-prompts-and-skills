@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![影视化全流程智能创作助手 demo](../assets/demos/ying-shi-hua-quan-liu-cheng-zhi-neng-chuang-zuo-zh.gif)
+![影视化全流程智能创作助手 cover](../assets/demos/ying-shi-hua-quan-liu-cheng-zhi-neng-chuang-zuo-zh.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/ying-shi-hua-quan-liu-cheng-zhi-neng-chuang-zuo-zh.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/ying-shi-hua-quan-liu-cheng-zhi-neng-chuang-zuo-zh.gif)
 
 ## 📌 作品信息
 

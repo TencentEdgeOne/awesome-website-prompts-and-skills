@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![山海经异兽档案馆 demo](../assets/demos/shan-hai-jing-yi-shou-dang-an-guan.gif)
+![山海经异兽档案馆 cover](../assets/demos/shan-hai-jing-yi-shou-dang-an-guan.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/shan-hai-jing-yi-shou-dang-an-guan.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/shan-hai-jing-yi-shou-dang-an-guan.gif)
 
 ## 📌 作品信息
 

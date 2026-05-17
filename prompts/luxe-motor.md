@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![LUXE MOTOR demo](../assets/demos/luxe-motor.gif)
+![LUXE MOTOR cover](../assets/demos/luxe-motor.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/luxe-motor.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/luxe-motor.gif)
 
 ## 📌 作品信息
 

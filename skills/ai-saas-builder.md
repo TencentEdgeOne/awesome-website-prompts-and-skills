@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![AI SaaS Builder demo](../assets/demos/ai-saas-builder.gif)
+![AI SaaS Builder cover](../assets/demos/ai-saas-builder.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/ai-saas-builder.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/ai-saas-builder.gif)
 
 ## 📌 作品信息
 

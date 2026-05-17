@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![城迹 City Trace demo](../assets/demos/city-trace.gif)
+![城迹 City Trace cover](../assets/demos/city-trace.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/city-trace.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/city-trace.gif)
 
 ## 📌 作品信息
 

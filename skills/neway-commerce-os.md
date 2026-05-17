@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![Neway Commerce OS demo](../assets/demos/neway-commerce-os.gif)
+![Neway Commerce OS cover](../assets/demos/neway-commerce-os.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/neway-commerce-os.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/neway-commerce-os.gif)
 
 ## 📌 作品信息
 

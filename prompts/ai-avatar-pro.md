@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![AI Avatar Pro demo](../assets/demos/ai-avatar-pro.gif)
+![AI Avatar Pro cover](../assets/demos/ai-avatar-pro.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/ai-avatar-pro.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/ai-avatar-pro.gif)
 
 ## 📌 作品信息
 

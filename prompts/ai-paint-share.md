@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![律师AI工具箱 demo](../assets/demos/ai-paint-share.gif)
+![律师AI工具箱 cover](../assets/demos/ai-paint-share.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/ai-paint-share.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/ai-paint-share.gif)
 
 ## 📌 作品信息
 

@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![教案设计智能助手 demo](../assets/demos/jiao-an-she-ji-zhi-neng-zhu-shou.gif)
+![教案设计智能助手 cover](../assets/demos/jiao-an-she-ji-zhi-neng-zhu-shou.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/jiao-an-she-ji-zhi-neng-zhu-shou.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/jiao-an-she-ji-zhi-neng-zhu-shou.gif)
 
 ## 📌 作品信息
 

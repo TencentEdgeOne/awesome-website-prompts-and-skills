@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![二次元风格个人博客 demo](../assets/demos/er-ci-yuan-feng-ge-ge-ren-bo-ke.gif)
+![二次元风格个人博客 cover](../assets/demos/er-ci-yuan-feng-ge-ge-ren-bo-ke.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/er-ci-yuan-feng-ge-ge-ren-bo-ke.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/er-ci-yuan-feng-ge-ge-ren-bo-ke.gif)
 
 ## 📌 作品信息
 

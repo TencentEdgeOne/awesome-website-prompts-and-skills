@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![元认知教练.skill demo](../assets/demos/skill-89.gif)
+![元认知教练.skill cover](../assets/demos/skill-89.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/skill-89.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/skill-89.gif)
 
 ## 📌 作品信息
 

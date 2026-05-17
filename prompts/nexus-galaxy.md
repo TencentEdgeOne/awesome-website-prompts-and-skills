@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![Nexus Galaxy demo](../assets/demos/nexus-galaxy.gif)
+![Nexus Galaxy cover](../assets/demos/nexus-galaxy.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/nexus-galaxy.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/nexus-galaxy.gif)
 
 ## 📌 作品信息
 

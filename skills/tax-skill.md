@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![断舍离 Skill demo](../assets/demos/tax-skill.gif)
+![断舍离 Skill cover](../assets/demos/tax-skill.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/tax-skill.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/tax-skill.gif)
 
 ## 📌 作品信息
 

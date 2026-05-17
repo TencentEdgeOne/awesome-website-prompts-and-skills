@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![展馆预约 demo](../assets/demos/zhan-guan-yu-yue.gif)
+![展馆预约 cover](../assets/demos/zhan-guan-yu-yue.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/zhan-guan-yu-yue.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/zhan-guan-yu-yue.gif)
 
 ## 📌 作品信息
 

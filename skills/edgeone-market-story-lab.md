@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![EdgeOne Market Story Lab demo](../assets/demos/edgeone-market-story-lab.gif)
+![EdgeOne Market Story Lab cover](../assets/demos/edgeone-market-story-lab.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/edgeone-market-story-lab.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/edgeone-market-story-lab.gif)
 
 ## 📌 作品信息
 

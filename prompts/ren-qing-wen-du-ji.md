@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![人情温度计 demo](../assets/demos/ren-qing-wen-du-ji.gif)
+![人情温度计 cover](../assets/demos/ren-qing-wen-du-ji.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/ren-qing-wen-du-ji.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/ren-qing-wen-du-ji.gif)
 
 ## 📌 作品信息
 

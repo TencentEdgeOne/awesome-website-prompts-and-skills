@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![AI灵感阁 demo](../assets/demos/ai-bao-mu.gif)
+![AI灵感阁 cover](../assets/demos/ai-bao-mu.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/ai-bao-mu.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/ai-bao-mu.gif)
 
 ## 📌 作品信息
 

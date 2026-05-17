@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![花语世界 demo](../assets/demos/hua-yu-shi-jie.gif)
+![花语世界 cover](../assets/demos/hua-yu-shi-jie.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/hua-yu-shi-jie.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/hua-yu-shi-jie.gif)
 
 ## 📌 作品信息
 

@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![pages 全栈商城 skill demo](../assets/demos/pages-skill.gif)
+![pages 全栈商城 skill cover](../assets/demos/pages-skill.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/pages-skill.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/pages-skill.gif)
 
 ## 📌 作品信息
 

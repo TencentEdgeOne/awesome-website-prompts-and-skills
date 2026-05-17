@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![政策知识学习平台 demo](../assets/demos/zheng-ce-zhi-shi-xue-xi-ping-tai.gif)
+![政策知识学习平台 cover](../assets/demos/zheng-ce-zhi-shi-xue-xi-ping-tai.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/zheng-ce-zhi-shi-xue-xi-ping-tai.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/zheng-ce-zhi-shi-xue-xi-ping-tai.gif)
 
 ## 📌 作品信息
 

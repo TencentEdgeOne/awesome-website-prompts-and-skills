@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![Birthday Wish Generator demo](../assets/demos/birthday-wish-generator.gif)
+![Birthday Wish Generator cover](../assets/demos/birthday-wish-generator.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/birthday-wish-generator.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/birthday-wish-generator.gif)
 
 ## 📌 作品信息
 

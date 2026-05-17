@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![Global Vehicle Mall demo](../assets/demos/global-vehicle-mall.gif)
+![Global Vehicle Mall cover](../assets/demos/global-vehicle-mall.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/global-vehicle-mall.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/global-vehicle-mall.gif)
 
 ## 📌 作品信息
 

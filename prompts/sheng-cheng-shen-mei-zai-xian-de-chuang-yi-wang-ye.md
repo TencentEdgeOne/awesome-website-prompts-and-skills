@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![生成审美在线的创意网页 demo](../assets/demos/sheng-cheng-shen-mei-zai-xian-de-chuang-yi-wang-ye.gif)
+![生成审美在线的创意网页 cover](../assets/demos/sheng-cheng-shen-mei-zai-xian-de-chuang-yi-wang-ye.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/sheng-cheng-shen-mei-zai-xian-de-chuang-yi-wang-ye.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/sheng-cheng-shen-mei-zai-xian-de-chuang-yi-wang-ye.gif)
 
 ## 📌 作品信息
 

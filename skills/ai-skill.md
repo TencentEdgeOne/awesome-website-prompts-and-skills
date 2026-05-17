@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![AI 聚合展示平台 Skill demo](../assets/demos/ai-skill.gif)
+![AI 聚合展示平台 Skill cover](../assets/demos/ai-skill.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/ai-skill.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/ai-skill.gif)
 
 ## 📌 作品信息
 

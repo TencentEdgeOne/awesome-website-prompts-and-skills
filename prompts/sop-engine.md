@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![财务尽调SOP执行助手 demo](../assets/demos/sop-engine.gif)
+![财务尽调SOP执行助手 cover](../assets/demos/sop-engine.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/sop-engine.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/sop-engine.gif)
 
 ## 📌 作品信息
 

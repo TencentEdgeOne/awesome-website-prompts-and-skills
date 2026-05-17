@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![如果互联网消失，你还剩下谁 demo](../assets/demos/ru-guo-hu-lian-wang-xiao-shi-ni-hai-sheng-xia-shui-51.gif)
+![如果互联网消失，你还剩下谁 cover](../assets/demos/ru-guo-hu-lian-wang-xiao-shi-ni-hai-sheng-xia-shui-51.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/ru-guo-hu-lian-wang-xiao-shi-ni-hai-sheng-xia-shui-51.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/ru-guo-hu-lian-wang-xiao-shi-ni-hai-sheng-xia-shui-51.gif)
 
 ## 📌 作品信息
 

@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![OpsVision demo](../assets/demos/opsvision.gif)
+![OpsVision cover](../assets/demos/opsvision.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/opsvision.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/opsvision.gif)
 
 ## 📌 作品信息
 

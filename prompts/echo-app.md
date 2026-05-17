@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![Echo demo](../assets/demos/echo-app.gif)
+![Echo cover](../assets/demos/echo-app.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/echo-app.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/echo-app.gif)
 
 ## 📌 作品信息
 

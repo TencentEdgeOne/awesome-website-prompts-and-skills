@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![广州市增城庆益真空泵经营部官网首页 demo](../assets/demos/guang-zhou-shi-zeng-cheng-qing-yi-zhen-kong-beng-j.gif)
+![广州市增城庆益真空泵经营部官网首页 cover](../assets/demos/guang-zhou-shi-zeng-cheng-qing-yi-zhen-kong-beng-j.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/guang-zhou-shi-zeng-cheng-qing-yi-zhen-kong-beng-j.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/guang-zhou-shi-zeng-cheng-qing-yi-zhen-kong-beng-j.gif)
 
 ## 📌 作品信息
 

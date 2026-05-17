@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![云轴 CloudScroll demo](../assets/demos/cloudscroll.gif)
+![云轴 CloudScroll cover](../assets/demos/cloudscroll.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/cloudscroll.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/cloudscroll.gif)
 
 ## 📌 作品信息
 

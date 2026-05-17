@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![一山的日记 · Diary World demo](../assets/demos/diary-world.gif)
+![一山的日记 · Diary World cover](../assets/demos/diary-world.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/diary-world.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/diary-world.gif)
 
 ## 📌 作品信息
 

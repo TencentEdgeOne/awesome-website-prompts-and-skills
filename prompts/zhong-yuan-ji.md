@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![中原纪 demo](../assets/demos/zhong-yuan-ji.gif)
+![中原纪 cover](../assets/demos/zhong-yuan-ji.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/zhong-yuan-ji.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/zhong-yuan-ji.gif)
 
 ## 📌 作品信息
 

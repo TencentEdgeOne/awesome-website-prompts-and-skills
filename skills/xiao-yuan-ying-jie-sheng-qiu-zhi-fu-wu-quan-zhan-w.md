@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![校园应届生求职服务全栈网站 demo](../assets/demos/xiao-yuan-ying-jie-sheng-qiu-zhi-fu-wu-quan-zhan-w.gif)
+![校园应届生求职服务全栈网站 cover](../assets/demos/xiao-yuan-ying-jie-sheng-qiu-zhi-fu-wu-quan-zhan-w.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/xiao-yuan-ying-jie-sheng-qiu-zhi-fu-wu-quan-zhan-w.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/xiao-yuan-ying-jie-sheng-qiu-zhi-fu-wu-quan-zhan-w.gif)
 
 ## 📌 作品信息
 

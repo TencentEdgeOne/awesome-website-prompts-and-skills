@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![Maison Perle demo](../assets/demos/maison-perle.gif)
+![Maison Perle cover](../assets/demos/maison-perle.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/maison-perle.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/maison-perle.gif)
 
 ## 📌 作品信息
 

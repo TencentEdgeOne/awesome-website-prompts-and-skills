@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![猫岛 Cloud Haven demo](../assets/demos/cloud-haven.gif)
+![猫岛 Cloud Haven cover](../assets/demos/cloud-haven.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/cloud-haven.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/cloud-haven.gif)
 
 ## 📌 作品信息
 

@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![网页 PPT 生成方案 demo](../assets/demos/ppt-generator.gif)
+![网页 PPT 生成方案 cover](../assets/demos/ppt-generator.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/ppt-generator.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/ppt-generator.gif)
 
 ## 📌 作品信息
 

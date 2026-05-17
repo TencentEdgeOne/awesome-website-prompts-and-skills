@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![NOC排班管理系统 demo](../assets/demos/noc-events.gif)
+![NOC排班管理系统 cover](../assets/demos/noc-events.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/noc-events.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/noc-events.gif)
 
 ## 📌 作品信息
 

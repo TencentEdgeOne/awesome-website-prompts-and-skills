@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![粒子宇宙 demo](../assets/demos/li-zi-yu-zhou.gif)
+![粒子宇宙 cover](../assets/demos/li-zi-yu-zhou.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/li-zi-yu-zhou.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/li-zi-yu-zhou.gif)
 
 ## 📌 作品信息
 

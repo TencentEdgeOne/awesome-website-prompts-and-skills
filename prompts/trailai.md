@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![TrailAI demo](../assets/demos/trailai.gif)
+![TrailAI cover](../assets/demos/trailai.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/trailai.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/trailai.gif)
 
 ## 📌 作品信息
 

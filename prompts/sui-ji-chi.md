@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![随机吃 demo](../assets/demos/sui-ji-chi.gif)
+![随机吃 cover](../assets/demos/sui-ji-chi.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/sui-ji-chi.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/sui-ji-chi.gif)
 
 ## 📌 作品信息
 

@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![NetKeeper demo](../assets/demos/netkeeper.gif)
+![NetKeeper cover](../assets/demos/netkeeper.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/netkeeper.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/netkeeper.gif)
 
 ## 📌 作品信息
 

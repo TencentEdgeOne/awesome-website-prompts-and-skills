@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![光影集 demo](../assets/demos/guang-ying-ji.gif)
+![光影集 cover](../assets/demos/guang-ying-ji.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/guang-ying-ji.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/guang-ying-ji.gif)
 
 ## 📌 作品信息
 

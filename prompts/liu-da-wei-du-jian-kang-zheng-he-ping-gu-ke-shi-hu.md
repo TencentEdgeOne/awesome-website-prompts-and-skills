@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![六大维度健康整合评估可视化报告 demo](../assets/demos/liu-da-wei-du-jian-kang-zheng-he-ping-gu-ke-shi-hu.gif)
+![六大维度健康整合评估可视化报告 cover](../assets/demos/liu-da-wei-du-jian-kang-zheng-he-ping-gu-ke-shi-hu.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/liu-da-wei-du-jian-kang-zheng-he-ping-gu-ke-shi-hu.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/liu-da-wei-du-jian-kang-zheng-he-ping-gu-ke-shi-hu.gif)
 
 ## 📌 作品信息
 

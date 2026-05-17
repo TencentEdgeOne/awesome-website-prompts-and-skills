@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![NomadPort demo](../assets/demos/nomadport-122.gif)
+![NomadPort cover](../assets/demos/nomadport-122.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/nomadport-122.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/nomadport-122.gif)
 
 ## 📌 作品信息
 

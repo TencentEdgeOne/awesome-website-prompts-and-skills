@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![Tech Stack Analyzer Skill demo](../assets/demos/tech-stack-analyzer-skill.gif)
+![Tech Stack Analyzer Skill cover](../assets/demos/tech-stack-analyzer-skill.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/tech-stack-analyzer-skill.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/tech-stack-analyzer-skill.gif)
 
 ## 📌 作品信息
 

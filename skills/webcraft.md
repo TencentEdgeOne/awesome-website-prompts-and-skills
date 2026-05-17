@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![WebCraft demo](../assets/demos/webcraft.gif)
+![WebCraft cover](../assets/demos/webcraft.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/webcraft.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/webcraft.gif)
 
 ## 📌 作品信息
 

@@ -6,9 +6,9 @@
 
 ## 🎬 Demo
 
-![ChipAgent Pro demo](../assets/demos/chipagent-pro.gif)
+![ChipAgent Pro cover](../assets/demos/chipagent-pro.png)
 
-> 🖼️ 静态封面：[查看原图](../assets/demos/chipagent-pro.png)
+> 🎞️ 想看动效？[点击查看 demo 动图（GIF）](../assets/demos/chipagent-pro.gif)
 
 ## 📌 作品信息
 
