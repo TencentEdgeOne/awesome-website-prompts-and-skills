@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![各地文旅足球赛的网页 cover](../assets/demos/ge-di-wen-lv-zu-qiu-sai-de-wang-ye.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/ge-di-wen-lv-zu-qiu-sai-de-wang-ye.gif" alt="各地文旅足球赛的网页 demo" />
-
-</details>
+![各地文旅足球赛的网页 demo](../assets/demos/ge-di-wen-lv-zu-qiu-sai-de-wang-ye.gif)
 
 ## 📌 作品信息
 

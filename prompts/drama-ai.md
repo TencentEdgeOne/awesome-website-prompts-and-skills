@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![DramaAI cover](../assets/demos/drama-ai.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/drama-ai.gif" alt="DramaAI demo" />
-
-</details>
+![DramaAI demo](../assets/demos/drama-ai.gif)
 
 ## 📌 作品信息
 

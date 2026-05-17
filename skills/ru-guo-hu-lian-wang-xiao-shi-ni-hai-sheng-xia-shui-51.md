@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![如果互联网消失，你还剩下谁 cover](../assets/demos/ru-guo-hu-lian-wang-xiao-shi-ni-hai-sheng-xia-shui-51.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/ru-guo-hu-lian-wang-xiao-shi-ni-hai-sheng-xia-shui-51.gif" alt="如果互联网消失，你还剩下谁 demo" />
-
-</details>
+![如果互联网消失，你还剩下谁 demo](../assets/demos/ru-guo-hu-lian-wang-xiao-shi-ni-hai-sheng-xia-shui-51.gif)
 
 ## 📌 作品信息
 

@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![EdgeOne Market Story Lab cover](../assets/demos/edgeone-market-story-lab.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/edgeone-market-story-lab.gif" alt="EdgeOne Market Story Lab demo" />
-
-</details>
+![EdgeOne Market Story Lab demo](../assets/demos/edgeone-market-story-lab.gif)
 
 ## 📌 作品信息
 

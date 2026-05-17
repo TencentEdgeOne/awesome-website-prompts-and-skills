@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![RobotBP cover](../assets/demos/robotbp.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/robotbp.gif" alt="RobotBP demo" />
-
-</details>
+![RobotBP demo](../assets/demos/robotbp.gif)
 
 ## 📌 作品信息
 

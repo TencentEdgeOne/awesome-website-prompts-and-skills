@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![NomadPort cover](../assets/demos/nomadport-122.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/nomadport-122.gif" alt="NomadPort demo" />
-
-</details>
+![NomadPort demo](../assets/demos/nomadport-122.gif)
 
 ## 📌 作品信息
 

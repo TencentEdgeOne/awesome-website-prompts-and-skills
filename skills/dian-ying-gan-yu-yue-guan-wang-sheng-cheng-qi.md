@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![电影感预约官网生成器 cover](../assets/demos/dian-ying-gan-yu-yue-guan-wang-sheng-cheng-qi.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/dian-ying-gan-yu-yue-guan-wang-sheng-cheng-qi.gif" alt="电影感预约官网生成器 demo" />
-
-</details>
+![电影感预约官网生成器 demo](../assets/demos/dian-ying-gan-yu-yue-guan-wang-sheng-cheng-qi.gif)
 
 ## 📌 作品信息
 

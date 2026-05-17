@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![宝可梦卡牌抽卡模拟器 cover](../assets/demos/bao-ke-meng-ka-pai-chou-ka-mo-ni-qi.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/bao-ke-meng-ka-pai-chou-ka-mo-ni-qi.gif" alt="宝可梦卡牌抽卡模拟器 demo" />
-
-</details>
+![宝可梦卡牌抽卡模拟器 demo](../assets/demos/bao-ke-meng-ka-pai-chou-ka-mo-ni-qi.gif)
 
 ## 📌 作品信息
 

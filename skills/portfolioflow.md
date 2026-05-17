@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![PortfolioFlow cover](../assets/demos/portfolioflow.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/portfolioflow.gif" alt="PortfolioFlow demo" />
-
-</details>
+![PortfolioFlow demo](../assets/demos/portfolioflow.gif)
 
 ## 📌 作品信息
 

@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![Start Somewhere cover](../assets/demos/start-somewhere.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/start-somewhere.gif" alt="Start Somewhere demo" />
-
-</details>
+![Start Somewhere demo](../assets/demos/start-somewhere.gif)
 
 ## 📌 作品信息
 

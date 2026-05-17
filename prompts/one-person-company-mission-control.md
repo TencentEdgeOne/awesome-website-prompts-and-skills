@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![One-Person Company Mission Control cover](../assets/demos/one-person-company-mission-control.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/one-person-company-mission-control.gif" alt="One-Person Company Mission Control demo" />
-
-</details>
+![One-Person Company Mission Control demo](../assets/demos/one-person-company-mission-control.gif)
 
 ## 📌 作品信息
 

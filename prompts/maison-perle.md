@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![Maison Perle cover](../assets/demos/maison-perle.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/maison-perle.gif" alt="Maison Perle demo" />
-
-</details>
+![Maison Perle demo](../assets/demos/maison-perle.gif)
 
 ## 📌 作品信息
 

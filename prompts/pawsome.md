@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![Pawsome cover](../assets/demos/pawsome.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/pawsome.gif" alt="Pawsome demo" />
-
-</details>
+![Pawsome demo](../assets/demos/pawsome.gif)
 
 ## 📌 作品信息
 

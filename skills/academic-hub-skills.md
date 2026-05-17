@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![Academic Hub Skills cover](../assets/demos/academic-hub-skills.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/academic-hub-skills.gif" alt="Academic Hub Skills demo" />
-
-</details>
+![Academic Hub Skills demo](../assets/demos/academic-hub-skills.gif)
 
 ## 📌 作品信息
 

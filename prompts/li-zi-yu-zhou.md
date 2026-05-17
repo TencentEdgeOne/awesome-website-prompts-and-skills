@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![粒子宇宙 cover](../assets/demos/li-zi-yu-zhou.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/li-zi-yu-zhou.gif" alt="粒子宇宙 demo" />
-
-</details>
+![粒子宇宙 demo](../assets/demos/li-zi-yu-zhou.gif)
 
 ## 📌 作品信息
 

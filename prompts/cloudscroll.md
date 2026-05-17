@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![云轴 CloudScroll cover](../assets/demos/cloudscroll.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/cloudscroll.gif" alt="云轴 CloudScroll demo" />
-
-</details>
+![云轴 CloudScroll demo](../assets/demos/cloudscroll.gif)
 
 ## 📌 作品信息
 

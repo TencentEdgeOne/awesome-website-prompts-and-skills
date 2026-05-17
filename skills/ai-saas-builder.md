@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![AI SaaS Builder cover](../assets/demos/ai-saas-builder.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/ai-saas-builder.gif" alt="AI SaaS Builder demo" />
-
-</details>
+![AI SaaS Builder demo](../assets/demos/ai-saas-builder.gif)
 
 ## 📌 作品信息
 

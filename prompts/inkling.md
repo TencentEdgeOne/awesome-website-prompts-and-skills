@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![Inkling cover](../assets/demos/inkling.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/inkling.gif" alt="Inkling demo" />
-
-</details>
+![Inkling demo](../assets/demos/inkling.gif)
 
 ## 📌 作品信息
 

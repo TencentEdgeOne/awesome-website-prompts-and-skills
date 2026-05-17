@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![旅迹 · 实景旅游指南 cover](../assets/demos/lv-ji-shi-jing-lv-you-zhi-nan.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/lv-ji-shi-jing-lv-you-zhi-nan.gif" alt="旅迹 · 实景旅游指南 demo" />
-
-</details>
+![旅迹 · 实景旅游指南 demo](../assets/demos/lv-ji-shi-jing-lv-you-zhi-nan.gif)
 
 ## 📌 作品信息
 

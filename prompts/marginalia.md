@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![MARGINALIA（旁注） cover](../assets/demos/marginalia.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/marginalia.gif" alt="MARGINALIA（旁注） demo" />
-
-</details>
+![MARGINALIA（旁注） demo](../assets/demos/marginalia.gif)
 
 ## 📌 作品信息
 

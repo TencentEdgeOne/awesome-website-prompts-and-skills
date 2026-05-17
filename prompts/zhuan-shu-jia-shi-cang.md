@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![专属驾驶舱 cover](../assets/demos/zhuan-shu-jia-shi-cang.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/zhuan-shu-jia-shi-cang.gif" alt="专属驾驶舱 demo" />
-
-</details>
+![专属驾驶舱 demo](../assets/demos/zhuan-shu-jia-shi-cang.gif)
 
 ## 📌 作品信息
 

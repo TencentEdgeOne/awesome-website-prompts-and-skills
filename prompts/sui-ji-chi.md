@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![随机吃 cover](../assets/demos/sui-ji-chi.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/sui-ji-chi.gif" alt="随机吃 demo" />
-
-</details>
+![随机吃 demo](../assets/demos/sui-ji-chi.gif)
 
 ## 📌 作品信息
 

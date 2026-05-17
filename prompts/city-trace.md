@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![城迹 City Trace cover](../assets/demos/city-trace.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/city-trace.gif" alt="城迹 City Trace demo" />
-
-</details>
+![城迹 City Trace demo](../assets/demos/city-trace.gif)
 
 ## 📌 作品信息
 

@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![智析 DataLens cover](../assets/demos/datalens.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/datalens.gif" alt="智析 DataLens demo" />
-
-</details>
+![智析 DataLens demo](../assets/demos/datalens.gif)
 
 ## 📌 作品信息
 

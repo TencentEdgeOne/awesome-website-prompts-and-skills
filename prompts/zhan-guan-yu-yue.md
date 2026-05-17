@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![展馆预约 cover](../assets/demos/zhan-guan-yu-yue.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/zhan-guan-yu-yue.gif" alt="展馆预约 demo" />
-
-</details>
+![展馆预约 demo](../assets/demos/zhan-guan-yu-yue.gif)
 
 ## 📌 作品信息
 

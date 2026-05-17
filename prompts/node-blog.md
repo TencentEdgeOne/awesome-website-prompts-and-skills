@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![Node | 原点 cover](../assets/demos/node-blog.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/node-blog.gif" alt="Node | 原点 demo" />
-
-</details>
+![Node | 原点 demo](../assets/demos/node-blog.gif)
 
 ## 📌 作品信息
 

@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![科技探险家 cover](../assets/demos/ke-ji-tan-xian-jia.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/ke-ji-tan-xian-jia.gif" alt="科技探险家 demo" />
-
-</details>
+![科技探险家 demo](../assets/demos/ke-ji-tan-xian-jia.gif)
 
 ## 📌 作品信息
 

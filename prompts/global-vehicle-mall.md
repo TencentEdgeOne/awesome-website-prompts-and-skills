@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![Global Vehicle Mall cover](../assets/demos/global-vehicle-mall.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/global-vehicle-mall.gif" alt="Global Vehicle Mall demo" />
-
-</details>
+![Global Vehicle Mall demo](../assets/demos/global-vehicle-mall.gif)
 
 ## 📌 作品信息
 

@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![WebCraft cover](../assets/demos/webcraft.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/webcraft.gif" alt="WebCraft demo" />
-
-</details>
+![WebCraft demo](../assets/demos/webcraft.gif)
 
 ## 📌 作品信息
 

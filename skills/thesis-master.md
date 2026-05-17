@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![Thesis Master cover](../assets/demos/thesis-master.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/thesis-master.gif" alt="Thesis Master demo" />
-
-</details>
+![Thesis Master demo](../assets/demos/thesis-master.gif)
 
 ## 📌 作品信息
 

@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![LaunchKit AI cover](../assets/demos/launchkit-ai.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/launchkit-ai.gif" alt="LaunchKit AI demo" />
-
-</details>
+![LaunchKit AI demo](../assets/demos/launchkit-ai.gif)
 
 ## 📌 作品信息
 

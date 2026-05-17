@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![律师AI工具箱 cover](../assets/demos/ai-paint-share.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/ai-paint-share.gif" alt="律师AI工具箱 demo" />
-
-</details>
+![律师AI工具箱 demo](../assets/demos/ai-paint-share.gif)
 
 ## 📌 作品信息
 

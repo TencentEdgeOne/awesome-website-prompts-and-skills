@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![PetVibe cover](../assets/demos/petvibe.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/petvibe.gif" alt="PetVibe demo" />
-
-</details>
+![PetVibe demo](../assets/demos/petvibe.gif)
 
 ## 📌 作品信息
 

@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![筑境设计全栈作品集网站 cover](../assets/demos/zhu-jing-she-ji-quan-zhan-zuo-pin-ji-wang-zhan.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/zhu-jing-she-ji-quan-zhan-zuo-pin-ji-wang-zhan.gif" alt="筑境设计全栈作品集网站 demo" />
-
-</details>
+![筑境设计全栈作品集网站 demo](../assets/demos/zhu-jing-she-ji-quan-zhan-zuo-pin-ji-wang-zhan.gif)
 
 ## 📌 作品信息
 

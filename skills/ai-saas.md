@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![AI 微型 SaaS cover](../assets/demos/ai-saas.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/ai-saas.gif" alt="AI 微型 SaaS demo" />
-
-</details>
+![AI 微型 SaaS demo](../assets/demos/ai-saas.gif)
 
 ## 📌 作品信息
 

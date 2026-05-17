@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![ai-writing-assistant-saas-skill cover](../assets/demos/ai-writing-assistant-saas-skill.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/ai-writing-assistant-saas-skill.gif" alt="ai-writing-assistant-saas-skill demo" />
-
-</details>
+![ai-writing-assistant-saas-skill demo](../assets/demos/ai-writing-assistant-saas-skill.gif)
 
 ## 📌 作品信息
 

@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![AI灵感阁 cover](../assets/demos/ai-bao-mu.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/ai-bao-mu.gif" alt="AI灵感阁 demo" />
-
-</details>
+![AI灵感阁 demo](../assets/demos/ai-bao-mu.gif)
 
 ## 📌 作品信息
 

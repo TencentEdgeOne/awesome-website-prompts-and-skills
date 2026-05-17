@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![快递小哥接单小程序 cover](../assets/demos/kuai-di-xiao-ge-jie-dan-xiao-cheng-xu.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/kuai-di-xiao-ge-jie-dan-xiao-cheng-xu.gif" alt="快递小哥接单小程序 demo" />
-
-</details>
+![快递小哥接单小程序 demo](../assets/demos/kuai-di-xiao-ge-jie-dan-xiao-cheng-xu.gif)
 
 ## 📌 作品信息
 

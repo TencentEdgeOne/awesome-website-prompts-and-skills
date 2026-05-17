@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![Echo cover](../assets/demos/echo-app.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/echo-app.gif" alt="Echo demo" />
-
-</details>
+![Echo demo](../assets/demos/echo-app.gif)
 
 ## 📌 作品信息
 

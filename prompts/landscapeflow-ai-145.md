@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![LandscapeFlow AI cover](../assets/demos/landscapeflow-ai-145.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/landscapeflow-ai-145.gif" alt="LandscapeFlow AI demo" />
-
-</details>
+![LandscapeFlow AI demo](../assets/demos/landscapeflow-ai-145.gif)
 
 ## 📌 作品信息
 

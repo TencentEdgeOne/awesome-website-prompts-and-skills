@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![云莱掌柜企业官网 cover](../assets/demos/yun-lai-zhang-gui-qi-ye-guan-wang.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/yun-lai-zhang-gui-qi-ye-guan-wang.gif" alt="云莱掌柜企业官网 demo" />
-
-</details>
+![云莱掌柜企业官网 demo](../assets/demos/yun-lai-zhang-gui-qi-ye-guan-wang.gif)
 
 ## 📌 作品信息
 

@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![EdgeOne Pages 全栈站点能力 cover](../assets/demos/edgeone-pages.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/edgeone-pages.gif" alt="EdgeOne Pages 全栈站点能力 demo" />
-
-</details>
+![EdgeOne Pages 全栈站点能力 demo](../assets/demos/edgeone-pages.gif)
 
 ## 📌 作品信息
 

@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![ProductLens cover](../assets/demos/productlens.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/productlens.gif" alt="ProductLens demo" />
-
-</details>
+![ProductLens demo](../assets/demos/productlens.gif)
 
 ## 📌 作品信息
 

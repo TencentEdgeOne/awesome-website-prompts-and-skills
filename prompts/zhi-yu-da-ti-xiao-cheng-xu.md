@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![知鱼答题小程序 cover](../assets/demos/zhi-yu-da-ti-xiao-cheng-xu.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/zhi-yu-da-ti-xiao-cheng-xu.gif" alt="知鱼答题小程序 demo" />
-
-</details>
+![知鱼答题小程序 demo](../assets/demos/zhi-yu-da-ti-xiao-cheng-xu.gif)
 
 ## 📌 作品信息
 

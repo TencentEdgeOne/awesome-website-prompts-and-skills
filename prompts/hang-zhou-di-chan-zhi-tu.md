@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![杭州地产智图 cover](../assets/demos/hang-zhou-di-chan-zhi-tu.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/hang-zhou-di-chan-zhi-tu.gif" alt="杭州地产智图 demo" />
-
-</details>
+![杭州地产智图 demo](../assets/demos/hang-zhou-di-chan-zhi-tu.gif)
 
 ## 📌 作品信息
 

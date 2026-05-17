@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![LifeClock cover](../assets/demos/lifeclock.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/lifeclock.gif" alt="LifeClock demo" />
-
-</details>
+![LifeClock demo](../assets/demos/lifeclock.gif)
 
 ## 📌 作品信息
 

@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![ cover](../assets/demos/work-142.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/work-142.gif" alt=" demo" />
-
-</details>
+![ demo](../assets/demos/work-142.gif)
 
 ## 📌 作品信息
 

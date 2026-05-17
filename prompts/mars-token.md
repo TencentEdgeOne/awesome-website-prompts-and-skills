@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![省Token神器 cover](../assets/demos/mars-token.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/mars-token.gif" alt="省Token神器 demo" />
-
-</details>
+![省Token神器 demo](../assets/demos/mars-token.gif)
 
 ## 📌 作品信息
 

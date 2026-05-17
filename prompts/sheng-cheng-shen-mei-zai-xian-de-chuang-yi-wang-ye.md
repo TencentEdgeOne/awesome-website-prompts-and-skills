@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![生成审美在线的创意网页 cover](../assets/demos/sheng-cheng-shen-mei-zai-xian-de-chuang-yi-wang-ye.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/sheng-cheng-shen-mei-zai-xian-de-chuang-yi-wang-ye.gif" alt="生成审美在线的创意网页 demo" />
-
-</details>
+![生成审美在线的创意网页 demo](../assets/demos/sheng-cheng-shen-mei-zai-xian-de-chuang-yi-wang-ye.gif)
 
 ## 📌 作品信息
 

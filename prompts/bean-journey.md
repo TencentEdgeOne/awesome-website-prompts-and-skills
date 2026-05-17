@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![BEAN JOURNEY cover](../assets/demos/bean-journey.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/bean-journey.gif" alt="BEAN JOURNEY demo" />
-
-</details>
+![BEAN JOURNEY demo](../assets/demos/bean-journey.gif)
 
 ## 📌 作品信息
 

@@ -6,12 +6,7 @@
 
 ## 🎬 Demo
 
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/nomadport.gif" alt="NomadPort —— 数字游民作品集 demo" />
-
-</details>
+![NomadPort —— 数字游民作品集 demo](../assets/demos/nomadport.gif)
 
 ## 📌 作品信息
 

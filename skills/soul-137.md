@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![Soul 测试台 cover](../assets/demos/soul-137.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/soul-137.gif" alt="Soul 测试台 demo" />
-
-</details>
+![Soul 测试台 demo](../assets/demos/soul-137.gif)
 
 ## 📌 作品信息
 

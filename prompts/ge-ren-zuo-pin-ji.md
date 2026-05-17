@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![个人作品集 cover](../assets/demos/ge-ren-zuo-pin-ji.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/ge-ren-zuo-pin-ji.gif" alt="个人作品集 demo" />
-
-</details>
+![个人作品集 demo](../assets/demos/ge-ren-zuo-pin-ji.gif)
 
 ## 📌 作品信息
 

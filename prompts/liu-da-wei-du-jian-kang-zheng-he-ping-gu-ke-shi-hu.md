@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![六大维度健康整合评估可视化报告 cover](../assets/demos/liu-da-wei-du-jian-kang-zheng-he-ping-gu-ke-shi-hu.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/liu-da-wei-du-jian-kang-zheng-he-ping-gu-ke-shi-hu.gif" alt="六大维度健康整合评估可视化报告 demo" />
-
-</details>
+![六大维度健康整合评估可视化报告 demo](../assets/demos/liu-da-wei-du-jian-kang-zheng-he-ping-gu-ke-shi-hu.gif)
 
 ## 📌 作品信息
 

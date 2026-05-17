@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![影视化全流程智能创作助手 cover](../assets/demos/ying-shi-hua-quan-liu-cheng-zhi-neng-chuang-zuo-zh.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/ying-shi-hua-quan-liu-cheng-zhi-neng-chuang-zuo-zh.gif" alt="影视化全流程智能创作助手 demo" />
-
-</details>
+![影视化全流程智能创作助手 demo](../assets/demos/ying-shi-hua-quan-liu-cheng-zhi-neng-chuang-zuo-zh.gif)
 
 ## 📌 作品信息
 

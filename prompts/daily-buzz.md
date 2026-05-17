@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![Daily Buzz cover](../assets/demos/daily-buzz.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/daily-buzz.gif" alt="Daily Buzz demo" />
-
-</details>
+![Daily Buzz demo](../assets/demos/daily-buzz.gif)
 
 ## 📌 作品信息
 

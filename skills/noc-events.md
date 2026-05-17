@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![NOC排班管理系统 cover](../assets/demos/noc-events.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/noc-events.gif" alt="NOC排班管理系统 demo" />
-
-</details>
+![NOC排班管理系统 demo](../assets/demos/noc-events.gif)
 
 ## 📌 作品信息
 

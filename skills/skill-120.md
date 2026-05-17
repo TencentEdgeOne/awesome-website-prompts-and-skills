@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![书杰学习系统生成 Skill 套装 cover](../assets/demos/skill-120.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/skill-120.gif" alt="书杰学习系统生成 Skill 套装 demo" />
-
-</details>
+![书杰学习系统生成 Skill 套装 demo](../assets/demos/skill-120.gif)
 
 ## 📌 作品信息
 

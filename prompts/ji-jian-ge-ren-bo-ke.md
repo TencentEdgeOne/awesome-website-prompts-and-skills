@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![极简个人博客 cover](../assets/demos/ji-jian-ge-ren-bo-ke.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/ji-jian-ge-ren-bo-ke.gif" alt="极简个人博客 demo" />
-
-</details>
+![极简个人博客 demo](../assets/demos/ji-jian-ge-ren-bo-ke.gif)
 
 ## 📌 作品信息
 

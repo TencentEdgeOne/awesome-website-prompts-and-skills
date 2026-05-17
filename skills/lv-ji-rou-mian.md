@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![旅迹 cover](../assets/demos/lv-ji-rou-mian.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/lv-ji-rou-mian.gif" alt="旅迹 demo" />
-
-</details>
+![旅迹 demo](../assets/demos/lv-ji-rou-mian.gif)
 
 ## 📌 作品信息
 

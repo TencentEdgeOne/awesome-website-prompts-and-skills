@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![奇妙设计官网 cover](../assets/demos/qi-miao-she-ji-guan-wang.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/qi-miao-she-ji-guan-wang.gif" alt="奇妙设计官网 demo" />
-
-</details>
+![奇妙设计官网 demo](../assets/demos/qi-miao-she-ji-guan-wang.gif)
 
 ## 📌 作品信息
 

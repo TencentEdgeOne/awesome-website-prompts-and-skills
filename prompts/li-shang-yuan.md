@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![鲤上元 cover](../assets/demos/li-shang-yuan.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/li-shang-yuan.gif" alt="鲤上元 demo" />
-
-</details>
+![鲤上元 demo](../assets/demos/li-shang-yuan.gif)
 
 ## 📌 作品信息
 

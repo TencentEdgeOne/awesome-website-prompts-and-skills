@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![心跳守护者 cover](../assets/demos/xin-tiao-shou-hu-zhe.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/xin-tiao-shou-hu-zhe.gif" alt="心跳守护者 demo" />
-
-</details>
+![心跳守护者 demo](../assets/demos/xin-tiao-shou-hu-zhe.gif)
 
 ## 📌 作品信息
 

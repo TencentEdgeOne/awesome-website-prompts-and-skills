@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![教案设计智能助手 cover](../assets/demos/jiao-an-she-ji-zhi-neng-zhu-shou.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/jiao-an-she-ji-zhi-neng-zhu-shou.gif" alt="教案设计智能助手 demo" />
-
-</details>
+![教案设计智能助手 demo](../assets/demos/jiao-an-she-ji-zhi-neng-zhu-shou.gif)
 
 ## 📌 作品信息
 

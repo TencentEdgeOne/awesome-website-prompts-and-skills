@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![OpsVision cover](../assets/demos/opsvision.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/opsvision.gif" alt="OpsVision demo" />
-
-</details>
+![OpsVision demo](../assets/demos/opsvision.gif)
 
 ## 📌 作品信息
 

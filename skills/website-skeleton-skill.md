@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![Website Skeleton Skill cover](../assets/demos/website-skeleton-skill.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/website-skeleton-skill.gif" alt="Website Skeleton Skill demo" />
-
-</details>
+![Website Skeleton Skill demo](../assets/demos/website-skeleton-skill.gif)
 
 ## 📌 作品信息
 

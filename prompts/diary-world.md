@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![一山的日记 · Diary World cover](../assets/demos/diary-world.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/diary-world.gif" alt="一山的日记 · Diary World demo" />
-
-</details>
+![一山的日记 · Diary World demo](../assets/demos/diary-world.gif)
 
 ## 📌 作品信息
 

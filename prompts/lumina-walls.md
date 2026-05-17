@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![AI wallpaper generator cover](../assets/demos/lumina-walls.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/lumina-walls.gif" alt="AI wallpaper generator demo" />
-
-</details>
+![AI wallpaper generator demo](../assets/demos/lumina-walls.gif)
 
 ## 📌 作品信息
 

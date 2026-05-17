@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![璆琳 cover](../assets/demos/qiu-lin.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/qiu-lin.gif" alt="璆琳 demo" />
-
-</details>
+![璆琳 demo](../assets/demos/qiu-lin.gif)
 
 ## 📌 作品信息
 

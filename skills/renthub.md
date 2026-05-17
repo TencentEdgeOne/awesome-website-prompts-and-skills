@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![RentHub 商城 cover](../assets/demos/renthub.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/renthub.gif" alt="RentHub 商城 demo" />
-
-</details>
+![RentHub 商城 demo](../assets/demos/renthub.gif)
 
 ## 📌 作品信息
 

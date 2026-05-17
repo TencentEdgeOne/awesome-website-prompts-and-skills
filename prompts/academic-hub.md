@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![Academic Hub cover](../assets/demos/academic-hub.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/academic-hub.gif" alt="Academic Hub demo" />
-
-</details>
+![Academic Hub demo](../assets/demos/academic-hub.gif)
 
 ## 📌 作品信息
 

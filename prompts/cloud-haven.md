@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![猫岛 Cloud Haven cover](../assets/demos/cloud-haven.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/cloud-haven.gif" alt="猫岛 Cloud Haven demo" />
-
-</details>
+![猫岛 Cloud Haven demo](../assets/demos/cloud-haven.gif)
 
 ## 📌 作品信息
 

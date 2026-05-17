@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![Brochure Mobile cover](../assets/demos/brochure-mobile.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/brochure-mobile.gif" alt="Brochure Mobile demo" />
-
-</details>
+![Brochure Mobile demo](../assets/demos/brochure-mobile.gif)
 
 ## 📌 作品信息
 

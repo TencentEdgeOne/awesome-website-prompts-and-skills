@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![Coffee-Wed-Skills cover](../assets/demos/coffee-wed-skills.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/coffee-wed-skills.gif" alt="Coffee-Wed-Skills demo" />
-
-</details>
+![Coffee-Wed-Skills demo](../assets/demos/coffee-wed-skills.gif)
 
 ## 📌 作品信息
 

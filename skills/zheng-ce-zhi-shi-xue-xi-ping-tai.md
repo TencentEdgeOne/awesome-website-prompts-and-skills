@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![政策知识学习平台 cover](../assets/demos/zheng-ce-zhi-shi-xue-xi-ping-tai.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/zheng-ce-zhi-shi-xue-xi-ping-tai.gif" alt="政策知识学习平台 demo" />
-
-</details>
+![政策知识学习平台 demo](../assets/demos/zheng-ce-zhi-shi-xue-xi-ping-tai.gif)
 
 ## 📌 作品信息
 

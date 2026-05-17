@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![NEXUS AI cover](../assets/demos/nexus-ai.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/nexus-ai.gif" alt="NEXUS AI demo" />
-
-</details>
+![NEXUS AI demo](../assets/demos/nexus-ai.gif)
 
 ## 📌 作品信息
 

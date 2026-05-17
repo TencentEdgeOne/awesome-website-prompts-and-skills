@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![Museum · 个人作品博物馆 cover](../assets/demos/museum.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/museum.gif" alt="Museum · 个人作品博物馆 demo" />
-
-</details>
+![Museum · 个人作品博物馆 demo](../assets/demos/museum.gif)
 
 ## 📌 作品信息
 

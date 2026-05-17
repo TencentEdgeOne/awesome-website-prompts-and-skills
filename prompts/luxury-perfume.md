@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![luxury perfume cover](../assets/demos/luxury-perfume.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/luxury-perfume.gif" alt="luxury perfume demo" />
-
-</details>
+![luxury perfume demo](../assets/demos/luxury-perfume.gif)
 
 ## 📌 作品信息
 

@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![健康科普网站 cover](../assets/demos/jian-kang-ke-pu-wang-zhan.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/jian-kang-ke-pu-wang-zhan.gif" alt="健康科普网站 demo" />
-
-</details>
+![健康科普网站 demo](../assets/demos/jian-kang-ke-pu-wang-zhan.gif)
 
 ## 📌 作品信息
 

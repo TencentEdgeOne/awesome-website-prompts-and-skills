@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![pages 全栈商城 skill cover](../assets/demos/pages-skill.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/pages-skill.gif" alt="pages 全栈商城 skill demo" />
-
-</details>
+![pages 全栈商城 skill demo](../assets/demos/pages-skill.gif)
 
 ## 📌 作品信息
 

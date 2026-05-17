@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![TrailAI cover](../assets/demos/trailai.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/trailai.gif" alt="TrailAI demo" />
-
-</details>
+![TrailAI demo](../assets/demos/trailai.gif)
 
 ## 📌 作品信息
 

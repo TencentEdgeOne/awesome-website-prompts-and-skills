@@ -1353,12 +1353,6 @@
 - 📨 **邮箱**：edgeonedeveloper@tencent.com
 - 🌐 **官网**：https://pages.edgeone.ai/
 
-### 📱 挑战赛微信群
-
-<img src="./assets/wechat-group-qrcode.png" width="240" alt="EdgeOne Pages 挑战赛微信群" />
-
-微信扫码入群
-
 ---
 
 ## 🙌 致谢：感谢所有参赛者

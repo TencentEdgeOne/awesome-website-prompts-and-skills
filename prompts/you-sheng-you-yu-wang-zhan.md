@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![优生优育网站 cover](../assets/demos/you-sheng-you-yu-wang-zhan.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/you-sheng-you-yu-wang-zhan.gif" alt="优生优育网站 demo" />
-
-</details>
+![优生优育网站 demo](../assets/demos/you-sheng-you-yu-wang-zhan.gif)
 
 ## 📌 作品信息
 

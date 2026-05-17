@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![落地页转化率医生 cover](../assets/demos/luo-di-ye-zhuan-hua-lv-yi-sheng.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/luo-di-ye-zhuan-hua-lv-yi-sheng.gif" alt="落地页转化率医生 demo" />
-
-</details>
+![落地页转化率医生 demo](../assets/demos/luo-di-ye-zhuan-hua-lv-yi-sheng.gif)
 
 ## 📌 作品信息
 

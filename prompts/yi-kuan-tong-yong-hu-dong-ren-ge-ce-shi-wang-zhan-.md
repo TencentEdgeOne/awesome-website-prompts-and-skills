@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![一款通用互动人格测试网站生成器 cover](../assets/demos/yi-kuan-tong-yong-hu-dong-ren-ge-ce-shi-wang-zhan-.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/yi-kuan-tong-yong-hu-dong-ren-ge-ce-shi-wang-zhan-.gif" alt="一款通用互动人格测试网站生成器 demo" />
-
-</details>
+![一款通用互动人格测试网站生成器 demo](../assets/demos/yi-kuan-tong-yong-hu-dong-ren-ge-ce-shi-wang-zhan-.gif)
 
 ## 📌 作品信息
 

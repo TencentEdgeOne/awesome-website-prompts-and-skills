@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![断舍离 Skill cover](../assets/demos/tax-skill.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/tax-skill.gif" alt="断舍离 Skill demo" />
-
-</details>
+![断舍离 Skill demo](../assets/demos/tax-skill.gif)
 
 ## 📌 作品信息
 

@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![中原纪 cover](../assets/demos/zhong-yuan-ji.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/zhong-yuan-ji.gif" alt="中原纪 demo" />
-
-</details>
+![中原纪 demo](../assets/demos/zhong-yuan-ji.gif)
 
 ## 📌 作品信息
 

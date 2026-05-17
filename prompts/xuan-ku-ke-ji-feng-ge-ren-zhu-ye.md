@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![炫酷科技风个人主页 cover](../assets/demos/xuan-ku-ke-ji-feng-ge-ren-zhu-ye.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/xuan-ku-ke-ji-feng-ge-ren-zhu-ye.gif" alt="炫酷科技风个人主页 demo" />
-
-</details>
+![炫酷科技风个人主页 demo](../assets/demos/xuan-ku-ke-ji-feng-ge-ren-zhu-ye.gif)
 
 ## 📌 作品信息
 

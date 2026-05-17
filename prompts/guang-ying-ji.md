@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![光影集 cover](../assets/demos/guang-ying-ji.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/guang-ying-ji.gif" alt="光影集 demo" />
-
-</details>
+![光影集 demo](../assets/demos/guang-ying-ji.gif)
 
 ## 📌 作品信息
 

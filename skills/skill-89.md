@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![元认知教练.skill cover](../assets/demos/skill-89.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/skill-89.gif" alt="元认知教练.skill demo" />
-
-</details>
+![元认知教练.skill demo](../assets/demos/skill-89.gif)
 
 ## 📌 作品信息
 

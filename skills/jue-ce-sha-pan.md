@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![决策沙盘 cover](../assets/demos/jue-ce-sha-pan.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/jue-ce-sha-pan.gif" alt="决策沙盘 demo" />
-
-</details>
+![决策沙盘 demo](../assets/demos/jue-ce-sha-pan.gif)
 
 ## 📌 作品信息
 

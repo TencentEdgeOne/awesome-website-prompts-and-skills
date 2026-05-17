@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![赣鄱寻踪·江西旅游导览 cover](../assets/demos/gan-po-xun-zong-jiang-xi-lv-you-dao-lan.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/gan-po-xun-zong-jiang-xi-lv-you-dao-lan.gif" alt="赣鄱寻踪·江西旅游导览 demo" />
-
-</details>
+![赣鄱寻踪·江西旅游导览 demo](../assets/demos/gan-po-xun-zong-jiang-xi-lv-you-dao-lan.gif)
 
 ## 📌 作品信息
 

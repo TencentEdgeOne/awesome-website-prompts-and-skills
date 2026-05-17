@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![情绪调色盘 cover](../assets/demos/qing-xu-tiao-se-pan.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/qing-xu-tiao-se-pan.gif" alt="情绪调色盘 demo" />
-
-</details>
+![情绪调色盘 demo](../assets/demos/qing-xu-tiao-se-pan.gif)
 
 ## 📌 作品信息
 

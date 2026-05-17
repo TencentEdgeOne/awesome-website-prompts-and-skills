@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![ChipAgent Pro cover](../assets/demos/chipagent-pro-148.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/chipagent-pro-148.gif" alt="ChipAgent Pro demo" />
-
-</details>
+![ChipAgent Pro demo](../assets/demos/chipagent-pro-148.gif)
 
 ## 📌 作品信息
 

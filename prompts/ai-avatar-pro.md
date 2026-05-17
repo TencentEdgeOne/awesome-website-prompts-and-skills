@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![AI Avatar Pro cover](../assets/demos/ai-avatar-pro.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/ai-avatar-pro.gif" alt="AI Avatar Pro demo" />
-
-</details>
+![AI Avatar Pro demo](../assets/demos/ai-avatar-pro.gif)
 
 ## 📌 作品信息
 

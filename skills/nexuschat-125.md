@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![NexusChat cover](../assets/demos/nexuschat-125.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/nexuschat-125.gif" alt="NexusChat demo" />
-
-</details>
+![NexusChat demo](../assets/demos/nexuschat-125.gif)
 
 ## 📌 作品信息
 

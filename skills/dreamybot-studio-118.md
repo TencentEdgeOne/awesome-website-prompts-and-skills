@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![DreamyBot Studio cover](../assets/demos/dreamybot-studio-118.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/dreamybot-studio-118.gif" alt="DreamyBot Studio demo" />
-
-</details>
+![DreamyBot Studio demo](../assets/demos/dreamybot-studio-118.gif)
 
 ## 📌 作品信息
 

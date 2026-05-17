@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![ÉCLAT cover](../assets/demos/clat-saas.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/clat-saas.gif" alt="ÉCLAT demo" />
-
-</details>
+![ÉCLAT demo](../assets/demos/clat-saas.gif)
 
 ## 📌 作品信息
 

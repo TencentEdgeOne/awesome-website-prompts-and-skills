@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![Nexus Galaxy cover](../assets/demos/nexus-galaxy.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/nexus-galaxy.gif" alt="Nexus Galaxy demo" />
-
-</details>
+![Nexus Galaxy demo](../assets/demos/nexus-galaxy.gif)
 
 ## 📌 作品信息
 

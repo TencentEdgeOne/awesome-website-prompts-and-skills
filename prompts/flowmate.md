@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![FlowMate cover](../assets/demos/flowmate.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/flowmate.gif" alt="FlowMate demo" />
-
-</details>
+![FlowMate demo](../assets/demos/flowmate.gif)
 
 ## 📌 作品信息
 

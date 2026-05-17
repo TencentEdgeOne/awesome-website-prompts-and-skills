@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![Union·由你 cover](../assets/demos/union-pan.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/union-pan.gif" alt="Union·由你 demo" />
-
-</details>
+![Union·由你 demo](../assets/demos/union-pan.gif)
 
 ## 📌 作品信息
 

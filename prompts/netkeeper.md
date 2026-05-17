@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![NetKeeper cover](../assets/demos/netkeeper.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/netkeeper.gif" alt="NetKeeper demo" />
-
-</details>
+![NetKeeper demo](../assets/demos/netkeeper.gif)
 
 ## 📌 作品信息
 

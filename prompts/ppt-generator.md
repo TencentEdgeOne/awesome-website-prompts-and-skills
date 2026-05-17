@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![网页 PPT 生成方案 cover](../assets/demos/ppt-generator.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/ppt-generator.gif" alt="网页 PPT 生成方案 demo" />
-
-</details>
+![网页 PPT 生成方案 demo](../assets/demos/ppt-generator.gif)
 
 ## 📌 作品信息
 

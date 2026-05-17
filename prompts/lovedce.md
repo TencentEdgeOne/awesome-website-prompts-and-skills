@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![LoveDCE cover](../assets/demos/lovedce.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/lovedce.gif" alt="LoveDCE demo" />
-
-</details>
+![LoveDCE demo](../assets/demos/lovedce.gif)
 
 ## 📌 作品信息
 

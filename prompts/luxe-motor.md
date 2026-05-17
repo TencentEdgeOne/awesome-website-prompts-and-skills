@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![LUXE MOTOR cover](../assets/demos/luxe-motor.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/luxe-motor.gif" alt="LUXE MOTOR demo" />
-
-</details>
+![LUXE MOTOR demo](../assets/demos/luxe-motor.gif)
 
 ## 📌 作品信息
 

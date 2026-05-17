@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![LUCID/01 cover](../assets/demos/lucid-01.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/lucid-01.gif" alt="LUCID/01 demo" />
-
-</details>
+![LUCID/01 demo](../assets/demos/lucid-01.gif)
 
 ## 📌 作品信息
 

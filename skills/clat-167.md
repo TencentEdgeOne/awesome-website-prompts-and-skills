@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![ÉCLAT cover](../assets/demos/clat-167.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/clat-167.gif" alt="ÉCLAT demo" />
-
-</details>
+![ÉCLAT demo](../assets/demos/clat-167.gif)
 
 ## 📌 作品信息
 

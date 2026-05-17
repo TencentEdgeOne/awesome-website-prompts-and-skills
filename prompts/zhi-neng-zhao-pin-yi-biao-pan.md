@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![智能招聘仪表盘 cover](../assets/demos/zhi-neng-zhao-pin-yi-biao-pan.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/zhi-neng-zhao-pin-yi-biao-pan.gif" alt="智能招聘仪表盘 demo" />
-
-</details>
+![智能招聘仪表盘 demo](../assets/demos/zhi-neng-zhao-pin-yi-biao-pan.gif)
 
 ## 📌 作品信息
 

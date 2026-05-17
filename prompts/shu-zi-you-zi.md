@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![数字柚子 cover](../assets/demos/shu-zi-you-zi.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/shu-zi-you-zi.gif" alt="数字柚子 demo" />
-
-</details>
+![数字柚子 demo](../assets/demos/shu-zi-you-zi.gif)
 
 ## 📌 作品信息
 

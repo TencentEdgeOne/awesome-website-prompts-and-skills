@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![Neway Commerce OS cover](../assets/demos/neway-commerce-os.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/neway-commerce-os.gif" alt="Neway Commerce OS demo" />
-
-</details>
+![Neway Commerce OS demo](../assets/demos/neway-commerce-os.gif)
 
 ## 📌 作品信息
 

@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![网页设计向导技能 cover](../assets/demos/wang-ye-she-ji-xiang-dao-ji-neng.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/wang-ye-she-ji-xiang-dao-ji-neng.gif" alt="网页设计向导技能 demo" />
-
-</details>
+![网页设计向导技能 demo](../assets/demos/wang-ye-she-ji-xiang-dao-ji-neng.gif)
 
 ## 📌 作品信息
 

@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![飞站 cover](../assets/demos/fei-zhan.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/fei-zhan.gif" alt="飞站 demo" />
-
-</details>
+![飞站 demo](../assets/demos/fei-zhan.gif)
 
 ## 📌 作品信息
 

@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![token-save cover](../assets/demos/token-save.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/token-save.gif" alt="token-save demo" />
-
-</details>
+![token-save demo](../assets/demos/token-save.gif)
 
 ## 📌 作品信息
 

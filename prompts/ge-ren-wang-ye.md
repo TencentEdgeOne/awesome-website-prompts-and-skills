@@ -6,14 +6,7 @@
 
 ## 🎬 Demo
 
-![个人网页 cover](../assets/demos/ge-ren-wang-ye.png)
-
-<details>
-<summary>🎞️ 点击展开查看 demo 动图</summary>
-
-<img src="../assets/demos/ge-ren-wang-ye.gif" alt="个人网页 demo" />
-
-</details>
+![个人网页 demo](../assets/demos/ge-ren-wang-ye.gif)
 
 ## 📌 作品信息
 
