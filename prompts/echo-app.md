@@ -1,6 +1,6 @@
 # Echo
 
-> **赛道**：Prompt　**作者**：FKL · [GitHub @FKL](https://github.com/FKL)
+> **赛道**：Prompt　**作者**：FKL · [GitHub @fklgit123](https://github.com/fklgit123)
 >
 > WorkBuddy × Tencent EdgeOne AI Prompts × Skills 挑战赛 参赛作品
 
@@ -15,7 +15,7 @@
 | 作品名称 | Echo |
 | 赛道 | Prompt |
 | 作者 | FKL |
-| GitHub | [@FKL](https://github.com/FKL) |
+| GitHub | [@fklgit123](https://github.com/fklgit123) |
 
 ## 📝 作品介绍
 
