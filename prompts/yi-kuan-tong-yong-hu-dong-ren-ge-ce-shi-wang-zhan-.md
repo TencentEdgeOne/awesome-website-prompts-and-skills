@@ -1,6 +1,6 @@
 # 一款通用互动人格测试网站生成器
 
-> **赛道**：Prompt　**作者**：橙元 · [GitHub @1](https://github.com/1)
+> **赛道**：Prompt　**作者**：橙元 · [GitHub @m1234532](https://github.com/m1234532)
 >
 > WorkBuddy × Tencent EdgeOne AI Prompts × Skills 挑战赛 参赛作品
 
@@ -15,7 +15,7 @@
 | 作品名称 | 一款通用互动人格测试网站生成器 |
 | 赛道 | Prompt |
 | 作者 | 橙元 |
-| GitHub | [@1](https://github.com/1) |
+| GitHub | [@m1234532](https://github.com/m1234532) |
 
 ## 📝 作品介绍
 
