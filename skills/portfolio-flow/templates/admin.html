@@ -1,0 +1,951 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="{{THEME}}">
+<!--
+  ============================================================================
+  PortfolioFlow · admin.html (管理后台)
+  
+  功能模块（4 个 Tab）：
+    1. 看板 - 访问统计、Top 作品、近 30 天趋势
+    2. 作品 - CRUD 全套（列表/新增/编辑/删除/上下架/精选）
+    3. AI 生成 - 在线生成作品介绍（双引擎）
+    4. 设置 - 改密码、退出登录
+  
+  鉴权：由 _middleware.js 拦截，未登录跳转 /login
+  
+  模板占位符：
+    {{DESIGNER_NAME}}    设计师姓名
+    {{FIELD}}            设计领域（landscape/graphic/interior/industrial/ux）
+    {{THEME}}            主题名
+  ============================================================================
+-->
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>管理后台 · {{DESIGNER_NAME}}</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/styles.css" />
+<style>
+  /* 后台专属 */
+  body { background: var(--bg); }
+  
+  .tab-pane { display: none; }
+  .tab-pane.active { display: block; }
+  
+  /* 看板趋势图 */
+  #chart-daily { width: 100%; height: 220px; }
+  
+  /* 看板：Top 作品列表 */
+  .top-works-list { list-style: none; padding: 0; margin: 0; }
+  .top-works-list li {
+    display: flex; align-items: center; gap: 14px;
+    padding: 12px 0; border-bottom: 1px solid var(--divider);
+    font-size: 14px;
+  }
+  .top-works-list li:last-child { border-bottom: none; }
+  .top-works-list .rank {
+    width: 28px; height: 28px; flex-shrink: 0;
+    border-radius: 50%; background: var(--primary-dim);
+    color: var(--primary); font-weight: 700;
+    display: flex; align-items: center; justify-content: center; font-size: 12px;
+  }
+  .top-works-list a { color: var(--text); flex: 1; font-weight: 500; }
+  .top-works-list a:hover { color: var(--primary); }
+  .top-works-list .metric { color: var(--text-faint); font-size: 12px; }
+  
+  /* 表单弹窗 */
+  .modal-backdrop {
+    position: fixed; inset: 0;
+    background: rgba(0,0,0,0.6); backdrop-filter: blur(8px);
+    display: none; align-items: center; justify-content: center;
+    z-index: 200; padding: 20px;
+  }
+  .modal-backdrop.open { display: flex; }
+  .modal {
+    width: 100%; max-width: 720px; max-height: 92vh;
+    background: var(--bg-elevated); border: 1px solid var(--border);
+    border-radius: var(--radius-lg); overflow: hidden;
+    display: flex; flex-direction: column;
+  }
+  .modal-header {
+    padding: 20px 28px; border-bottom: 1px solid var(--divider);
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .modal-title { font-family: var(--font-serif); font-size: 22px; font-weight: 600; }
+  .modal-close {
+    background: none; border: none; font-size: 24px;
+    color: var(--text-faint); cursor: pointer; line-height: 1;
+  }
+  .modal-close:hover { color: var(--text); }
+  .modal-body { padding: 28px; overflow-y: auto; flex: 1; }
+  .modal-footer {
+    padding: 16px 28px; border-top: 1px solid var(--divider);
+    display: flex; justify-content: flex-end; gap: 12px;
+  }
+  
+  /* 编辑表单 */
+  .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .form-checkbox-group {
+    display: flex; gap: 24px; padding-top: 8px;
+  }
+  .form-checkbox {
+    display: flex; align-items: center; gap: 8px;
+    font-size: 14px; color: var(--text-muted); cursor: pointer;
+  }
+  .form-checkbox input { accent-color: var(--primary); }
+  
+  /* AI 生成区 */
+  .ai-source-badge {
+    display: inline-block; margin-left: 12px;
+    padding: 3px 12px; border-radius: var(--radius-pill);
+    background: var(--primary-dim); color: var(--primary);
+    font-size: 11px; font-weight: 600;
+  }
+  .ai-output {
+    margin-top: 20px; padding: 24px;
+    background: var(--bg); border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    font-size: 14px; line-height: 1.8; color: var(--text-muted);
+    min-height: 200px; white-space: pre-wrap;
+  }
+  .ai-output.empty {
+    display: flex; align-items: center; justify-content: center;
+    color: var(--text-faint); font-style: italic;
+  }
+  
+  /* Toast */
+  .toast {
+    position: fixed; top: 24px; right: 24px;
+    padding: 12px 20px;
+    background: var(--bg-elevated); border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    box-shadow: 0 12px 36px rgba(0,0,0,0.3);
+    z-index: 300;
+    display: none;
+    font-size: 14px;
+  }
+  .toast.success { border-color: var(--primary); color: var(--primary); }
+  .toast.error { border-color: #ef4444; color: #ef4444; }
+  .toast.visible { display: block; animation: slideIn 0.3s ease; }
+  @keyframes slideIn {
+    from { transform: translateX(20px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+  }
+  
+  /* 工具栏 */
+  .toolbar {
+    display: flex; gap: 12px; margin-bottom: 24px;
+    align-items: center; flex-wrap: wrap;
+  }
+  .toolbar input[type="search"] {
+    flex: 1; min-width: 240px;
+    padding: 10px 16px;
+    background: var(--bg-elevated); border: 1px solid var(--border);
+    border-radius: var(--radius-pill);
+    color: var(--text); font-size: 14px;
+  }
+</style>
+</head>
+<body>
+
+<div class="admin-layout">
+  
+  <!-- ===== 侧边栏 ===== -->
+  <aside class="admin-sidebar">
+    <div class="admin-sidebar-logo">
+      <span style="color:var(--primary);">🌿</span> {{DESIGNER_NAME}}
+      <div style="font-size:11px;color:var(--text-faint);letter-spacing:0.05em;margin-top:4px;text-transform:uppercase;">Admin Panel</div>
+    </div>
+    <nav class="admin-nav">
+      <a href="#dashboard" data-tab="dashboard" class="active">📊 看板</a>
+      <a href="#works" data-tab="works">🎨 作品管理</a>
+      <a href="#ai" data-tab="ai">✨ AI 生成</a>
+      <a href="#settings" data-tab="settings">⚙️ 设置</a>
+      <a href="/" style="margin-top:auto;border-top:1px solid var(--divider);">← 返回首页</a>
+    </nav>
+  </aside>
+  
+  <!-- ===== 主内容 ===== -->
+  <main class="admin-main">
+    
+    <!-- ===== Tab 1: 看板 ===== -->
+    <div class="tab-pane active" id="tab-dashboard">
+      <div class="admin-header">
+        <h1 class="admin-title">数据看板</h1>
+        <span class="text-faint" style="font-size:13px;" id="dashboard-updated">数据刷新于 ...</span>
+      </div>
+      
+      <!-- 数据卡片 -->
+      <div class="stat-grid">
+        <div class="stat-card">
+          <div class="stat-label">总浏览量 PV</div>
+          <div class="stat-value" id="stat-total-pv">—</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">总独立访客 UV</div>
+          <div class="stat-value" id="stat-total-uv">—</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">今日 PV</div>
+          <div class="stat-value" id="stat-today-pv">—</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">今日 UV</div>
+          <div class="stat-value" id="stat-today-uv">—</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">联系点击</div>
+          <div class="stat-value" id="stat-contacts">—</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">联系转化率</div>
+          <div class="stat-value" id="stat-conversion" style="font-size:28px;">—</div>
+        </div>
+      </div>
+      
+      <!-- 趋势图 -->
+      <div class="card" style="padding:28px;margin-bottom:32px;">
+        <div style="display:flex;align-items:baseline;justify-content:space-between;margin-bottom:16px;">
+          <h3 style="font-family:var(--font-serif);font-size:20px;">近 30 天访问趋势</h3>
+          <span class="text-faint" style="font-size:12px;">单位：PV</span>
+        </div>
+        <svg id="chart-daily"></svg>
+      </div>
+      
+      <!-- Top 10 作品 -->
+      <div class="card" style="padding:28px;">
+        <h3 style="font-family:var(--font-serif);font-size:20px;margin-bottom:18px;">Top 10 热门作品</h3>
+        <ol class="top-works-list" id="top-works-list">
+          <li class="text-faint">加载中…</li>
+        </ol>
+      </div>
+    </div>
+    
+    
+    <!-- ===== Tab 2: 作品管理 ===== -->
+    <div class="tab-pane" id="tab-works">
+      <div class="admin-header">
+        <h1 class="admin-title">作品管理</h1>
+        <button class="btn-cta" id="btn-new-work">+ 新增作品</button>
+      </div>
+      
+      <div class="toolbar">
+        <input type="search" id="works-search" placeholder="搜索作品标题或类型..." />
+        <select class="form-select" id="works-filter-status" style="width:auto;min-width:140px;">
+          <option value="all">全部状态</option>
+          <option value="published">已发布</option>
+          <option value="draft">草稿</option>
+        </select>
+      </div>
+      
+      <table class="admin-table">
+        <thead>
+          <tr>
+            <th>标题</th>
+            <th>类型</th>
+            <th>年份</th>
+            <th>精选</th>
+            <th>状态</th>
+            <th>更新时间</th>
+            <th style="width:200px;">操作</th>
+          </tr>
+        </thead>
+        <tbody id="works-tbody">
+          <tr><td colspan="7" class="text-faint" style="text-align:center;padding:40px;">加载中…</td></tr>
+        </tbody>
+      </table>
+    </div>
+    
+    
+    <!-- ===== Tab 3: AI 生成 ===== -->
+    <div class="tab-pane" id="tab-ai">
+      <div class="admin-header">
+        <h1 class="admin-title">AI 生成作品介绍</h1>
+        <span id="ai-source-badge-top" class="ai-source-badge hidden"></span>
+      </div>
+      
+      <div class="card" style="padding:32px;">
+        <p class="text-muted" style="margin-bottom:24px;font-size:14px;line-height:1.7;">
+          输入作品基本信息，AI 自动生成专业的项目说明。默认使用模板引擎，零成本运行。<br>
+          如配置 <code style="font-family:monospace;color:var(--primary);">DEEPSEEK_API_KEY</code> 环境变量，将自动启用真大模型增强模式。
+        </p>
+        
+        <form id="ai-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="ai-projectName">项目名称 *</label>
+              <input class="form-input" id="ai-projectName" required placeholder="如：北方滨海生态公园" />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="ai-type">项目类型 *</label>
+              <input class="form-input" id="ai-type" required placeholder="如：滨海景观 / 品牌设计 / 住宅设计..." />
+            </div>
+          </div>
+          
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="ai-style">设计风格</label>
+              <input class="form-input" id="ai-style" placeholder="如：自然生态 / 极简主义 / 工业风..." />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="ai-role">我的角色</label>
+              <input class="form-input" id="ai-role" placeholder="如：项目总负责人 / 主案设计师..." />
+            </div>
+          </div>
+          
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="ai-area">项目规模</label>
+              <input class="form-input" id="ai-area" placeholder="如：120 公顷 / 2,800 ㎡..." />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="ai-duration">项目时长</label>
+              <input class="form-input" id="ai-duration" placeholder="如：8 个月" />
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label class="form-label" for="ai-goal">核心目标</label>
+            <textarea class="form-textarea" id="ai-goal" placeholder="如：回应北方冬季旅游淡季问题，打造全季节可用的滨海公共空间"></textarea>
+          </div>
+          
+          <div style="display:flex;align-items:center;gap:12px;">
+            <button type="submit" class="btn-cta" id="btn-ai-generate">✨ AI 生成介绍</button>
+            <button type="button" class="btn-ghost" id="btn-ai-copy" disabled>📋 复制结果</button>
+            <button type="button" class="btn-ghost" id="btn-ai-apply" disabled>→ 应用到作品</button>
+          </div>
+        </form>
+        
+        <div class="ai-output empty" id="ai-output">生成的项目介绍将显示在这里...</div>
+      </div>
+    </div>
+    
+    
+    <!-- ===== Tab 4: 设置 ===== -->
+    <div class="tab-pane" id="tab-settings">
+      <div class="admin-header">
+        <h1 class="admin-title">账户设置</h1>
+      </div>
+      
+      <!-- 当前登录信息 -->
+      <div class="card" style="padding:28px;margin-bottom:24px;">
+        <h3 style="font-family:var(--font-serif);font-size:18px;margin-bottom:16px;">当前账户</h3>
+        <div style="display:grid;grid-template-columns:120px 1fr;gap:12px;font-size:14px;">
+          <div class="text-muted">邮箱</div>
+          <div id="settings-email">—</div>
+          <div class="text-muted">角色</div>
+          <div id="settings-role">—</div>
+          <div class="text-muted">Token 过期</div>
+          <div id="settings-expires">—</div>
+        </div>
+      </div>
+      
+      <!-- 修改密码 -->
+      <div class="card" style="padding:28px;margin-bottom:24px;max-width:520px;">
+        <h3 style="font-family:var(--font-serif);font-size:18px;margin-bottom:18px;">修改密码</h3>
+        <form id="change-password-form">
+          <div class="form-group">
+            <label class="form-label" for="old-password">当前密码</label>
+            <input class="form-input" type="password" id="old-password" required minlength="6" />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="new-password">新密码（至少 8 位）</label>
+            <input class="form-input" type="password" id="new-password" required minlength="8" />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="confirm-password">确认新密码</label>
+            <input class="form-input" type="password" id="confirm-password" required minlength="8" />
+          </div>
+          <button type="submit" class="btn-cta">修改密码</button>
+        </form>
+      </div>
+      
+      <!-- 退出登录 -->
+      <div class="card" style="padding:28px;max-width:520px;">
+        <h3 style="font-family:var(--font-serif);font-size:18px;margin-bottom:12px;">退出登录</h3>
+        <p class="text-muted" style="font-size:13px;margin-bottom:16px;">退出后将清除当前 Token，需要重新登录。</p>
+        <button class="btn-ghost" id="btn-logout">退出登录</button>
+      </div>
+    </div>
+    
+  </main>
+</div>
+
+
+<!-- ===== 作品编辑弹窗 ===== -->
+<div class="modal-backdrop" id="work-modal">
+  <div class="modal">
+    <div class="modal-header">
+      <h2 class="modal-title" id="work-modal-title">新增作品</h2>
+      <button class="modal-close" id="work-modal-close">×</button>
+    </div>
+    <div class="modal-body">
+      <form id="work-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="w-title">标题 *</label>
+            <input class="form-input" id="w-title" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="w-slug">Slug（URL 标识，可选）</label>
+            <input class="form-input" id="w-slug" placeholder="自动生成" />
+          </div>
+        </div>
+        
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="w-type">类型 *</label>
+            <input class="form-input" id="w-type" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="w-year">年份 *</label>
+            <input class="form-input" type="number" id="w-year" required min="1980" max="2099" />
+          </div>
+        </div>
+        
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="w-area">规模</label>
+            <input class="form-input" id="w-area" placeholder="如：120 公顷" />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="w-role">我的角色</label>
+            <input class="form-input" id="w-role" placeholder="如：项目总负责人" />
+          </div>
+        </div>
+        
+        <div class="form-group">
+          <label class="form-label" for="w-duration">项目时长</label>
+          <input class="form-input" id="w-duration" placeholder="如：8 个月" />
+        </div>
+        
+        <div class="form-group">
+          <label class="form-label" for="w-cover">封面图 URL</label>
+          <input class="form-input" id="w-cover" placeholder="/assets/works/xxx.jpg" />
+          <small class="text-faint" style="font-size:12px;margin-top:6px;display:block;">建议先把图片放到 /assets/works/ 目录后重新部署</small>
+        </div>
+        
+        <div class="form-group">
+          <label class="form-label" for="w-gallery">画廊图 URLs（每行一个）</label>
+          <textarea class="form-textarea" id="w-gallery" placeholder="/assets/works/xxx-01.jpg
+/assets/works/xxx-02.jpg"></textarea>
+        </div>
+        
+        <div class="form-group">
+          <label class="form-label" for="w-tags">标签（逗号分隔）</label>
+          <input class="form-input" id="w-tags" placeholder="如：生态修复, 滨海景观, 微气候设计" />
+        </div>
+        
+        <div class="form-group">
+          <label class="form-label" for="w-summary">简介（一两句）</label>
+          <textarea class="form-textarea" id="w-summary" style="min-height:60px;"></textarea>
+        </div>
+        
+        <div class="form-group">
+          <label class="form-label" for="w-description">详细描述（支持 Markdown）</label>
+          <textarea class="form-textarea" id="w-description" style="min-height:200px;"></textarea>
+        </div>
+        
+        <div class="form-checkbox-group">
+          <label class="form-checkbox">
+            <input type="checkbox" id="w-isFeatured" />
+            <span>设为精选</span>
+          </label>
+          <label class="form-checkbox">
+            <input type="checkbox" id="w-isPublished" checked />
+            <span>立即发布</span>
+          </label>
+        </div>
+      </form>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn-ghost" id="work-modal-cancel">取消</button>
+      <button type="button" class="btn-cta" id="work-modal-save">保存</button>
+    </div>
+  </div>
+</div>
+
+
+<!-- ===== Toast 提示 ===== -->
+<div class="toast" id="toast"></div>
+
+
+<script>
+(function() {
+  'use strict';
+  
+  // === 全局状态 ===
+  let allWorks = [];           // 缓存所有作品
+  let editingSlug = null;      // 正在编辑的 slug（null = 新增）
+  let lastAIResult = '';       // 最近一次 AI 生成结果
+  
+  
+  // === 1. Tab 切换 ===
+  document.querySelectorAll('[data-tab]').forEach(link => {
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+      const tab = link.dataset.tab;
+      
+      document.querySelectorAll('[data-tab]').forEach(l => l.classList.remove('active'));
+      link.classList.add('active');
+      document.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('active'));
+      document.getElementById(`tab-${tab}`).classList.add('active');
+      
+      location.hash = tab;
+      
+      // 切到对应 tab 时按需加载数据
+      if (tab === 'dashboard') loadDashboard();
+      if (tab === 'works') loadWorks();
+      if (tab === 'settings') loadSettings();
+    });
+  });
+  
+  // 根据 URL hash 启动到对应 tab
+  const initialTab = (location.hash || '#dashboard').replace('#', '');
+  const initialLink = document.querySelector(`[data-tab="${initialTab}"]`);
+  if (initialLink) initialLink.click();
+  
+  
+  // === 2. 看板加载 ===
+  async function loadDashboard() {
+    try {
+      const [sumRes, dailyRes, topRes] = await Promise.all([
+        fetch('/api/stats?action=summary', { credentials: 'same-origin' }),
+        fetch('/api/stats?action=daily&days=30', { credentials: 'same-origin' }),
+        fetch('/api/stats?action=top&n=10', { credentials: 'same-origin' }),
+      ]);
+      
+      const sum = (await sumRes.json()).summary || {};
+      const daily = (await dailyRes.json()).daily || [];
+      const top = (await topRes.json()).top || [];
+      
+      // 数据卡片
+      setText('stat-total-pv', sum.totalPV?.toLocaleString() || '0');
+      setText('stat-total-uv', sum.totalUV?.toLocaleString() || '0');
+      setText('stat-today-pv', sum.todayPV?.toLocaleString() || '0');
+      setText('stat-today-uv', sum.todayUV?.toLocaleString() || '0');
+      setText('stat-contacts', sum.totalContactClicks?.toLocaleString() || '0');
+      setText('stat-conversion', sum.contactConversion || '0%');
+      setText('dashboard-updated', `数据刷新于 ${new Date().toLocaleTimeString('zh-CN')}`);
+      
+      // 趋势图
+      renderDailyChart(daily);
+      
+      // Top 作品
+      const list = document.getElementById('top-works-list');
+      if (top.length === 0) {
+        list.innerHTML = '<li class="text-faint">暂无访问数据</li>';
+      } else {
+        list.innerHTML = top.map((w, i) => `
+          <li>
+            <span class="rank">${i + 1}</span>
+            <a href="/portfolio-detail.html?slug=${encodeURIComponent(w.slug)}" target="_blank">${escapeHtml(w.title)}</a>
+            <span class="metric">PV ${w.pv} · UV ${w.uv}</span>
+          </li>
+        `).join('');
+      }
+    } catch (err) {
+      showToast('看板加载失败：' + err.message, 'error');
+    }
+  }
+  
+  function renderDailyChart(daily) {
+    const svg = document.getElementById('chart-daily');
+    if (!svg || !daily.length) {
+      svg.innerHTML = '<text x="50%" y="50%" text-anchor="middle" fill="var(--text-faint)" font-size="12">暂无数据</text>';
+      return;
+    }
+    
+    const W = 800, H = 220, PAD = 36;
+    const maxPV = Math.max(...daily.map(d => d.pv), 1);
+    const stepX = (W - 2 * PAD) / Math.max(daily.length - 1, 1);
+    
+    const points = daily.map((d, i) => {
+      const x = PAD + i * stepX;
+      const y = H - PAD - (d.pv / maxPV) * (H - 2 * PAD);
+      return `${x},${y}`;
+    });
+    
+    // 折线 + 填充
+    const linePoints = points.join(' ');
+    const fillPath = `M ${points[0]} L ${points.join(' L ')} L ${PAD + (daily.length - 1) * stepX},${H - PAD} L ${PAD},${H - PAD} Z`;
+    
+    svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+    svg.innerHTML = `
+      <path d="${fillPath}" fill="var(--primary-dim)" />
+      <polyline points="${linePoints}" fill="none" stroke="var(--primary)" stroke-width="2" stroke-linejoin="round" />
+      ${daily.map((d, i) => {
+        const x = PAD + i * stepX;
+        const y = H - PAD - (d.pv / maxPV) * (H - 2 * PAD);
+        return `<circle cx="${x}" cy="${y}" r="2.5" fill="var(--primary)">
+          <title>${d.date} · PV ${d.pv} · UV ${d.uv}</title>
+        </circle>`;
+      }).join('')}
+      <text x="${PAD}" y="${H - 10}" font-size="10" fill="var(--text-faint)">${daily[0].date}</text>
+      <text x="${W - PAD - 60}" y="${H - 10}" font-size="10" fill="var(--text-faint)">${daily[daily.length - 1].date}</text>
+    `;
+  }
+  
+  
+  // === 3. 作品列表加载 ===
+  async function loadWorks() {
+    const tbody = document.getElementById('works-tbody');
+    
+    try {
+      const res = await fetch('/api/portfolios?pageSize=50', { credentials: 'same-origin' });
+      const data = await res.json();
+      if (!data.ok) throw new Error(data.error || 'Load failed');
+      
+      allWorks = data.works || [];
+      renderWorksTable(allWorks);
+    } catch (err) {
+      tbody.innerHTML = `<tr><td colspan="7" style="color:#ef4444;text-align:center;padding:40px;">加载失败：${escapeHtml(err.message)}</td></tr>`;
+    }
+  }
+  
+  function renderWorksTable(works) {
+    const tbody = document.getElementById('works-tbody');
+    
+    if (works.length === 0) {
+      tbody.innerHTML = '<tr><td colspan="7" class="text-faint" style="text-align:center;padding:40px;">暂无作品，点右上角新增</td></tr>';
+      return;
+    }
+    
+    tbody.innerHTML = works.map(w => `
+      <tr>
+        <td><strong>${escapeHtml(w.title)}</strong></td>
+        <td>${escapeHtml(w.type || '-')}</td>
+        <td>${w.year || '-'}</td>
+        <td>${w.isFeatured ? '<span style="color:var(--primary);">★ 精选</span>' : '<span class="text-faint">—</span>'}</td>
+        <td>${w.isPublished !== false 
+          ? '<span style="color:var(--primary);">已发布</span>' 
+          : '<span class="text-faint">草稿</span>'}</td>
+        <td class="text-faint" style="font-size:12px;">${w.updatedAt ? new Date(w.updatedAt).toLocaleDateString() : '-'}</td>
+        <td>
+          <div class="row-actions">
+            <button data-action="edit" data-slug="${escapeHtml(w.slug)}">编辑</button>
+            <button data-action="toggle-pub" data-slug="${escapeHtml(w.slug)}" data-state="${w.isPublished}">${w.isPublished !== false ? '下架' : '发布'}</button>
+            <button class="danger" data-action="delete" data-slug="${escapeHtml(w.slug)}">删除</button>
+          </div>
+        </td>
+      </tr>
+    `).join('');
+    
+    // 绑定操作按钮
+    tbody.querySelectorAll('[data-action]').forEach(btn => {
+      btn.addEventListener('click', () => handleWorkAction(btn.dataset.action, btn.dataset.slug, btn.dataset.state));
+    });
+  }
+  
+  async function handleWorkAction(action, slug, state) {
+    const work = allWorks.find(w => w.slug === slug);
+    if (!work) return;
+    
+    if (action === 'edit') {
+      openWorkModal(work);
+    } else if (action === 'toggle-pub') {
+      await saveWork(slug, { isPublished: state === 'false' });
+      showToast('状态已更新', 'success');
+      loadWorks();
+    } else if (action === 'delete') {
+      if (!confirm(`确定删除作品「${work.title}」？此操作不可撤销。`)) return;
+      try {
+        const res = await fetch(`/api/portfolios?slug=${encodeURIComponent(slug)}`, {
+          method: 'DELETE',
+          credentials: 'same-origin',
+        });
+        const data = await res.json();
+        if (data.ok) {
+          showToast('删除成功', 'success');
+          loadWorks();
+        } else {
+          showToast('删除失败：' + data.error, 'error');
+        }
+      } catch (err) {
+        showToast('网络错误：' + err.message, 'error');
+      }
+    }
+  }
+  
+  // 搜索过滤
+  document.getElementById('works-search').addEventListener('input', (e) => {
+    const q = e.target.value.toLowerCase();
+    const status = document.getElementById('works-filter-status').value;
+    let filtered = allWorks;
+    if (q) {
+      filtered = filtered.filter(w => 
+        (w.title || '').toLowerCase().includes(q) || 
+        (w.type || '').toLowerCase().includes(q)
+      );
+    }
+    if (status === 'published') filtered = filtered.filter(w => w.isPublished !== false);
+    else if (status === 'draft') filtered = filtered.filter(w => w.isPublished === false);
+    renderWorksTable(filtered);
+  });
+  document.getElementById('works-filter-status').addEventListener('change', () => {
+    document.getElementById('works-search').dispatchEvent(new Event('input'));
+  });
+  
+  
+  // === 4. 作品编辑弹窗 ===
+  const modal = document.getElementById('work-modal');
+  
+  function openWorkModal(work) {
+    editingSlug = work?.slug || null;
+    document.getElementById('work-modal-title').textContent = work ? `编辑作品：${work.title}` : '新增作品';
+    
+    // 填充表单
+    document.getElementById('w-title').value = work?.title || '';
+    document.getElementById('w-slug').value = work?.slug || '';
+    document.getElementById('w-slug').disabled = !!work; // 编辑时 slug 不可改
+    document.getElementById('w-type').value = work?.type || '';
+    document.getElementById('w-year').value = work?.year || new Date().getFullYear();
+    document.getElementById('w-area').value = work?.area || '';
+    document.getElementById('w-role').value = work?.role || '';
+    document.getElementById('w-duration').value = work?.duration || '';
+    document.getElementById('w-cover').value = work?.cover || '';
+    document.getElementById('w-gallery').value = (work?.gallery || []).join('\n');
+    document.getElementById('w-tags').value = (work?.tags || []).join(', ');
+    document.getElementById('w-summary').value = work?.summary || '';
+    document.getElementById('w-description').value = work?.description || '';
+    document.getElementById('w-isFeatured').checked = !!work?.isFeatured;
+    document.getElementById('w-isPublished').checked = work?.isPublished !== false;
+    
+    modal.classList.add('open');
+  }
+  
+  document.getElementById('btn-new-work').addEventListener('click', () => openWorkModal(null));
+  document.getElementById('work-modal-close').addEventListener('click', () => modal.classList.remove('open'));
+  document.getElementById('work-modal-cancel').addEventListener('click', () => modal.classList.remove('open'));
+  modal.addEventListener('click', (e) => { if (e.target === modal) modal.classList.remove('open'); });
+  
+  document.getElementById('work-modal-save').addEventListener('click', async () => {
+    const data = {
+      title:       document.getElementById('w-title').value.trim(),
+      type:        document.getElementById('w-type').value.trim(),
+      year:        parseInt(document.getElementById('w-year').value, 10),
+      area:        document.getElementById('w-area').value.trim() || null,
+      role:        document.getElementById('w-role').value.trim() || null,
+      duration:    document.getElementById('w-duration').value.trim() || null,
+      cover:       document.getElementById('w-cover').value.trim() || null,
+      gallery:     document.getElementById('w-gallery').value.split('\n').map(s => s.trim()).filter(Boolean),
+      tags:        document.getElementById('w-tags').value.split(',').map(s => s.trim()).filter(Boolean),
+      summary:     document.getElementById('w-summary').value.trim(),
+      description: document.getElementById('w-description').value.trim(),
+      isFeatured:  document.getElementById('w-isFeatured').checked,
+      isPublished: document.getElementById('w-isPublished').checked,
+    };
+    
+    if (!data.title || !data.type || !data.year) {
+      showToast('标题、类型、年份为必填项', 'error');
+      return;
+    }
+    
+    if (!editingSlug) {
+      const slug = document.getElementById('w-slug').value.trim();
+      if (slug) data.slug = slug;
+    }
+    
+    try {
+      await saveWork(editingSlug, data);
+      modal.classList.remove('open');
+      showToast(editingSlug ? '更新成功' : '创建成功', 'success');
+      loadWorks();
+    } catch (err) {
+      showToast('保存失败：' + err.message, 'error');
+    }
+  });
+  
+  async function saveWork(slug, data) {
+    const url = slug ? `/api/portfolios?slug=${encodeURIComponent(slug)}` : '/api/portfolios';
+    const method = slug ? 'PUT' : 'POST';
+    const res = await fetch(url, {
+      method,
+      headers: { 'Content-Type': 'application/json' },
+      credentials: 'same-origin',
+      body: JSON.stringify(data),
+    });
+    const result = await res.json();
+    if (!res.ok || !result.ok) throw new Error(result.error || 'Save failed');
+    return result.work;
+  }
+  
+  
+  // === 5. AI 生成 ===
+  document.getElementById('ai-form').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    
+    const btn = document.getElementById('btn-ai-generate');
+    const output = document.getElementById('ai-output');
+    const badge = document.getElementById('ai-source-badge-top');
+    
+    const body = {
+      field:       '{{FIELD}}' || 'landscape',
+      projectName: document.getElementById('ai-projectName').value.trim(),
+      type:        document.getElementById('ai-type').value.trim(),
+      style:       document.getElementById('ai-style').value.trim() || undefined,
+      role:        document.getElementById('ai-role').value.trim() || undefined,
+      area:        document.getElementById('ai-area').value.trim() || undefined,
+      duration:    document.getElementById('ai-duration').value.trim() || undefined,
+      goal:        document.getElementById('ai-goal').value.trim() || undefined,
+    };
+    
+    btn.disabled = true;
+    btn.textContent = '✨ 生成中...';
+    output.classList.remove('empty');
+    output.textContent = '';
+    badge.classList.add('hidden');
+    
+    try {
+      const res = await fetch('/api/generate', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        credentials: 'same-origin',
+        body: JSON.stringify(body),
+      });
+      const data = await res.json();
+      if (!data.ok) throw new Error(data.error || '生成失败');
+      
+      lastAIResult = data.content;
+      
+      // 打字机效果
+      let i = 0;
+      const text = data.content;
+      const tick = () => {
+        if (i >= text.length) {
+          finishAI(data.source);
+          return;
+        }
+        output.textContent = text.substring(0, i + 1);
+        i++;
+        setTimeout(tick, 18);
+      };
+      tick();
+      
+    } catch (err) {
+      output.classList.add('empty');
+      output.textContent = '生成失败：' + err.message;
+      btn.disabled = false;
+      btn.textContent = '✨ AI 生成介绍';
+    }
+  });
+  
+  function finishAI(source) {
+    const btn = document.getElementById('btn-ai-generate');
+    const badge = document.getElementById('ai-source-badge-top');
+    
+    btn.disabled = false;
+    btn.textContent = '✨ AI 生成介绍';
+    document.getElementById('btn-ai-copy').disabled = false;
+    document.getElementById('btn-ai-apply').disabled = false;
+    
+    badge.textContent = source === 'ai' ? '🤖 真大模型生成' : '✍️ 模板引擎生成';
+    badge.classList.remove('hidden');
+  }
+  
+  document.getElementById('btn-ai-copy').addEventListener('click', () => {
+    if (!lastAIResult) return;
+    navigator.clipboard.writeText(lastAIResult).then(() => {
+      showToast('已复制到剪贴板', 'success');
+    });
+  });
+  
+  document.getElementById('btn-ai-apply').addEventListener('click', () => {
+    if (!lastAIResult) return;
+    document.getElementById('w-description').value = lastAIResult;
+    document.querySelector('[data-tab="works"]').click();
+    document.getElementById('btn-new-work').click();
+    showToast('已应用，请填写其他字段后保存', 'success');
+  });
+  
+  
+  // === 6. 设置 Tab ===
+  async function loadSettings() {
+    try {
+      const res = await fetch('/api/auth?action=me', { credentials: 'same-origin' });
+      const data = await res.json();
+      if (data.authenticated && data.user) {
+        setText('settings-email', data.user.email);
+        setText('settings-role', data.user.role);
+        setText('settings-expires', data.expiresAt ? new Date(data.expiresAt).toLocaleString('zh-CN') : '—');
+      }
+    } catch (e) { /* ignore */ }
+  }
+  
+  document.getElementById('change-password-form').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const oldPw = document.getElementById('old-password').value;
+    const newPw = document.getElementById('new-password').value;
+    const confirmPw = document.getElementById('confirm-password').value;
+    
+    if (newPw !== confirmPw) {
+      showToast('两次输入的新密码不一致', 'error');
+      return;
+    }
+    
+    try {
+      const res = await fetch('/api/auth', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        credentials: 'same-origin',
+        body: JSON.stringify({
+          action: 'changePassword',
+          oldPassword: oldPw,
+          newPassword: newPw,
+        }),
+      });
+      const data = await res.json();
+      if (data.ok) {
+        showToast('密码修改成功，请重新登录', 'success');
+        setTimeout(() => location.href = '/login', 1500);
+      } else {
+        showToast('修改失败：' + data.error, 'error');
+      }
+    } catch (err) {
+      showToast('网络错误：' + err.message, 'error');
+    }
+  });
+  
+  document.getElementById('btn-logout').addEventListener('click', async () => {
+    if (!confirm('确定退出登录？')) return;
+    try {
+      await fetch('/api/auth', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        credentials: 'same-origin',
+        body: JSON.stringify({ action: 'logout' }),
+      });
+      location.href = '/login';
+    } catch (err) {
+      showToast('退出失败：' + err.message, 'error');
+    }
+  });
+  
+  
+  // === 工具函数 ===
+  
+  function setText(id, text) {
+    const el = document.getElementById(id);
+    if (el) el.textContent = text;
+  }
+  
+  function showToast(msg, type = 'success') {
+    const toast = document.getElementById('toast');
+    toast.textContent = msg;
+    toast.className = `toast ${type} visible`;
+    setTimeout(() => toast.classList.remove('visible'), 3000);
+  }
+  
+  function escapeHtml(s) {
+    if (typeof s !== 'string') return '';
+    return s.replace(/[&<>"']/g, c => ({
+      '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+    }[c]));
+  }
+  
+})();
+</script>
+
+</body>
+</html>

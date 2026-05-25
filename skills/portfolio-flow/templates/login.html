@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="{{THEME}}">
+<!--
+  ============================================================================
+  PortfolioFlow · login.html (管理后台登录页)
+  
+  功能：
+    - 邮箱 + 密码登录
+    - 错误信息友好展示
+    - 登录成功后跳转到 /admin（或 URL 参数 ?from=xxx 指定的页面）
+    - 视觉风格与主站一致（共用 styles.css 主题变量）
+  
+  模板占位符：
+    {{DESIGNER_NAME}}    设计师姓名
+    {{THEME}}            主题名
+  ============================================================================
+-->
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>登录 · {{DESIGNER_NAME}} 管理后台</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/styles.css" />
+<style>
+  /* 登录页专属样式 */
+  body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: var(--bg);
+    /* 主题感知的背景装饰：景观绿径向光晕 */
+    background-image: 
+      radial-gradient(ellipse at 20% 30%, var(--primary-dim) 0%, transparent 40%),
+      radial-gradient(ellipse at 80% 70%, var(--primary-dim) 0%, transparent 40%);
+  }
+  
+  .login-wrapper {
+    width: 100%;
+    max-width: 420px;
+    background: var(--bg-elevated);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 48px 40px;
+    box-shadow: 0 30px 80px rgba(0,0,0,0.2);
+    backdrop-filter: blur(20px);
+  }
+  
+  .login-header {
+    text-align: center;
+    margin-bottom: 36px;
+  }
+  
+  .login-logo {
+    font-family: var(--font-serif);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 8px;
+  }
+  .login-logo .leaf {
+    color: var(--primary);
+    margin-right: 6px;
+    filter: drop-shadow(0 0 10px var(--primary-glow));
+  }
+  
+  .login-subtitle {
+    font-size: 13px;
+    color: var(--text-muted);
+    letter-spacing: 0.04em;
+  }
+  
+  .login-form .form-group {
+    margin-bottom: 18px;
+  }
+  
+  .login-form .form-input {
+    padding: 14px 18px;
+    font-size: 15px;
+  }
+  
+  .login-form button[type="submit"] {
+    width: 100%;
+    padding: 14px;
+    border-radius: var(--radius-pill);
+    background: var(--btn-cta-bg);
+    color: var(--btn-cta-text);
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 12px;
+    box-shadow: var(--btn-cta-shadow);
+    transition: transform 0.15s, opacity 0.2s;
+  }
+  .login-form button[type="submit"]:hover:not(:disabled) {
+    transform: translateY(-1px);
+  }
+  .login-form button[type="submit"]:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+  
+  .login-error {
+    background: rgba(239,68,68,0.10);
+    border: 1px solid rgba(239,68,68,0.25);
+    color: #ef4444;
+    padding: 10px 14px;
+    border-radius: var(--radius-sm);
+    font-size: 13px;
+    margin-bottom: 16px;
+    display: none;
+  }
+  .login-error.visible { display: block; }
+  
+  .login-footer {
+    text-align: center;
+    margin-top: 28px;
+    padding-top: 24px;
+    border-top: 1px solid var(--divider);
+    font-size: 13px;
+    color: var(--text-faint);
+  }
+  .login-footer a {
+    color: var(--primary);
+    font-weight: 500;
+  }
+  
+  /* 首次登录提示 */
+  .first-login-hint {
+    background: var(--primary-dim);
+    border-radius: var(--radius-sm);
+    padding: 12px 14px;
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  .first-login-hint strong { color: var(--primary); }
+  
+  /* 加载中状态 */
+  .login-form.loading button[type="submit"]::after {
+    content: '...';
+    display: inline-block;
+    margin-left: 4px;
+    animation: dots 1.4s infinite;
+  }
+  @keyframes dots {
+    0%, 20% { content: '.'; }
+    40% { content: '..'; }
+    60%, 100% { content: '...'; }
+  }
+  
+  @media (max-width: 480px) {
+    .login-wrapper {
+      padding: 36px 28px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="login-wrapper">
+  <div class="login-header">
+    <div class="login-logo"><span class="leaf">🌿</span>{{DESIGNER_NAME}}</div>
+    <div class="login-subtitle">管理后台 · ADMIN PANEL</div>
+  </div>
+  
+  <!-- 首次登录提示（默认隐藏，点"使用默认账号"时显示）-->
+  <div class="first-login-hint hidden" id="first-login-hint">
+    <strong>💡 首次登录？</strong><br>
+    默认账号 <code style="font-family:monospace;">admin@portfolio.local</code><br>
+    默认密码请查看部署日志或 PortfolioFlow Skill 输出
+  </div>
+  
+  <form class="login-form" id="login-form" autocomplete="on">
+    <div class="login-error" id="login-error"></div>
+    
+    <div class="form-group">
+      <label class="form-label" for="email">邮箱</label>
+      <input class="form-input" type="email" id="email" name="email" required autocomplete="email" placeholder="admin@portfolio.local" />
+    </div>
+    
+    <div class="form-group">
+      <label class="form-label" for="password">密码</label>
+      <input class="form-input" type="password" id="password" name="password" required autocomplete="current-password" minlength="6" />
+    </div>
+    
+    <button type="submit" id="btn-submit">登录</button>
+  </form>
+  
+  <div class="login-footer">
+    <a href="#" id="link-show-hint">首次登录提示</a>
+    &nbsp;&nbsp;·&nbsp;&nbsp;
+    <a href="/">← 返回首页</a>
+  </div>
+</div>
+
+
+<script>
+(function() {
+  'use strict';
+  
+  const form = document.getElementById('login-form');
+  const errorEl = document.getElementById('login-error');
+  const submitBtn = document.getElementById('btn-submit');
+  const hintEl = document.getElementById('first-login-hint');
+  const showHintLink = document.getElementById('link-show-hint');
+  
+  // === 1. 检查是否已登录（已登录则直接跳转）===
+  (async function checkAuth() {
+    try {
+      const res = await fetch('/api/auth?action=me', { credentials: 'same-origin' });
+      const data = await res.json();
+      if (data.authenticated) {
+        const from = new URLSearchParams(location.search).get('from') || '/admin';
+        location.href = from;
+      }
+    } catch (e) { /* 静默，未登录就停留 */ }
+  })();
+  
+  
+  // === 2. 显示首次登录提示 ===
+  showHintLink.addEventListener('click', (e) => {
+    e.preventDefault();
+    hintEl.classList.toggle('hidden');
+  });
+  
+  
+  // === 3. 处理登录提交 ===
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    
+    const email = form.email.value.trim();
+    const password = form.password.value;
+    
+    // 简单前端校验
+    if (!email || !password) {
+      showError('请填写完整邮箱和密码');
+      return;
+    }
+    if (password.length < 6) {
+      showError('密码长度不能少于 6 位');
+      return;
+    }
+    
+    // 提交
+    setLoading(true);
+    clearError();
+    
+    try {
+      const res = await fetch('/api/auth', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        credentials: 'same-origin',
+        body: JSON.stringify({
+          action: 'login',
+          email,
+          password,
+        }),
+      });
+      
+      const data = await res.json();
+      
+      if (!res.ok || !data.ok) {
+        // 友好的错误信息
+        const errMsg = data.error || '登录失败，请重试';
+        if (errMsg.toLowerCase().includes('invalid credentials')) {
+          showError('邮箱或密码错误');
+        } else if (errMsg.toLowerCase().includes('kv') || errMsg.toLowerCase().includes('namespace')) {
+          showError('系统未初始化。请先访问 /api/auth?init=true 创建默认账号');
+        } else {
+          showError(errMsg);
+        }
+        setLoading(false);
+        return;
+      }
+      
+      // 登录成功，跳转
+      const from = new URLSearchParams(location.search).get('from') || '/admin';
+      location.href = from;
+      
+    } catch (err) {
+      showError('网络错误：' + err.message);
+      setLoading(false);
+    }
+  });
+  
+  
+  // === 工具函数 ===
+  
+  function showError(msg) {
+    errorEl.textContent = msg;
+    errorEl.classList.add('visible');
+  }
+  function clearError() {
+    errorEl.textContent = '';
+    errorEl.classList.remove('visible');
+  }
+  function setLoading(loading) {
+    if (loading) {
+      form.classList.add('loading');
+      submitBtn.disabled = true;
+      submitBtn.textContent = '登录中';
+    } else {
+      form.classList.remove('loading');
+      submitBtn.disabled = false;
+      submitBtn.textContent = '登录';
+    }
+  }
+  
+})();
+</script>
+
+</body>
+</html>

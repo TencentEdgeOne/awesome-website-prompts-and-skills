@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="{{THEME}}">
+<!--
+  ============================================================================
+  PortfolioFlow · index.html (作品集首页模板)
+  
+  模板占位符（AI 生成时替换）：
+    {{DESIGNER_NAME}}    设计师姓名     例：李博 / Alex Chen
+    {{FIELD}}            设计领域       例：landscape / graphic / interior / industrial / ux
+    {{FIELD_LABEL}}      领域中文       例：景观设计 / 平面设计 ...
+    {{SITE_TITLE}}       网站标题       例：李博 · 景观设计作品集
+    {{HERO_TITLE}}       Hero 主标题   例：让设计回到土地与人居
+    {{HERO_SUB}}         Hero 副标题   例：20 年景观行业总工 · 5 个项目获省级奖
+    {{HERO_MODE}}        Hero 叙事模式 plain | revolution | custom
+    {{HERO_CUSTOM_HTML}} 自定义叙事 HTML（HERO_MODE=custom 时使用）
+    {{THEME}}            主题名         例：dark-forest / dawn-beige / ...
+    {{CONTACT_EMAIL}}    联系邮箱
+  
+  Hero 叙事模式说明：
+    plain        — 只显示 Hero 标题 + 副标题 + 作品网格，不加叙事区
+    revolution   — 三次生产力革命叙事（适合资深设计师讲个人产品哲学）
+    custom       — 用户传入的自定义 HTML 内容（最灵活）
+  ============================================================================
+-->
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>{{SITE_TITLE}}</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+
+<!-- ===== 顶部导航 ===== -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a class="nav-logo" href="/"><span class="leaf">🌿</span>{{DESIGNER_NAME}}</a>
+    <div class="nav-links">
+      <a href="#works">作品</a>
+      <a href="#about">关于</a>
+      <a href="#revolution" data-hide-on-mode="plain">设计哲学</a>
+      <a href="#contact">联系</a>
+    </div>
+    <div class="nav-actions">
+      <a class="btn-ghost" href="/login">登录</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ===== Hero 区 ===== -->
+<section class="hero" id="hero">
+  <div class="hero-bg" id="hero-bg">
+    <!-- 这些 hero-slide 由 JS 根据精选作品的封面图动态填充 -->
+    <div class="hero-slide active"></div>
+  </div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content container">
+    <div class="hero-eyebrow"><span class="leaf">🌿</span>{{DESIGNER_NAME}}</div>
+    <h1 class="hero-title">{{HERO_TITLE}}</h1>
+    <p class="hero-sub">{{HERO_SUB}}</p>
+    <a class="btn-cta" href="#works">查看作品 →</a>
+  </div>
+  <div class="hero-dots" id="hero-dots"></div>
+</section>
+
+<!-- ===== 作品集 #works ===== -->
+<section class="section" id="works">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="eyebrow">SELECTED WORKS</div>
+      <h2 class="section-title">{{FIELD_LABEL}}<em>精选作品</em></h2>
+      <p class="section-sub">每一个项目，都是与场地、与用户、与自己的一次深度对话。</p>
+    </div>
+    
+    <!-- 筛选标签（可选） -->
+    <div class="works-filters reveal" id="works-filters" style="display:flex;justify-content:center;gap:8px;margin-bottom:36px;flex-wrap:wrap;">
+      <button class="tag tag-filter active" data-filter="all" style="cursor:pointer;border:none;font-size:13px;padding:6px 16px;">全部</button>
+      <!-- 其余筛选项由 JS 根据作品类型动态生成 -->
+    </div>
+    
+    <!-- 作品网格 -->
+    <div class="works-grid" id="works-grid">
+      <div class="works-loading">加载作品中…</div>
+    </div>
+    
+    <!-- 分页 -->
+    <div class="works-pagination reveal" id="works-pagination" style="text-align:center;margin-top:48px;display:none;">
+      <button class="btn-ghost" id="btn-load-more">加载更多</button>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 三次革命叙事 #revolution（HERO_MODE=revolution 时显示）===== -->
+<section class="revolution section-dark" id="revolution" data-show-on-mode="revolution">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="eyebrow">DESIGN PHILOSOPHY</div>
+      <h2 class="section-title">设计师的<em>三次生产力革命</em></h2>
+      <p class="section-sub">每一次，时间都被还给了设计本身。</p>
+    </div>
+    <div class="revolution-grid">
+      <div class="revolution-card reveal">
+        <div class="revolution-num">01</div>
+        <div class="revolution-era">手绘时代</div>
+        <p class="revolution-desc">时间花在纸上磨手艺。设计师是工匠，是描图员，是站在制图桌前的匠人。</p>
+        <div class="revolution-quote">时间在画笔上</div>
+      </div>
+      <div class="revolution-card reveal">
+        <div class="revolution-num">02</div>
+        <div class="revolution-era">CAD 时代</div>
+        <p class="revolution-desc">时间花在记软件命令。设计师是制图员，是软件操作员，是熟练的快捷键使用者。</p>
+        <div class="revolution-quote">时间在快捷键上</div>
+      </div>
+      <div class="revolution-card active reveal">
+        <div class="revolution-num">03</div>
+        <div class="revolution-era">AI 时代</div>
+        <p class="revolution-desc">用自然语言对话。设计师终于回到设计本身——观察土地，思考人居，想象未来。</p>
+        <div class="revolution-quote">时间在土地上、在人身上</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 自定义叙事 #custom（HERO_MODE=custom 时显示）===== -->
+<section class="section section-elevated" id="custom-narrative" data-show-on-mode="custom">
+  <div class="container reveal">
+    {{HERO_CUSTOM_HTML}}
+  </div>
+</section>
+
+<!-- ===== 关于我 #about ===== -->
+<section class="section section-elevated" id="about">
+  <div class="container">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center;" class="about-grid">
+      <div class="reveal">
+        <div class="eyebrow">ABOUT</div>
+        <h2 class="section-title">关于<em>{{DESIGNER_NAME}}</em></h2>
+        <p class="text-muted" style="font-size:16px;line-height:1.8;margin-bottom:24px;">
+          {{ABOUT_BIO}}
+        </p>
+        <div class="skill-tags" id="skill-tags">
+          <!-- 技能标签由 portfolio-knowledge.md 中的领域词库注入 -->
+        </div>
+      </div>
+      <div class="reveal">
+        <div style="aspect-ratio:4/5;background:var(--primary-dim);border-radius:var(--radius-md);background-image:url('{{AVATAR_URL}}');background-size:cover;background-position:center;"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 联系 #contact ===== -->
+<section class="section" id="contact">
+  <div class="container text-center reveal">
+    <div class="eyebrow">GET IN TOUCH</div>
+    <h2 class="section-title">如果这些作品<em>引起共鸣</em></h2>
+    <p class="section-sub" style="margin-left:auto;margin-right:auto;">欢迎来信。我会在 48 小时内回复每一封诚意之信。</p>
+    <a class="btn-cta" href="mailto:{{CONTACT_EMAIL}}" data-event="contact-click">{{CONTACT_EMAIL}} →</a>
+  </div>
+</section>
+
+<!-- ===== Footer ===== -->
+<footer style="padding:48px 0;border-top:1px solid var(--divider);text-align:center;color:var(--text-faint);font-size:13px;">
+  <div class="container">
+    <p style="margin-bottom:6px;">© {{YEAR}} {{DESIGNER_NAME}}. All works showcased belong to their respective owners.</p>
+    <p>Built with <a href="https://github.com/your-fork/portfolio-flow" style="color:var(--primary);">PortfolioFlow</a> · Deployed on EdgeOne Pages</p>
+  </div>
+</footer>
+
+<!-- ===== AI 助手浮动对话框 ===== -->
+<button class="assistant-fab" id="assistant-fab" title="问问关于这个设计师">💬</button>
+<div class="assistant-panel" id="assistant-panel">
+  <div class="assistant-header">问问 {{DESIGNER_NAME}}</div>
+  <div class="assistant-messages" id="assistant-messages">
+    <div class="assistant-msg bot">你好，我是 {{DESIGNER_NAME}} 的 AI 助手。可以问我"擅长什么"、"最新作品"、"如何联系"等问题。</div>
+  </div>
+  <form class="assistant-input" id="assistant-form">
+    <input type="text" id="assistant-input" placeholder="问点什么..." autocomplete="off" />
+    <button type="submit">发送</button>
+  </form>
+</div>
+
+
+<!-- ===== JavaScript ===== -->
+<script>
+(function() {
+  'use strict';
+  
+  // 全局配置（AI 生成时根据用户输入替换）
+  const HERO_MODE = '{{HERO_MODE}}';  // plain | revolution | custom
+  const FIELD = '{{FIELD}}';
+  
+  // === 1. 根据 HERO_MODE 显示/隐藏对应区块 ===
+  document.querySelectorAll('[data-show-on-mode]').forEach(el => {
+    if (el.dataset.showOnMode !== HERO_MODE) el.style.display = 'none';
+  });
+  document.querySelectorAll('[data-hide-on-mode]').forEach(el => {
+    if (el.dataset.hideOnMode === HERO_MODE) el.style.display = 'none';
+  });
+  
+  
+  // === 2. 滚动渐入 ===
+  const revealObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        revealObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -80px 0px' });
+  document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+  
+  
+  // === 3. 导航栏滚动变深 ===
+  const nav = document.getElementById('nav');
+  window.addEventListener('scroll', () => {
+    nav.classList.toggle('scrolled', window.scrollY > 40);
+  }, { passive: true });
+  
+  
+  // === 4. Hero 轮播（用精选作品封面作为轮播图）===
+  let heroSlides = [];
+  let heroCurrent = 0;
+  let heroTimer = null;
+  
+  function renderHeroSlides(works) {
+    const bg = document.getElementById('hero-bg');
+    const dots = document.getElementById('hero-dots');
+    if (!bg || !dots) return;
+    
+    // 取前 5 个有封面的作品
+    const slides = (works || []).filter(w => w.cover).slice(0, 5);
+    if (slides.length === 0) return;
+    
+    heroSlides = slides;
+    bg.innerHTML = slides.map((w, i) => 
+      `<div class="hero-slide${i === 0 ? ' active' : ''}" style="background-image:url('${w.cover}')"></div>`
+    ).join('');
+    
+    dots.innerHTML = slides.map((_, i) => 
+      `<button class="hero-dot${i === 0 ? ' active' : ''}" data-i="${i}" aria-label="第 ${i+1} 张"></button>`
+    ).join('');
+    
+    dots.querySelectorAll('.hero-dot').forEach(d => {
+      d.addEventListener('click', () => {
+        goToSlide(parseInt(d.dataset.i, 10));
+        resetTimer();
+      });
+    });
+    
+    startTimer();
+  }
+  
+  function goToSlide(i) {
+    if (!heroSlides.length) return;
+    const slides = document.querySelectorAll('.hero-slide');
+    const dots = document.querySelectorAll('.hero-dot');
+    slides[heroCurrent]?.classList.remove('active');
+    dots[heroCurrent]?.classList.remove('active');
+    heroCurrent = (i + heroSlides.length) % heroSlides.length;
+    slides[heroCurrent]?.classList.add('active');
+    dots[heroCurrent]?.classList.add('active');
+  }
+  
+  function startTimer() {
+    if (heroSlides.length <= 1) return;
+    heroTimer = setInterval(() => goToSlide(heroCurrent + 1), 5500);
+  }
+  function resetTimer() {
+    if (heroTimer) clearInterval(heroTimer);
+    startTimer();
+  }
+  
+  // Hover 暂停
+  document.getElementById('hero').addEventListener('mouseenter', () => heroTimer && clearInterval(heroTimer));
+  document.getElementById('hero').addEventListener('mouseleave', startTimer);
+  
+  
+  // === 5. 加载作品集 ===
+  let allWorks = [];
+  let currentPage = 1;
+  let currentFilter = 'all';
+  
+  async function loadWorks(reset = true) {
+    const grid = document.getElementById('works-grid');
+    if (reset) currentPage = 1;
+    
+    try {
+      const res = await fetch(`/api/portfolios?page=${currentPage}&pageSize=12`);
+      const data = await res.json();
+      
+      if (!data.ok || !data.works) {
+        grid.innerHTML = '<div class="works-empty">暂无作品</div>';
+        return;
+      }
+      
+      if (reset) allWorks = data.works;
+      else allWorks = allWorks.concat(data.works);
+      
+      // 渲染筛选标签
+      renderFilters(allWorks);
+      // 渲染作品
+      renderWorks(currentFilter === 'all' ? allWorks : allWorks.filter(w => w.type === currentFilter));
+      // 渲染 Hero 轮播（用精选作品）
+      const featured = allWorks.filter(w => w.isFeatured);
+      renderHeroSlides(featured.length > 0 ? featured : allWorks);
+      
+      // 分页
+      const hasMore = data.pagination && currentPage < data.pagination.totalPages;
+      document.getElementById('works-pagination').style.display = hasMore ? 'block' : 'none';
+      
+    } catch (err) {
+      console.error('[loadWorks] failed:', err);
+      grid.innerHTML = `<div class="works-error">加载失败：${escapeHtml(err.message)}</div>`;
+    }
+  }
+  
+  function renderFilters(works) {
+    const filtersEl = document.getElementById('works-filters');
+    if (!filtersEl) return;
+    const types = [...new Set(works.map(w => w.type).filter(Boolean))];
+    
+    // 保留 "全部" 按钮，添加类型按钮
+    const existingAll = filtersEl.querySelector('[data-filter="all"]');
+    filtersEl.innerHTML = '';
+    filtersEl.appendChild(existingAll);
+    types.forEach(t => {
+      const btn = document.createElement('button');
+      btn.className = 'tag tag-filter';
+      btn.dataset.filter = t;
+      btn.textContent = t;
+      btn.style.cssText = 'cursor:pointer;border:none;font-size:13px;padding:6px 16px;';
+      filtersEl.appendChild(btn);
+    });
+    
+    // 绑定点击
+    filtersEl.querySelectorAll('.tag-filter').forEach(btn => {
+      btn.addEventListener('click', () => {
+        filtersEl.querySelectorAll('.tag-filter').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        currentFilter = btn.dataset.filter;
+        renderWorks(currentFilter === 'all' ? allWorks : allWorks.filter(w => w.type === currentFilter));
+      });
+    });
+  }
+  
+  function renderWorks(works) {
+    const grid = document.getElementById('works-grid');
+    if (!works.length) {
+      grid.innerHTML = '<div class="works-empty">该类别下暂无作品</div>';
+      return;
+    }
+    
+    grid.innerHTML = works.map(w => `
+      <a class="work-card" href="/portfolio-detail.html?slug=${encodeURIComponent(w.slug)}">
+        ${w.cover 
+          ? `<div class="work-cover" style="background-image:url('${w.cover}')">${w.isFeatured ? '<span class="work-featured-badge">精选</span>' : ''}</div>`
+          : `<div class="work-cover-empty"></div>`}
+        <div class="work-body">
+          <div class="work-meta">${escapeHtml(w.type || '')} · ${w.year || ''}${w.area ? ' · ' + escapeHtml(w.area) : ''}</div>
+          <h3 class="work-title">${escapeHtml(w.title)}</h3>
+          <p class="work-summary">${escapeHtml(w.summary || '')}</p>
+        </div>
+      </a>
+    `).join('');
+  }
+  
+  // 加载更多
+  document.getElementById('btn-load-more')?.addEventListener('click', () => {
+    currentPage++;
+    loadWorks(false);
+  });
+  
+  
+  // === 6. 访问埋点 ===
+  fetch('/api/stats', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      event: 'page_view',
+      referrer: document.referrer || null,
+    }),
+    keepalive: true,
+  }).catch(() => {});
+  
+  // 联系按钮埋点
+  document.querySelectorAll('[data-event="contact-click"]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      fetch('/api/stats', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ event: 'contact_click' }),
+        keepalive: true,
+      }).catch(() => {});
+    });
+  });
+  
+  
+  // === 7. AI 助手对话 ===
+  const fab = document.getElementById('assistant-fab');
+  const panel = document.getElementById('assistant-panel');
+  const msgs = document.getElementById('assistant-messages');
+  const form = document.getElementById('assistant-form');
+  const input = document.getElementById('assistant-input');
+  
+  fab?.addEventListener('click', () => panel.classList.toggle('open'));
+  
+  form?.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const q = input.value.trim();
+    if (!q) return;
+    
+    addMsg('user', q);
+    input.value = '';
+    const placeholder = addMsg('bot', '思考中...');
+    
+    try {
+      const res = await fetch('/api/assistant', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ question: q }),
+      });
+      const data = await res.json();
+      placeholder.textContent = data.answer || '抱歉，暂时无法回答。';
+    } catch (err) {
+      placeholder.textContent = '网络错误，请稍后再试。';
+    }
+  });
+  
+  function addMsg(role, text) {
+    const el = document.createElement('div');
+    el.className = `assistant-msg ${role}`;
+    el.textContent = text;
+    msgs.appendChild(el);
+    msgs.scrollTop = msgs.scrollHeight;
+    return el;
+  }
+  
+  
+  // === 8. 工具：HTML 转义 ===
+  function escapeHtml(s) {
+    if (typeof s !== 'string') return '';
+    return s.replace(/[&<>"']/g, c => ({
+      '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+    }[c]));
+  }
+  
+  
+  // === 9. 启动 ===
+  loadWorks();
+})();
+</script>
+
+</body>
+</html>
