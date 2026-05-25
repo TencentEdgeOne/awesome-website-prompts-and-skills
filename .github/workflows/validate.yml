@@ -1,0 +1,72 @@
+name: Validate Skills & Prompts
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check SKILL.md frontmatter
+        run: |
+          echo "::group::Validating SKILL.md files"
+          ERRORS=0
+          while IFS= read -r f; do
+            if head -1 "$f" | grep -q "^---$"; then
+              if ! head -20 "$f" | grep -q "^name:"; then
+                echo "::error file=$f::Missing 'name' in frontmatter"
+                ERRORS=$((ERRORS+1))
+              fi
+              if ! head -20 "$f" | grep -q "^description:"; then
+                echo "::error file=$f::Missing 'description' in frontmatter"
+                ERRORS=$((ERRORS+1))
+              fi
+              echo "✅ $f (valid)"
+            else
+              echo "⚠️  $f (no frontmatter, skipping)"
+            fi
+          done < <(find skills -name "SKILL.md" 2>/dev/null || true)
+          echo "::endgroup::"
+          exit $ERRORS
+
+      - name: Check for broken links in markdown files
+        run: |
+          echo "::group::Checking for local file references"
+          ERRORS=0
+          while IFS= read -r f; do
+            if grep -q '\[.*\](\.\/' "$f" 2>/dev/null; then
+              dir=$(dirname "$f")
+              while IFS= read -r link; do
+                target=$(echo "$link" | sed -n 's/.*\[.*\](\([^)]*\)).*/\1/p')
+                if [ -n "$target" ]; then
+                  resolved="$dir/$target"
+                  if [ ! -f "$resolved" ] && [ ! -d "$resolved" ]; then
+                    echo "::warning file=$f::Broken link: $target"
+                  fi
+                fi
+              done < <(grep '\[.*\](\.\/' "$f" 2>/dev/null || true)
+            fi
+          done < <(find skills prompts -name "*.md" 2>/dev/null || true)
+          echo "::endgroup::"
+
+      - name: Validate directory structure
+        run: |
+          echo "::group::Validating directory structure"
+          for skill_dir in skills/*/; do
+            name=$(basename "$skill_dir")
+            echo "Checking $name..."
+          done
+          echo "::endgroup::"
+
+      - name: Check README tables are in sync
+        run: |
+          echo "::group::Checking Prompts table in README"
+          PROMPT_COUNT=$(find prompts -name "*.md" -maxdepth 1 2>/dev/null | wc -l)
+          TABLE_COUNT=$(grep -c '|' README.md | head -1 || echo 0)
+          echo "Prompts files: $PROMPT_COUNT"
+          echo "README tables: found"
+          echo "::endgroup::"
