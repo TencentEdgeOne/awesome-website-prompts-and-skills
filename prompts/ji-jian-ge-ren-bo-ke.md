@@ -1,6 +1,6 @@
 # 极简个人博客
 
-> **赛道**：Prompt　**作者**：苏不不不酥 · [GitHub @Senguk](https://github.com/Senguk)
+> **赛道**：Prompt　**作者**：苏不不不酥 · [GitHub @Senguk520](https://github.com/Senguk520)
 >
 > WorkBuddy × Tencent EdgeOne AI Prompts × Skills 挑战赛 参赛作品
 
@@ -15,7 +15,7 @@
 | 作品名称 | 极简个人博客 |
 | 赛道 | Prompt |
 | 作者 | 苏不不不酥 |
-| GitHub | [@Senguk](https://github.com/Senguk) |
+| GitHub | [@Senguk520](https://github.com/Senguk520) |
 
 ## 📝 作品介绍
 
