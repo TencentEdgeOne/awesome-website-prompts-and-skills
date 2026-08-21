@@ -916,6 +916,13 @@
       </a>
       <br/><sub>高承旭</sub>
     </td>
+    <td align="center" width="25%" valign="top">
+      <a href="./prompts/voice-landing-page.md">
+        <img src="./assets/demos/voice-landing-page.png" alt="语音客服落地页生成器" width="100%" />
+        <br/><b>语音客服落地页生成器</b>
+      </a>
+      <br/><sub>谢东华</sub>
+    </td>
   </tr>
 </table>
 
@@ -1301,7 +1308,13 @@
       </a>
       <br/><sub>林小侠</sub>
     </td>
-    <td align="center" width="25%"></td>
+    <td align="center" width="25%" valign="top">
+      <a href="./skills/voice-agent-website-builder.md">
+        <img src="./assets/demos/voice-agent-website-builder.png" alt="Voice Agent Website Builder" width="100%" />
+        <br/><b>Voice Agent Website Builder</b>
+      </a>
+      <br/><sub>谢东华</sub>
+    </td>
     <td align="center" width="25%"></td>
   </tr>
 </table>
