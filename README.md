@@ -1352,6 +1352,7 @@
 - 💬 **Discord**：https://discord.gg/3EvPueMt4K
 - 📨 **邮箱**：edgeonedeveloper@tencent.com
 - 🌐 **官网**：https://pages.edgeone.ai/
+- 📚 **WorkBuddy 资源索引**：[Awesome WorkBuddy](https://github.com/sandbaseai/awesome-workbuddy) 汇总经过审阅的 WorkBuddy Skills、MCP、工作流与安全说明，适合作为本作品池的补充入口。
 
 ---
 
